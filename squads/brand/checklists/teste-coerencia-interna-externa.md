@@ -1,20 +1,20 @@
-# Teste Coerencia Interna Externa
-> Checklist de teste e validacao para decisoes de marca
+# Teste de Coerencia Interna-Externa
+> Teste de coerencia interna-externa (Yohn)
 
 ---
 
 ## Criterios
 
-- [ ] **Clareza de proposito:** O objetivo do teste/validacao esta claramente definido
-- [ ] **Criterios pre-definidos:** Os criterios de aprovacao foram definidos ANTES da avaliacao
-- [ ] **Evidencia documental:** Cada item avaliado tem documentacao de suporte
-- [ ] **Perspectiva do consumidor:** A validacao inclui input real ou proxy do consumidor-alvo
-- [ ] **Consistencia estrategica:** O elemento validado esta alinhado com a estrategia geral da marca
-- [ ] **Diferenciacao verificavel:** O elemento se diferencia claramente dos concorrentes
-- [ ] **Viabilidade de execucao:** O elemento pode ser implementado de forma consistente em todos os touchpoints
-- [ ] **Mensurabilidade:** Existem metricas definidas para avaliar sucesso pos-implementacao
-- [ ] **Aprovacao de stakeholders:** Os decisores-chave revisaram e aprovaram
-- [ ] **Registro de decisao:** A decisao, suas alternativas e o racional estao documentados
+- [ ] **Valores vividos internamente:** Valores declarados da marca sao praticados pela equipe no dia a dia
+- [ ] **Cultura reflete marca:** Cultura organizacional e coerente com personalidade de marca comunicada
+- [ ] **Experiencia do colaborador alinhada:** Experiencia interna do funcionario espelha promessa externa ao cliente
+- [ ] **Lideranca como exemplo:** Gestores incorporam e demonstram os valores da marca em suas acoes
+- [ ] **Comunicacao interna coerente:** Mensagens internas refletem mesmo tom e valores da comunicacao externa
+- [ ] **Processos operacionais alinhados:** Procedimentos internos suportam a entrega da promessa de marca
+- [ ] **Contratacao por fit cultural:** Processo seletivo considera alinhamento com valores da marca
+- [ ] **Treinamento de marca regular:** Equipe recebe capacitacao periodica sobre identidade e valores
+- [ ] **Feedback de colaboradores coletado:** Percepcao interna sobre a marca e monitorada regularmente
+- [ ] **Gap interno-externo mapeado:** Diferencas entre promessa externa e realidade interna estao documentadas
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Faixa | Resultado |
 |-------|-----------|
-| 90-100% | Aprovado — pode prosseguir com confianca |
-| 70-89% | Aprovado com ressalvas — ajustes menores necessarios |
-| 50-69% | Reprovado — revisao necessaria antes de prosseguir |
-| < 50% | Reprovado — voltar a etapa anterior |
+| 90-100% | Excelente |
+| 70-89% | Bom |
+| 50-69% | Necessita melhorias |
+| < 50% | Critico |

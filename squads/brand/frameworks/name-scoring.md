@@ -1,126 +1,112 @@
-# Name Scoring Framework
-> Framework quantitativo para avaliar e comparar candidatos a nome de marca com scoring padronizado e ponderado.
+# Framework de Scoring de Nomes
+> Sistema quantitativo de avaliacao que atribui pontuacoes a candidatos a nome de marca em criterios objetivos, permitindo comparacao racional entre opcoes.
 
 ---
 
 ## Definicao
+O Framework de Scoring de Nomes transforma a avaliacao de nomes de marca de um processo subjetivo ("eu gosto mais desse") em uma analise estruturada com criterios pontuados. Cada candidato e avaliado em dimensoes como sonoridade, significado, memorabilidade, disponibilidade e alinhamento estrategico.
 
-O Name Scoring Framework e um sistema de avaliacao quantitativa que atribui pontuacoes objetivas a candidatos de nome de marca em multiplas dimensoes, permitindo comparacao rigorosa e decisao informada. O framework transforma julgamentos subjetivos ("eu gosto mais desse") em avaliacoes estruturadas com criterios explicitos e pesos definidos.
+O scoring nao substitui a intuicao criativa — ele a complementa. Seu papel e trazer objetividade quando ha multiplos stakeholders com opinioes diferentes, ou quando a equipe esta "apaixonada" por um nome que tem problemas estruturais. O framework cria uma linguagem comum para discutir merito.
 
-O sistema avalia cada nome em 8 dimensoes: Distinctiveness (unicidade), Memorability (facilidade de lembranca), Pronounceability (facilidade de pronuncia), Spellability (facilidade de grafia), Meaningfulness (significado/sugestao), Protectability (registrabilidade legal), Scalability (capacidade de crescer com a marca) e Likeability (atratividade geral). Cada dimensao recebe um peso de acordo com as prioridades do projeto.
-
-O framework nao substitui julgamento estrategico, mas disciplina a conversacao e reduz vies pessoal na decisao.
+Cada dimensao recebe um peso de acordo com o contexto do projeto (uma marca global pesara mais "traducibilidade" que uma marca local). O resultado e um ranking ponderado que informa — mas nao determina — a decisao final.
 
 ---
 
 ## Quando Usar
-
-- Fase final de selecao de naming (comparar 3-10 finalistas)
-- Apresentacao de recomendacao de naming para stakeholders
-- Resolucao de impasse quando a equipe nao converge
-- Documentacao de raciocinio para escolha de nome
-- Validacao pos-pesquisa de nomes com consumidores
+- Na fase de avaliacao de shortlist de nomes (3-10 candidatos)
+- Quando ha desacordo entre stakeholders sobre qual nome escolher
+- Para documentar e justificar a decisao de naming
+- Ao comparar nomes gerados por diferentes processos criativos
+- Como complemento ao SMILE & SCRATCH e ao Stress Test Linguistico
 
 ---
 
 ## Estrutura / Modelo
 
 ```
-┌──────────────────────────────────────────────────────┐
-│              NAME SCORING MATRIX                     │
-├──────────────┬──────┬────────┬────────┬────────┬─────┤
-│ CRITERIO     │ PESO │Nome A  │Nome B  │Nome C  │Meta │
-├──────────────┼──────┼────────┼────────┼────────┼─────┤
-│Distinctiveness│ 15% │  /5    │  /5    │  /5    │ 4+  │
-│Memorability  │ 15%  │  /5    │  /5    │  /5    │ 4+  │
-│Pronounceabil.│ 15%  │  /5    │  /5    │  /5    │ 4+  │
-│Spellability  │ 10%  │  /5    │  /5    │  /5    │ 3+  │
-│Meaningfulness│ 15%  │  /5    │  /5    │  /5    │ 3+  │
-│Protectability│ 10%  │  /5    │  /5    │  /5    │ 4+  │
-│Scalability   │ 10%  │  /5    │  /5    │  /5    │ 3+  │
-│Likeability   │ 10%  │  /5    │  /5    │  /5    │ 3+  │
-├──────────────┼──────┼────────┼────────┼────────┼─────┤
-│SCORE PONDERADO│100% │ ___    │ ___    │ ___    │3.5+ │
-├──────────────┼──────┼────────┼────────┼────────┼─────┤
-│VETO (algum <2)│     │ S/N   │ S/N    │ S/N    │ N   │
-└──────────────┴──────┴────────┴────────┴────────┴─────┘
-```
-
-### Escala de Pontuacao
-
-```
-5 = Excepcional  │ Top 10% dos nomes que ja vimos
-4 = Forte        │ Acima da media, atende bem
-3 = Adequado     │ Aceitavel, sem destaque
-2 = Fraco        │ Abaixo do desejavel, risco
-1 = Inaceitavel  │ Eliminatorio, nao seguir
+╔══════════════════════════════════════════════════════════════════╗
+║                 FRAMEWORK DE SCORING DE NOMES                   ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  SCORECARD:                                                      ║
+║  ┌───────────────────┬──────┬───────┬───────┬───────┬──────┐    ║
+║  │ CRITERIO (Peso)   │Nom.1 │Nom.2  │Nom.3  │Nom.4  │Nom.5 │    ║
+║  ├───────────────────┼──────┼───────┼───────┼───────┼──────┤    ║
+║  │Sonoridade (15%)   │__/5  │__/5   │__/5   │__/5   │__/5  │    ║
+║  │Memorabilid.(15%)  │__/5  │__/5   │__/5   │__/5   │__/5  │    ║
+║  │Significado (15%)  │__/5  │__/5   │__/5   │__/5   │__/5  │    ║
+║  │Alinhamento (20%)  │__/5  │__/5   │__/5   │__/5   │__/5  │    ║
+║  │Disponibilid.(15%) │__/5  │__/5   │__/5   │__/5   │__/5  │    ║
+║  │Visual/Grafico(10%)│__/5  │__/5   │__/5   │__/5   │__/5  │    ║
+║  │Traducibilid.(10%) │__/5  │__/5   │__/5   │__/5   │__/5  │    ║
+║  ├───────────────────┼──────┼───────┼───────┼───────┼──────┤    ║
+║  │SCORE PONDERADO    │__/5  │__/5   │__/5   │__/5   │__/5  │    ║
+║  └───────────────────┴──────┴───────┴───────┴───────┴──────┘    ║
+║                                                                  ║
+║  ESCALA:                                                         ║
+║  5 = Excepcional  4 = Forte  3 = Adequado                      ║
+║  2 = Fraco  1 = Eliminatorio                                    ║
+║                                                                  ║
+║  REGRA: Score < 2 em qualquer criterio = eliminado              ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
 ```
 
 ---
 
 ## Como Aplicar (Passo a Passo)
+### Passo 1: Definir Criterios e Pesos
+Use os 7 criterios padrao ou adapte ao contexto. Ajuste os pesos conforme prioridades do projeto (marca global? peso maior em traducibilidade).
 
-### Passo 1: Calibrar Pesos
-Ajuste os pesos das 8 dimensoes conforme prioridades do projeto. Marca internacional? Aumente Pronounceability. Mercado saturado? Aumente Distinctiveness.
+### Passo 2: Montar o Painel Avaliador
+Reuna 3-7 avaliadores com perspectivas diversas: estrategista, criativo, representante do publico-alvo, stakeholder de negocios.
 
-### Passo 2: Definir o Painel de Avaliadores
-Reuna 3-5 avaliadores com perfis diversos: estrategista, criativo, linguista, representante do target, stakeholder de negocio. Cada um pontua independentemente.
+### Passo 3: Avaliar Individualmente
+Cada avaliador pontua cada nome em cada criterio de forma independente, sem influencia do grupo.
 
-### Passo 3: Pontuar Independentemente
-Cada avaliador pontua cada nome em cada dimensao ANTES de discutir com os demais. Isso evita groupthink.
+### Passo 4: Compilar e Calcular
+Calcule a media por criterio e o score ponderado total. Identifique discrepancias significativas entre avaliadores.
 
-### Passo 4: Compilar e Analisar
-Calcule media ponderada por nome. Identifique: (a) vencedor geral, (b) nomes com veto (<2 em qualquer dimensao critica), (c) divergencias grandes entre avaliadores.
+### Passo 5: Discutir Outliers
+Quando ha grande divergencia em um criterio, abra a discussao. Frequentemente, um avaliador percebe algo que outros nao viram.
 
-### Passo 5: Discutir Divergencias
-Para dimensoes onde avaliadores divergem mais de 2 pontos, abra discussao para entender perspectivas e recalibrar se necessario.
-
-### Passo 6: Decidir com Dados + Julgamento
-O score informa mas nao decide sozinho. Use como base para discussao final, complementando com gut feeling estrategico e pesquisa com consumidores.
+### Passo 6: Aplicar Regra de Eliminacao
+Qualquer nome com score abaixo de 2 em qualquer criterio deve ser eliminado ou ter o problema resolvido antes de avancar.
 
 ---
 
 ## Exemplos de Aplicacao
+### Exemplo 1: Naming de Fintech
+Candidatos: "Fluxo", "Zenit", "Pagora", "FinVibe", "Cobalt". Apos scoring, "Fluxo" liderou em sonoridade e significado mas falhou em disponibilidade. "Cobalt" liderou no score ponderado total com notas consistentes em todos os criterios.
 
-### Exemplo 1: Startup de health tech
-- **Candidatos:** Vitaly (4.2), MedFlow (3.8), Cureva (4.0), HealthBridge (3.1)
-- **Veto:** HealthBridge vetado por Distinctiveness = 1 (generico demais)
-- **Vencedor:** Vitaly — forte em todas as dimensoes, especialmente memorabilidade e sonoridade
-
-### Exemplo 2: Marca de cosmeticos
-- **Candidatos:** Lumière (3.9), Dermasense (3.4), Veluria (4.3)
-- **Divergencia:** Lumière — equipe criativa deu 5 em likeability; equipe legal deu 2 em protectability (muito proximo de marcas existentes)
-- **Decisao:** Veluria avancou por equilibrio entre todas as dimensoes
-
-### Exemplo 3: Rebranding corporativo
-- **Pesos ajustados:** Scalability (20%), Protectability (15%), Distinctiveness (20%) — priorizando longevidade
-- **Candidatos avaliados com novos pesos revelaram vencedor diferente do "favorito" da diretoria**
+### Exemplo 2: Naming de App de Saude
+Candidatos: "Vitalia", "PulseUp", "Sanar", "Medflow". "Vitalia" liderou em significado e traducibilidade. "Sanar" teve score maximo em alinhamento estrategico mas falhou em traducibilidade (ambiguo em ingles).
 
 ---
 
 ## Erros Comuns
-
-1. **Avaliar em grupo desde o inicio:** Groupthink domina. Sempre pontuar individualmente ANTES de discutir.
-2. **Pesos iguais para tudo:** Nem toda dimensao importa igualmente para todo projeto. Calibre pesos antes de pontuar.
-3. **Ignorar vetos:** Um score 1 em protectability elimina o nome independente do score geral. Vetos sao absolutos.
-4. **Confiar so no score:** O framework e ferramenta de pensamento, nao oraculo. Use-o para estruturar, nao substituir julgamento.
-5. **Nao incluir o target:** Avaliacao apenas interna ignora percepcao real. Inclua dados de pesquisa com consumidores quando possivel.
+1. **Peso igual para todos os criterios:** Nem todos os criterios tem a mesma importancia para cada projeto — calibre os pesos.
+2. **Avaliar em grupo:** Avaliacao individual primeiro evita groupthink e ancoragem.
+3. **Ignorar scores baixos em criterios criticos:** Um nome com 5 em tudo mas 1 em disponibilidade e inviavel.
+4. **Tratar o score como decisao final:** O scoring informa, mas a decisao final envolve intuicao e julgamento.
+5. **Nao documentar justificativas:** Registre o raciocinio por tras de cada nota para referencia futura.
 
 ---
 
 ## Integracao com Outros Frameworks
-
 | Framework | Relacao | Como Conectam |
 |-----------|---------|---------------|
-| SMILE & SCRATCH | Complementar | SMILE/SCRATCH e qualitativo-estrategico; Name Scoring e quantitativo-comparativo |
-| Linguistic Stress Test | Input | Resultados do Stress Test alimentam dimensoes de Pronounceability e Spellability |
-| Shortlist Methodology | Sequencial | Shortlist filtra candidatos; Scoring compara os finalistas |
-| Name Taxonomy | Informativo | Nomes de diferentes tipos taxonomicos devem ser pontuados separadamente |
-| Morpheme Builder | Sequencial | Builder gera candidatos; Scoring avalia os melhores |
+| SMILE & SCRATCH | Criterios qualitativos | O SMILE & SCRATCH fornece criterios qualitativos; o scoring os quantifica |
+| Linguistic Stress Test | Input de dados | Os resultados do stress test alimentam as notas de sonoridade e traducibilidade |
+| Shortlist Methodology | Processo de selecao | O scoring e a ferramenta de decisao central da shortlist |
+| Morpheme Builder | Geracao de candidatos | Os nomes gerados pelo builder sao avaliados pelo scoring |
+| Name Taxonomy | Contexto de avaliacao | Diferentes tipos de nomes podem exigir pesos diferentes no scoring |
 
 ---
 
 ## Referencias
-
-- Kohli, C. & LaBahn, D. (1997). "Creating Effective Brand Names." *Journal of Advertising Research*, 37(1), 67-75.
-- Robertson, K. (1989). "Strategically Desirable Brand Name Characteristics." *Journal of Consumer Marketing*, 6(4), 61-71.
+- Watkins, A. (2019). Hello, My Name Is Awesome. Berrett-Koehler.
+- Rivkin, S. & Sutherland, F. (2004). The Making of a Name. Oxford University Press.
+- Keller, K. L. (2013). Strategic Brand Management. Pearson.
+- Robertson, K. (1989). Strategically Desirable Brand Name Characteristics. Journal of Consumer Marketing.
+- Kohli, C. & LaBahn, D. (1997). Creating Effective Brand Names. Journal of Advertising Research.
