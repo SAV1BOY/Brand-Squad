@@ -1,41 +1,28 @@
-# Checklist de Qualidade do Brand Mantra por Keller
-> Valida a qualidade do brand mantra segundo os criterios de Kevin Lane Keller — frase curta que captura a essencia da marca de forma inspiradora e operacional.
+# Qualidade do Brand Mantra
+> Qualidade do brand mantra per Keller
 
-## Quando Aplicar
-Ao criar brand mantra, ao revisar declaracao de essencia de marca, ou ao testar se o mantra funciona como filtro de decisao.
+---
 
-## Criterios de Avaliacao
+## Criterios
 
-### Estrutura do Mantra
-- [ ] Tres a cinco palavras — Mantra e conciso o suficiente para ser memoravel
-- [ ] Modificador emocional presente — Elemento que qualifica como a marca faz o cliente sentir
-- [ ] Modificador descritivo presente — Elemento que define a natureza do negocio ou experiencia
-- [ ] Funcao da marca presente — Tipo de beneficio ou experiencia que a marca entrega
+- [ ] **Tres a cinco palavras:** Brand mantra e conciso com no maximo cinco palavras
+- [ ] **Funcao emocional presente:** Mantra comunica o beneficio emocional ou experiencial da marca
+- [ ] **Modificador descritivo presente:** Mantra inclui natureza do produto ou experiencia entregue
+- [ ] **Funcao de marca presente:** Mantra articula o tipo de valor ou beneficio que a marca oferece
+- [ ] **Comunica essencia:** Mantra captura a essencia do posicionamento e valores centrais da marca
+- [ ] **Inspira internamente:** Mantra funciona como guia para decisoes internas da equipe
+- [ ] **Diferencia externamente:** Mantra distingue a marca de concorrentes na mente do consumidor
+- [ ] **Simples e memoravel:** Mantra e facil de lembrar e repetir por qualquer membro da equipe
+- [ ] **Atemporal:** Mantra nao esta preso a modas ou contextos temporarios
+- [ ] **Alinhado com piramide CBBE:** Mantra e coerente com todos os niveis da piramide de brand equity de Keller
 
-### Criterios de Qualidade
-- [ ] Comunica — Mantra articula o que torna a marca unica e diferente
-- [ ] Simplifica — Frase e facil de entender por qualquer stakeholder interno
-- [ ] Inspira — Mantra energiza e motiva a equipe, nao e apenas descritivo
-- [ ] Memoravel — Pessoas que ouvem o mantra conseguem repeti-lo de memoria
-
-### Funcionalidade Operacional
-- [ ] Funciona como filtro de decisao — Equipe usa o mantra para avaliar se acoes estao on-brand
-- [ ] Orienta inovacao — Novos produtos e servicos podem ser testados contra o mantra
-- [ ] Guia comunicacao — Mantra serve como referencia para criacao de mensagens
-- [ ] Alinha stakeholders — Mantra unifica entendimento da marca entre departamentos
-
-### Validacao
-- [ ] Testado com equipe interna — Colaboradores confirmam que o mantra ressoa e faz sentido
-- [ ] Diferente de concorrentes — Mantra nao poderia ser usado por nenhum concorrente direto
-- [ ] Sustentavel no tempo — Mantra e atemporal o suficiente para durar anos sem parecer datado
-- [ ] Coerente com prisma e posicionamento — Mantra reflete identidade e posicao de mercado
+---
 
 ## Scoring
-| Nivel | Criterio | Acao |
-|-------|----------|------|
-| Verde (80%+) | 13+ criterios atendidos | Brand mantra forte e operacional |
-| Amarelo (60-79%) | 9-12 criterios atendidos | Refinar mantra para atender criterios faltantes |
-| Vermelho (<60%) | Menos de 9 criterios atendidos | Mantra insuficiente — reconstruir do zero |
 
-## Responsavel
-Brand Strategist Agent (especialidade Keller) — com validacao do Brand Director Agent.
+| Faixa | Resultado |
+|-------|-----------|
+| 90-100% | Excelente |
+| 70-89% | Bom |
+| 50-69% | Necessita melhorias |
+| < 50% | Critico |

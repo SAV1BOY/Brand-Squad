@@ -1,71 +1,131 @@
-# Naming Verbal Identity
-> Framework estrategico para gestao e construcao de marca
+# Naming & Verbal Identity
+> Framework que conecta o nome da marca ao ecossistema completo de identidade verbal — tagline, tom de voz, vocabulario proprietario.
 
 ---
 
 ## Definicao
 
-Este framework oferece uma abordagem estruturada para um aspecto critico da gestao de marca. Ele integra principios de multiplos autores de referencia (Aaker, Keller, Kapferer, Sharp, Neumeier, Miller, Wheeler, Ries, Heyward, Yohn) para fornecer uma ferramenta pratica e acionavel.
+O framework Naming & Verbal Identity estabelece que o nome da marca nao existe isolado — e a peca central de um sistema verbal completo que inclui tagline, tom de voz, vocabulario proprietario, messaging hierarchy e naming architecture. Assim como a identidade visual e um sistema (logo + cores + tipografia + imagética), a identidade verbal e um sistema onde cada elemento reforça os demais.
 
-O objetivo e transformar conceitos estrategicos em acoes concretas, mensuráveis e consistentes, garantindo que cada decisao de marca seja fundamentada e documentada.
+O framework mapeia 6 componentes da identidade verbal e define como cada um se conecta ao nome da marca: (1) Brand Name, (2) Tagline/Slogan, (3) Voice & Tone, (4) Vocabulary (palavras proprietarias), (5) Messaging Hierarchy, (6) Naming Architecture (como produtos e servicos sao nomeados dentro do sistema).
+
+A premissa e que marcas fortes sao reconheciveis ANTES que voce veja o logo — so pelo jeito que falam. A identidade verbal e o que torna a marca auditivamente distinta.
 
 ---
 
 ## Quando Usar
 
-- Para estruturar decisoes estrategicas de marca com rigor metodologico
-- Para garantir consistencia entre diferentes elementos e touchpoints da marca
-- Para diagnosticar gaps e oportunidades na gestao de marca
-- Para alinhar equipes internas em torno de uma direcao clara
+- Desenvolvimento de brand guidelines completas
+- Pos-naming: construir o ecossistema verbal ao redor do nome escolhido
+- Auditoria de consistencia verbal
+- Treinamento de equipes de conteudo e atendimento
+- Definicao de brand voice para novos canais
 
 ---
 
 ## Estrutura / Modelo
 
-| Dimensao | Input | Processo | Output |
-|----------|-------|----------|--------|
-| **Diagnostico** | Estado atual da marca | Analise e mapeamento | Gap analysis |
-| **Estrategia** | Objetivos e contexto | Definicao e priorizacao | Plano estrategico |
-| **Execucao** | Plano aprovado | Implementacao coordenada | Entregaveis |
-| **Mensuracão** | KPIs definidos | Monitoramento continuo | Ajustes |
+```
+┌──────────────────────────────────────────────────┐
+│           VERBAL IDENTITY SYSTEM                 │
+│                                                  │
+│              ┌────────────┐                      │
+│              │ BRAND NAME │ ← Peca central       │
+│              └──────┬─────┘                      │
+│                     │                            │
+│     ┌───────────────┼───────────────┐            │
+│     │               │               │            │
+│ ┌───┴────┐   ┌──────┴─────┐  ┌─────┴──────┐     │
+│ │TAGLINE │   │VOICE & TONE│  │VOCABULARIO │     │
+│ │Promessa│   │Como falamos│  │Palavras    │     │
+│ │em 1    │   │Personalid. │  │proprietar. │     │
+│ │frase   │   │verbal      │  │da marca    │     │
+│ └────────┘   └────────────┘  └────────────┘     │
+│                     │                            │
+│     ┌───────────────┼───────────────┐            │
+│     │               │               │            │
+│ ┌───┴────────┐ ┌────┴──────┐ ┌─────┴──────┐     │
+│ │MESSAGING   │ │NAMING     │ │STORYTELLING│     │
+│ │HIERARCHY   │ │ARCHITECTURE│ │VERBAL      │     │
+│ │Prioridade  │ │Nomenclatura│ │Tom narrat. │     │
+│ │de mensagens│ │de produtos │ │e estilo    │     │
+│ └────────────┘ └───────────┘ └────────────┘     │
+└──────────────────────────────────────────────────┘
+```
+
+### Voice & Tone Framework
+
+```
+┌──────────────────────────────────────────────┐
+│        VOICE (constante) vs TONE (variavel)  │
+├──────────────────────────────────────────────┤
+│ VOICE: "Somos sempre..."                     │
+│  ├─ [Atributo 1] ex: Diretos                │
+│  ├─ [Atributo 2] ex: Empaticos              │
+│  ├─ [Atributo 3] ex: Otimistas              │
+│  └─ [Atributo 4] ex: Inteligentes           │
+├──────────────────────────────────────────────┤
+│ TONE: "Neste contexto, ajustamos para..."    │
+│  ├─ Celebracao → Mais entusiastico           │
+│  ├─ Crise → Mais serio e empatico            │
+│  ├─ Onboarding → Mais paciente e claro       │
+│  └─ Social → Mais casual e divertido         │
+└──────────────────────────────────────────────┘
+```
 
 ---
 
 ## Como Aplicar (Passo a Passo)
 
-### Passo 1: Diagnostico
-Avalie o estado atual usando dados quantitativos e qualitativos. Mapeie pontos fortes, fracos e gaps.
+### Passo 1: Auditar Identidade Verbal Atual
+Colete exemplos de como a marca se comunica em todos os canais. Identifique inconsistencias, gaps e oportunidades.
 
-### Passo 2: Definicao Estrategica
-Com base no diagnostico, defina objetivos claros, priorizados e mensuráveis.
+### Passo 2: Definir Voice Attributes
+Escolha 3-5 atributos que descrevem como a marca SEMPRE soa. Para cada atributo, defina "somos isso" vs "nao somos isso". Ex: "Diretos, nao rudes".
 
-### Passo 3: Design da Solucao
-Projete a solucao integrando frameworks complementares conforme o contexto.
+### Passo 3: Desenvolver Tagline
+Crie uma tagline que sintetize a promessa de marca em uma frase memoravel que complemente o nome. Teste se nome + tagline formam uma unidade coesa.
 
-### Passo 4: Implementacao
-Execute o plano com checkpoints e gates de qualidade em cada etapa.
+### Passo 4: Criar Vocabulario Proprietario
+Defina 10-20 palavras e expressoes que a marca usa e que a tornam reconhecivel. Inclua palavras a evitar.
 
-### Passo 5: Mensuracão e Ajuste
-Monitore KPIs definidos e ajuste a abordagem com base em resultados reais.
+### Passo 5: Definir Messaging Hierarchy
+Organize as mensagens de marca em niveis: proposito (por que existimos), posicionamento (como somos diferentes), beneficios (o que entregamos), proof points (por que acreditar).
+
+### Passo 6: Documentar e Treinar
+Compile tudo em um Verbal Identity Guide. Treine equipes de conteudo, atendimento e vendas.
 
 ---
 
 ## Exemplos de Aplicacao
 
-### Exemplo 1: Aplicacao em Startup
-Para uma marca nova, o framework ajuda a estruturar decisoes desde o naming ate o lancamento, garantindo coerencia desde o dia zero.
+### Exemplo 1: Mailchimp
+- **Nome:** Sugestivo (mail + chimp — email feito facil/divertido)
+- **Voice:** Divertido, humano, util, levemente nerdy
+- **Vocabulario proprietario:** "High fives", ilustracoes com linguagem casual
+- **Consistencia:** Tom casual permeia do app ao suporte ao blog
 
-### Exemplo 2: Aplicacao em Rebranding
-Para uma marca estabelecida em reposicionamento, o framework diagnostica gaps entre percepçao atual e desejada, e estrutura o plano de transicao.
+### Exemplo 2: Nubank
+- **Nome:** Sugestivo (nu = transparente/sem camadas + bank)
+- **Voice:** Direto, descomplicado, proximo, sem jargao bancario
+- **Vocabulario:** Evita termos como "prezado", "outrossim", "vimos por meio desta"
+- **Tagline implicita:** "Seu dinheiro, sem complicacao"
+
+### Exemplo 3: Marca de cafe especial
+- **Nome:** "Brota" (real word — sugere origem, naturalidade, nascimento)
+- **Voice:** Curioso, artesanal, apaixonado, educativo sem ser pedante
+- **Vocabulario proprietario:** "Brota" como verbo ("Brota um cafe"), nomes de blends como verbos de acao
+- **Naming architecture:** Blends nomeados por verbos: "Desperta", "Floresce", "Aquece"
 
 ---
 
 ## Erros Comuns
 
-1. **Pular o diagnostico:** Ir direto para execucao sem entender o estado atual leva a solucoes desconectadas
-2. **Ausência de metricas:** Sem KPIs claros, e impossivel avaliar se o framework esta funcionando
-3. **Aplicacao isolada:** Cada framework funciona melhor quando integrado com outros complementares
-4. **Rigidez excessiva:** O framework e um guia, nao uma camisa de forca — adapte ao contexto
+1. **Definir voice so com adjetivos:** "Inovador, moderno, dinamico" nao diz nada pratico. Use pares contrastivos: "Somos X, nao Y".
+2. **Confundir voice com tone:** Voice e constante (personalidade); tone varia por contexto. Confundir gera inconsistencia.
+3. **Nome desconectado do sistema:** Se o nome e playful mas a voice e corporativa, ha dissonancia cognitiva.
+4. **Nao ter vocabulario de exclusao:** Saber o que NAO dizer e tao importante quanto saber o que dizer.
+5. **Guidelines sem exemplos:** Atributos abstratos sem exemplos concretos de texto sao inúteis para redatores.
 
 ---
 
@@ -73,16 +133,15 @@ Para uma marca estabelecida em reposicionamento, o framework diagnostica gaps en
 
 | Framework | Relacao | Como Conectam |
 |-----------|---------|---------------|
-| Brand Identity System (Aaker) | Complementar | Fornece a base de identidade para aplicacao |
-| CBBE Pyramid (Keller) | Complementar | Mede o impacto no equity do consumidor |
-| Brand Identity Prism (Kapferer) | Complementar | Codifica a identidade em 6 facetas |
-| Mental Availability (Sharp) | Validacao | Valida se as acoes geram saliencia real |
+| Name Taxonomy | Informativo | O tipo de nome (descritivo, sugestivo, abstrato) influencia o sistema verbal |
+| Brand Archetypes | Complementar | Arquetipo define a PERSONALIDADE; verbal identity define COMO essa personalidade se expressa |
+| StoryBrand SB7 | Complementar | SB7 estrutura a NARRATIVA; verbal identity define o TOM dessa narrativa |
+| Brand Lexicon Framework | Complementar | Lexicon detalha o vocabulario proprietario dentro do sistema verbal |
+| Sticky BrandScript | Dependente | A identidade verbal e o que torna o BrandScript sticky e memoravel |
 
 ---
 
 ## Referencias
 
-- Aaker, D. (1996). *Building Strong Brands*. Free Press.
-- Keller, K.L. (2013). *Strategic Brand Management*. 4th ed. Pearson.
-- Kapferer, J.N. (2012). *The New Strategic Brand Management*. Kogan Page.
-- Sharp, B. (2010). *How Brands Grow*. Oxford University Press.
+- Watkins, A. (2019). *Hello, My Name Is Awesome*. Berrett-Koehler.
+- Farhad, M. (2018). "Voice and Tone in Brand Communication." *Journal of Brand Strategy*, 7(2).
