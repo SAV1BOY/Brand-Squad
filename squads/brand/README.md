@@ -1,0 +1,141 @@
+# Brand Squad — MMOS Brand Strategy + Identity OS
+
+> Sistema operacional completo de **Brand Strategy + Brand Identity** do MMOS.
+> 15 agentes especializados | ~675+ arquivos | Metodologia HRM | Gold-standard SOTA.
+
+---
+
+## Visao Geral
+
+O Brand Squad e o sistema de inteligencia de marca do MMOS. Ele cobre todo o ciclo de vida de uma marca:
+
+```
+Research → Strategy → Identity → Activation → Governance → Measurement
+```
+
+Cada camada possui **agentes especializados**, **frameworks**, **checklists de qualidade**, **templates de entregaveis**, **tasks executaveis** e **workflows ponta-a-ponta**.
+
+---
+
+## Estrutura do Repositorio
+
+```
+squads/brand/
+├── agents/          # 15 agentes (perfis HRM com prompt de ativacao)
+├── archive/         # Cases historicos, rebrands, evolucao
+├── authority/       # Autoridade, confianca, reputacao
+├── checklists/      # 100+ quality gates por entregavel e autor
+├── data/            # Pesquisa, registros operacionais, metricas
+├── docs/            # Documentacao do squad
+├── frameworks/      # 90+ frameworks de branding
+├── lib/             # Componentes, patterns e utilities reutilizaveis
+├── phrases/         # Biblioteca de frases e blocos de mensagem
+├── projects/        # Templates de projeto (brand do zero, rebrand, etc.)
+├── reference/       # 85+ livros, psicologia, industrias
+├── scripts/         # Automacao e consistencia
+├── swipe/           # Swipe files de marca (exemplos)
+├── swipe-sources/   # Fontes e indices de swipe
+├── tasks/           # 70+ tarefas executaveis
+├── templates/       # 75+ templates de entregaveis
+├── voice/           # Voz, tom, calibracao, adaptacao por canal
+├── workflows/       # 20 fluxos ponta-a-ponta
+├── ARCHITECTURE.md  # Mapa de interconexao do squad
+├── config.yaml      # Cerebro de roteamento (task → agents → frameworks → checklists → templates)
+├── README.md        # Este arquivo
+└── swipe.config     # Configuracao do sistema de swipe files
+```
+
+---
+
+## Os 15 Agentes do Brand Squad
+
+### Estrategia, Equity & Construcao de Marca
+| Agente | Dominio | Obra de Referencia |
+|--------|---------|-------------------|
+| **Brand Chief** | Orquestrador geral | Integra todos os frameworks |
+| **David Aaker** | Brand equity, identity system, architecture | Building Strong Brands |
+| **Kevin Keller** | CBBE, brand resonance | Strategic Brand Management |
+| **Jean-Noel Kapferer** | Identity Prism, luxury branding | The New Strategic Brand Management |
+| **Byron Sharp** | Mental/physical availability, distinctive assets | How Brands Grow |
+| **Denise Yohn** | Brand as business, internal alignment | What Great Brands Do |
+
+### Posicionamento, Categoria & Vantagem Competitiva
+| Agente | Dominio | Obra de Referencia |
+|--------|---------|-------------------|
+| **Al Ries** | Positioning, category creation, focus | Positioning: The Battle for Your Mind |
+| **Marty Neumeier** | Brand Gap, simplicity, differentiation | The Brand Gap / Zag |
+
+### Identidade, Sistema Visual & Diretrizes
+| Agente | Dominio | Obra de Referencia |
+|--------|---------|-------------------|
+| **Alina Wheeler** | Brand identity process, brand book | Designing Brand Identity |
+| **Emily Heyward** | "Obviousness", creative consistency | Obsessed |
+
+### Mensagem, Narrativa & Clareza
+| Agente | Dominio | Obra de Referencia |
+|--------|---------|-------------------|
+| **Donald Miller** | StoryBrand SB7, messaging | Building a StoryBrand |
+| **Miller Sticky Brand** | Mensagens que colam | StoryBrand + stickiness |
+
+### Operacoes Especiais
+| Agente | Dominio | Obra de Referencia |
+|--------|---------|-------------------|
+| **Naming Strategist** | Naming systems, shortlists, testes | Naming methodologies |
+| **Archetype Consultant** | Arquetipos de marca, personalidade | Hero and the Outlaw |
+| **Domain Scout** | Dominios, handles, disponibilidade | Domain heuristics |
+
+---
+
+## Como Funciona
+
+### 1. Cerebro de Roteamento (config.yaml)
+Para cada **task**, o `config.yaml` define:
+- Quais **agentes** participam
+- Quais **frameworks** sao obrigatorios
+- Quais **checklists** devem ser passados
+- Quais **templates** geram o output
+- Onde **registrar** o resultado
+
+### 2. Fluxo de Execucao
+```
+Task → Agentes consultam Frameworks → Executam → Passam Checklists → Preenchem Templates → Registram em Data
+```
+
+### 3. Camadas do Sistema
+```
+Layer 1: Research      → Pesquisa, auditoria, entrevistas, VOC
+Layer 2: Strategy      → Posicionamento, promessa, CEPs, arquitetura
+Layer 3: Identity      → Nome, voz, assets, guidelines
+Layer 4: Activation    → Rollout, treinamento, launch
+Layer 5: Governance    → Padroes, aprovacoes, guardrails
+Layer 6: Measurement   → Tracking, KPIs, decisoes
+```
+
+---
+
+## Cross-Squad Integration
+
+O Brand Squad alimenta outros squads com:
+- **Brand Voice Guide** → Copy Squad (tom e personalidade)
+- **Positioning Statement** → Copy Squad (contexto)
+- **Messaging House** → Copy Squad (alinhamento)
+- **Brand Archetypes** → Copy Squad (arquetipo → linguagem)
+
+---
+
+## Quick Start
+
+1. Leia o `ARCHITECTURE.md` para entender o mapa completo
+2. Consulte `docs/getting-started.md` para comecar
+3. Escolha uma task em `tasks/` e siga o workflow correspondente
+4. Use o `config.yaml` para saber quais agentes, frameworks e checklists usar
+
+---
+
+## Versao
+
+- **Squad:** Brand Strategy + Identity
+- **Versao:** 1.0.0
+- **Agentes:** 15
+- **Arquivos:** ~675+
+- **Metodologia:** HRM (Hierarchical Role Modeling)

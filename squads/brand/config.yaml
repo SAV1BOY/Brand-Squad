@@ -1,0 +1,729 @@
+# ============================================================
+# BRAND SQUAD — config.yaml (Cerebro de Roteamento)
+# ============================================================
+# Para cada TASK, define quais AGENTS, FRAMEWORKS,
+# CHECKLISTS, TEMPLATES e REGISTRIES sao obrigatorios.
+# ============================================================
+
+squad:
+  name: brand
+  version: "1.0.0"
+  description: "Brand Strategy + Identity Squad do MMOS"
+  chief_agent: brand-chief
+  methodology: "HRM (Hierarchical Role Modeling)"
+  total_agents: 15
+
+# ============================================================
+# AGENTS REGISTRY
+# ============================================================
+agents:
+  # Strategy, Equity & Brand Building
+  brand-chief:
+    file: agents/brand-chief.md
+    role: orchestrator
+    layer: [research, strategy, identity, activation, governance, measurement]
+
+  david-aaker:
+    file: agents/david-aaker.md
+    role: specialist
+    layer: [strategy, governance]
+    domain: "brand equity, identity system, architecture"
+
+  kevin-keller:
+    file: agents/kevin-keller.md
+    role: specialist
+    layer: [research, strategy, measurement]
+    domain: "CBBE, brand resonance, brand mantra"
+
+  jean-noel-kapferer:
+    file: agents/jean-noel-kapferer.md
+    role: specialist
+    layer: [strategy]
+    domain: "identity prism, luxury branding"
+
+  byron-sharp:
+    file: agents/byron-sharp.md
+    role: specialist
+    layer: [research, strategy, governance, measurement]
+    domain: "mental/physical availability, distinctive assets, growth laws"
+
+  denise-yohn:
+    file: agents/denise-yohn.md
+    role: specialist
+    layer: [research, strategy, activation]
+    domain: "brand as business, internal alignment, culture"
+
+  # Positioning & Competitive Advantage
+  al-ries:
+    file: agents/al-ries.md
+    role: specialist
+    layer: [strategy]
+    domain: "positioning, category creation, focus"
+
+  marty-neumeier:
+    file: agents/marty-neumeier.md
+    role: specialist
+    layer: [strategy]
+    domain: "brand gap, simplicity, differentiation"
+
+  # Identity & Visual Systems
+  alina-wheeler:
+    file: agents/alina-wheeler.md
+    role: specialist
+    layer: [identity, governance]
+    domain: "brand identity process, brand book, visual systems"
+
+  emily-heyward:
+    file: agents/emily-heyward.md
+    role: specialist
+    layer: [identity, activation]
+    domain: "obviousness, creative consistency, brand launch"
+
+  # Messaging & Narrative
+  donald-miller:
+    file: agents/donald-miller.md
+    role: specialist
+    layer: [identity]
+    domain: "StoryBrand SB7, messaging clarity"
+
+  miller-sticky-brand:
+    file: agents/miller-sticky-brand.md
+    role: sub-specialist
+    layer: [identity]
+    domain: "sticky messages, stickiness system"
+
+  # Special Operations
+  naming-strategist:
+    file: agents/naming-strategist.md
+    role: specialist
+    layer: [identity]
+    domain: "naming systems, shortlists, testing"
+
+  archetype-consultant:
+    file: agents/archetype-consultant.md
+    role: specialist
+    layer: [identity]
+    domain: "brand archetypes, personality, consistency"
+
+  domain-scout:
+    file: agents/domain-scout.md
+    role: specialist
+    layer: [identity]
+    domain: "domains, handles, availability, heuristics"
+
+# ============================================================
+# ROUTING: TASK → AGENTS → FRAMEWORKS → CHECKLISTS → TEMPLATES
+# ============================================================
+routing:
+
+  # ──────────────────────────────────────
+  # RESEARCH TASKS
+  # ──────────────────────────────────────
+  brand-audit:
+    agents: [brand-chief, byron-sharp, kevin-keller]
+    frameworks:
+      - aaker-brand-equity-model
+      - keller-cbbe-pyramid
+      - distinctive-assets-system
+    checklists:
+      - aaker/aaker-equity-audit
+      - sharp/distinctive-assets-audit
+    templates:
+      - analysis/brand-audit-report-template
+    registry: data/registries/brand-decisions-log
+
+  category-and-competitor-research:
+    agents: [al-ries, byron-sharp, brand-chief]
+    frameworks:
+      - ries-positioning
+      - category-entry-points
+      - competitive-framing
+    checklists:
+      - ries/positioning-statement-audit
+      - sharp/mental-availability-audit
+    templates:
+      - strategy/competitor-brand-map-template
+    registry: data/research/competitor-research
+
+  customer-interviews:
+    agents: [denise-yohn, brand-chief]
+    frameworks:
+      - discovery-and-research
+      - jobs-to-be-done-branding
+    checklists: []
+    templates:
+      - briefs/brand-discovery-brief
+    registry: data/research/interview-notes
+
+  voice-of-customer-mining:
+    agents: [denise-yohn, donald-miller, brand-chief]
+    frameworks:
+      - discovery-and-research
+      - brand-personality-scale
+    checklists: []
+    templates: []
+    registry: data/research/voc-dumps
+
+  perception-study:
+    agents: [kevin-keller, byron-sharp, brand-chief]
+    frameworks:
+      - keller-cbbe-pyramid
+      - sharp-mental-availability
+      - brand-salience-heuristics
+    checklists:
+      - keller/cbbe-pyramid-audit
+    templates:
+      - measurement/cbbe-survey-template
+    registry: data/research/survey-results
+
+  touchpoint-inventory:
+    agents: [alina-wheeler, brand-chief]
+    frameworks:
+      - brand-experience-map
+      - wheeler-brand-identity-process
+    checklists:
+      - wheeler/brand-touchpoints-audit
+    templates: []
+    registry: data/registries/brand-touchpoints-registry
+
+  category-entry-points-research:
+    agents: [byron-sharp, brand-chief]
+    frameworks:
+      - category-entry-points
+      - sharp-mental-availability
+    checklists:
+      - sharp/mental-availability-audit
+    templates:
+      - strategy/category-entry-points-template
+    registry: data/research/competitor-research
+
+  brand-association-mapping:
+    agents: [kevin-keller, david-aaker, brand-chief]
+    frameworks:
+      - keller-cbbe-pyramid
+      - aaker-brand-equity-model
+    checklists:
+      - keller/cbbe-pyramid-audit
+      - aaker/aaker-equity-audit
+    templates: []
+    registry: data/research/survey-results
+
+  social-listening-analysis:
+    agents: [byron-sharp, brand-chief]
+    frameworks:
+      - brand-salience-heuristics
+      - category-entry-points
+    checklists: []
+    templates: []
+    registry: data/research/social-listening
+
+  brand-semiotics-analysis:
+    agents: [jean-noel-kapferer, brand-chief]
+    frameworks:
+      - brand-semiotics
+      - kapferer-brand-identity-prism
+    checklists:
+      - kapferer/identity-prism-audit
+    templates: []
+    registry: data/research/competitor-research
+
+  # ──────────────────────────────────────
+  # STRATEGY TASKS
+  # ──────────────────────────────────────
+  positioning-development:
+    agents: [al-ries, marty-neumeier, brand-chief]
+    frameworks:
+      - ries-positioning
+      - neumeier-brand-gap
+      - stp-segmentation-targeting-positioning
+    checklists:
+      - ries/positioning-statement-audit
+      - neumeier/brand-gap-audit
+      - positioning-quality
+    templates:
+      - strategy/positioning-statement-template
+      - strategy/brand-strategy-doc-template
+    registry: data/registries/brand-decisions-log
+
+  define-brand-purpose:
+    agents: [denise-yohn, brand-chief]
+    frameworks:
+      - brand-purpose-framework
+      - yohn-brand-as-business
+    checklists:
+      - brand-purpose-quality
+      - yohn/brand-as-business-audit
+    templates:
+      - strategy/brand-purpose-template
+    registry: data/registries/brand-decisions-log
+
+  define-brand-promise:
+    agents: [donald-miller, david-aaker, brand-chief]
+    frameworks:
+      - brand-promise-and-rtb
+      - miller-storybrand-sb7
+    checklists:
+      - brand-messaging-quality
+      - miller/messaging-clarity-audit
+    templates:
+      - strategy/brand-promise-rtb-template
+    registry: data/registries/brand-claims-registry
+
+  brand-architecture-design:
+    agents: [david-aaker, brand-chief]
+    frameworks:
+      - aaker-brand-identity-system
+      - brand-architecture-models
+      - brand-portfolio-strategy
+    checklists:
+      - aaker/aaker-architecture-audit
+      - brand-architecture-quality
+    templates:
+      - strategy/brand-architecture-template
+    registry: data/registries/brand-decisions-log
+
+  messaging-house-development:
+    agents: [donald-miller, miller-sticky-brand, brand-chief]
+    frameworks:
+      - miller-storybrand-sb7
+      - messaging-house
+      - brand-promise-and-rtb
+    checklists:
+      - miller/storybrand-sb7-audit
+      - miller/messaging-clarity-audit
+      - brand-messaging-quality
+    templates:
+      - strategy/messaging-house-template
+      - strategy/brand-promise-rtb-template
+    registry: data/registries/brand-claims-registry
+
+  storybrand-script:
+    agents: [donald-miller, miller-sticky-brand, brand-chief]
+    frameworks:
+      - miller-storybrand-sb7
+      - miller-one-liner
+    checklists:
+      - miller/storybrand-sb7-audit
+      - miller/one-liner-audit
+    templates:
+      - strategy/messaging-house-template
+    registry: data/registries/brand-claims-registry
+
+  define-distinctive-assets:
+    agents: [byron-sharp, alina-wheeler, brand-chief]
+    frameworks:
+      - sharp-mental-availability
+      - distinctive-assets-system
+    checklists:
+      - sharp/distinctive-assets-audit
+      - distinctive-assets-quality
+    templates:
+      - identity/distinctive-assets-template
+    registry: data/registries/distinctive-assets-registry
+
+  brand-equity-plan:
+    agents: [david-aaker, kevin-keller, brand-chief]
+    frameworks:
+      - aaker-brand-equity-model
+      - keller-cbbe-pyramid
+      - brand-equity-valuation
+    checklists:
+      - aaker/aaker-equity-audit
+      - keller/cbbe-pyramid-audit
+    templates:
+      - strategy/brand-equity-plan-template
+    registry: data/registries/brand-decisions-log
+
+  category-creation-strategy:
+    agents: [al-ries, marty-neumeier, brand-chief]
+    frameworks:
+      - ries-positioning
+      - ries-22-immutable-laws
+      - neumeier-zag-method
+    checklists:
+      - ries/focus-and-category-audit
+      - neumeier/zag-audit
+    templates:
+      - strategy/positioning-statement-template
+    registry: data/registries/brand-decisions-log
+
+  competitive-repositioning:
+    agents: [al-ries, marty-neumeier, brand-chief]
+    frameworks:
+      - ries-positioning
+      - competitive-framing
+      - neumeier-brand-gap
+    checklists:
+      - ries/positioning-statement-audit
+      - positioning-quality
+    templates:
+      - strategy/competitor-brand-map-template
+    registry: data/registries/brand-decisions-log
+
+  brand-governance-setup:
+    agents: [brand-chief, alina-wheeler]
+    frameworks:
+      - brand-governance-model
+      - brand-consistency-model
+    checklists:
+      - brand-guidelines-quality
+    templates:
+      - rollout/brand-governance-template
+    registry: data/registries/brand-decisions-log
+
+  # ──────────────────────────────────────
+  # IDENTITY TASKS
+  # ──────────────────────────────────────
+  naming-workshop:
+    agents: [naming-strategist, al-ries, brand-chief]
+    frameworks:
+      - naming-systems
+      - naming-spectrum
+      - naming-decision-matrix
+    checklists:
+      - naming/naming-brief-checklist
+      - naming/naming-shortlist-checklist
+      - naming-quality
+    templates:
+      - briefs/naming-brief
+      - identity/naming-shortlist-template
+    registry: data/registries/naming-registry
+
+  naming-shortlist-and-scoring:
+    agents: [naming-strategist, brand-chief]
+    frameworks:
+      - naming-systems
+      - naming-decision-matrix
+    checklists:
+      - naming/naming-shortlist-checklist
+      - naming/naming-testing-checklist
+      - naming/naming-legal-screening-checklist
+    templates:
+      - identity/naming-shortlist-template
+    registry: data/registries/naming-registry
+
+  tagline-development:
+    agents: [donald-miller, emily-heyward, brand-chief]
+    frameworks:
+      - tagline-architecture
+      - verbal-identity-system
+    checklists:
+      - tagline-quality
+    templates:
+      - identity/tagline-template
+    registry: data/registries/brand-claims-registry
+
+  brand-archetype-selection:
+    agents: [archetype-consultant, jean-noel-kapferer, brand-chief]
+    frameworks:
+      - brand-archetypes-system
+      - archetype-activation
+      - kapferer-brand-identity-prism
+    checklists:
+      - archetypes/archetype-selection-checklist
+      - archetypes/archetype-consistency-checklist
+    templates:
+      - identity/brand-archetype-guide-template
+    registry: data/registries/brand-decisions-log
+
+  brand-voice-development:
+    agents: [donald-miller, emily-heyward, brand-chief]
+    frameworks:
+      - verbal-identity-system
+      - brand-lexicon-framework
+    checklists:
+      - brand-voice-quality
+      - miller/messaging-clarity-audit
+    templates:
+      - identity/brand-voice-guide-template
+    registry: data/registries/brand-decisions-log
+
+  visual-identity-direction:
+    agents: [alina-wheeler, emily-heyward, brand-chief]
+    frameworks:
+      - wheeler-brand-identity-process
+      - heyward-obviousness-method
+      - identity-layer
+    checklists:
+      - wheeler/identity-system-audit
+      - visual-identity-quality
+    templates:
+      - briefs/identity-design-brief
+    registry: data/registries/distinctive-assets-registry
+
+  brand-guidelines-creation:
+    agents: [alina-wheeler, emily-heyward, brand-chief]
+    frameworks:
+      - wheeler-brand-identity-process
+      - heyward-obviousness-method
+    checklists:
+      - wheeler/identity-system-audit
+      - wheeler/brand-guidelines-audit
+      - brand-guidelines-quality
+    templates:
+      - brand-guidelines/brand-book-template
+    registry: data/registries/brand-touchpoints-registry
+
+  brand-story-manifesto:
+    agents: [donald-miller, emily-heyward, brand-chief]
+    frameworks:
+      - brand-storytelling-framework
+      - miller-storybrand-sb7
+    checklists:
+      - brand-narrative-quality
+    templates:
+      - identity/brand-story-template
+      - strategy/brand-manifesto-template
+    registry: data/registries/brand-decisions-log
+
+  verbal-identity-development:
+    agents: [naming-strategist, donald-miller, brand-chief]
+    frameworks:
+      - verbal-identity-system
+      - brand-lexicon-framework
+      - tagline-architecture
+    checklists:
+      - brand-voice-quality
+      - naming-quality
+    templates:
+      - identity/verbal-identity-template
+    registry: data/registries/brand-decisions-log
+
+  domain-scouting:
+    agents: [domain-scout, naming-strategist]
+    frameworks:
+      - domain-heuristics
+    checklists:
+      - domains/domain-screening-checklist
+      - domains/handle-availability-checklist
+      - domain-quality
+    templates:
+      - briefs/domain-scout-brief
+    registry: data/registries/naming-registry
+
+  # ──────────────────────────────────────
+  # IMPLEMENTATION TASKS
+  # ──────────────────────────────────────
+  internal-training:
+    agents: [denise-yohn, brand-chief]
+    frameworks:
+      - yohn-brand-as-business
+      - yohn-fusion
+      - activation-layer
+    checklists:
+      - yohn/brand-as-business-audit
+      - internal-rollout-quality
+    templates:
+      - rollout/internal-rollout-playbook
+      - rollout/brand-ambassador-guide
+    registry: data/registries/brand-touchpoints-registry
+
+  touchpoint-migration:
+    agents: [alina-wheeler, brand-chief]
+    frameworks:
+      - brand-experience-map
+      - brand-consistency-model
+    checklists:
+      - wheeler/brand-touchpoints-audit
+      - brand-guidelines-quality
+    templates:
+      - rollout/touchpoint-migration-plan
+    registry: data/registries/brand-touchpoints-registry
+
+  launch-coordination:
+    agents: [brand-chief, emily-heyward]
+    frameworks:
+      - activation-layer
+    checklists:
+      - heyward/brand-launch-readiness-audit
+      - internal-rollout-quality
+    templates:
+      - rollout/brand-launch-plan-template
+    registry: data/registries/brand-decisions-log
+
+  partner-alignment:
+    agents: [brand-chief, alina-wheeler]
+    frameworks:
+      - brand-governance-model
+    checklists:
+      - co-branding-quality
+    templates:
+      - rollout/partner-brand-usage-guide
+    registry: data/registries/brand-decisions-log
+
+  # ──────────────────────────────────────
+  # REVIEW TASKS
+  # ──────────────────────────────────────
+  strategy-review:
+    agents: [brand-chief, david-aaker, al-ries]
+    frameworks:
+      - aaker-brand-identity-system
+      - ries-positioning
+    checklists:
+      - brand-strategy-quality
+      - positioning-quality
+    templates: []
+    registry: data/registries/brand-decisions-log
+
+  identity-review:
+    agents: [brand-chief, alina-wheeler, emily-heyward]
+    frameworks:
+      - wheeler-brand-identity-process
+      - heyward-obviousness-method
+    checklists:
+      - visual-identity-quality
+      - brand-guidelines-quality
+    templates: []
+    registry: data/registries/brand-decisions-log
+
+  consistency-review:
+    agents: [brand-chief, byron-sharp, alina-wheeler]
+    frameworks:
+      - brand-consistency-model
+      - distinctive-assets-system
+    checklists:
+      - distinctive-assets-quality
+      - brand-guidelines-quality
+    templates:
+      - analysis/brand-audit-report-template
+    registry: data/registries/brand-violations-log
+
+  naming-review:
+    agents: [naming-strategist, brand-chief]
+    frameworks:
+      - naming-systems
+      - naming-decision-matrix
+    checklists:
+      - naming-quality
+      - naming/naming-legal-screening-checklist
+    templates: []
+    registry: data/registries/naming-registry
+
+  messaging-review:
+    agents: [donald-miller, brand-chief]
+    frameworks:
+      - miller-storybrand-sb7
+      - messaging-house
+    checklists:
+      - brand-messaging-quality
+      - miller/messaging-clarity-audit
+    templates: []
+    registry: data/registries/brand-claims-registry
+
+  # ──────────────────────────────────────
+  # ANALYSIS TASKS
+  # ──────────────────────────────────────
+  brand-tracking-analysis:
+    agents: [byron-sharp, kevin-keller, brand-chief]
+    frameworks:
+      - brand-tracking-model
+      - measurement-layer
+    checklists:
+      - brand-tracking-quality
+      - sharp/mental-availability-audit
+    templates:
+      - measurement/brand-tracking-dashboard-template
+      - measurement/brand-health-scorecard-template
+    registry: data/metrics/brand-equity-score-history
+
+  distinctive-assets-recognition-analysis:
+    agents: [byron-sharp, brand-chief]
+    frameworks:
+      - distinctive-assets-system
+      - sharp-mental-availability
+    checklists:
+      - sharp/distinctive-assets-audit
+    templates:
+      - measurement/distinctive-assets-recognition-test
+    registry: data/registries/distinctive-assets-registry
+
+  brand-equity-valuation-analysis:
+    agents: [david-aaker, kevin-keller, brand-chief]
+    frameworks:
+      - brand-equity-valuation
+      - aaker-brand-equity-model
+      - keller-cbbe-pyramid
+    checklists:
+      - aaker/aaker-equity-audit
+      - keller/cbbe-pyramid-audit
+    templates: []
+    registry: data/metrics/brand-equity-score-history
+
+  competitor-brand-shifts:
+    agents: [al-ries, byron-sharp, brand-chief]
+    frameworks:
+      - competitive-framing
+      - ries-positioning
+    checklists: []
+    templates:
+      - analysis/competitive-brand-analysis-template
+    registry: data/research/competitor-research
+
+  # ──────────────────────────────────────
+  # OPERATIONS TASKS
+  # ──────────────────────────────────────
+  update-brand-guidelines:
+    agents: [alina-wheeler, brand-chief]
+    frameworks:
+      - wheeler-brand-identity-process
+    checklists:
+      - wheeler/brand-guidelines-audit
+      - brand-guidelines-quality
+    templates:
+      - brand-guidelines/brand-book-template
+    registry: data/registries/brand-touchpoints-registry
+
+  maintain-distinctive-assets-registry:
+    agents: [byron-sharp, brand-chief]
+    frameworks:
+      - distinctive-assets-system
+    checklists:
+      - sharp/distinctive-assets-audit
+    templates: []
+    registry: data/registries/distinctive-assets-registry
+
+  quarterly-brand-review:
+    agents: [brand-chief, david-aaker, byron-sharp, kevin-keller]
+    frameworks:
+      - brand-tracking-model
+      - aaker-brand-equity-model
+      - measurement-layer
+    checklists:
+      - brand-tracking-quality
+      - brand-strategy-quality
+    templates:
+      - measurement/brand-health-scorecard-template
+    registry: data/registries/brand-decisions-log
+
+  cross-squad-brand-sync:
+    agents: [brand-chief]
+    frameworks:
+      - brand-governance-model
+    checklists: []
+    templates: []
+    registry: data/registries/brand-decisions-log
+
+# ============================================================
+# CROSS-SQUAD INTEGRATION
+# ============================================================
+cross_squad:
+  copy:
+    handoff_from_brand:
+      - "brand-voice-guide → copy/voice/brand-voices/"
+      - "positioning-statement → copy/reference/"
+      - "messaging-house → copy/frameworks/"
+      - "brand-archetypes → copy/voice/"
+    shared_assets:
+      - phrases/tone-words-allowed
+      - phrases/tone-words-forbidden
+      - phrases/brand-descriptors-library
+
+# ============================================================
+# DEFAULTS
+# ============================================================
+defaults:
+  review_agent: brand-chief
+  min_checklists: 1
+  registry_on_completion: true
+  output_format: markdown
+  language: "pt-BR"
