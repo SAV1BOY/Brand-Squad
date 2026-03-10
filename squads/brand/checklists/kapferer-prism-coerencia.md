@@ -1,20 +1,20 @@
-# Kapferer Prism Coerencia
-> Checklist de validacao baseado nos principios de Jean-Noel Kapferer
+# Coerencia do Prisma de Identidade
+> Coerencia do prisma per Kapferer
 
 ---
 
 ## Criterios
 
-- [ ] **Prisma completo:** Todas as 6 facetas do Brand Identity Prism estao definidas e documentadas
-- [ ] **Coerencia interna:** As facetas do prisma nao se contradizem entre si
-- [ ] **Emissor-receptor:** Ha clareza sobre o que a marca projeta (physique, personality, culture) vs como o consumidor recebe (reflection, self-image, relationship)
-- [ ] **Diferenciacao:** A identidade definida e distinguivel dos concorrentes na categoria
-- [ ] **Consistencia temporal:** A identidade se mantem coerente ao longo do tempo sem estagnar
-- [ ] **Extensibilidade:** A identidade suporta extensoes futuras sem perder essencia
-- [ ] **Autenticidade:** Cada faceta reflete a verdade da marca, nao uma aspiracao desconectada
-- [ ] **Relevancia cultural:** A dimensao Culture do prisma conecta com valores reais da organizacao
-- [ ] **Clareza de relacionamento:** O tipo de relacao marca-consumidor esta explicitamente definido
-- [ ] **Provas tangiveis:** Cada elemento da identidade tem evidencias concretas que o sustentam
+- [ ] **Fisico definido:** Atributos tangiveis e caracteristicas visuais da marca estao claros e documentados
+- [ ] **Personalidade articulada:** Tracos de carater e tom de voz da marca estao definidos com exemplos
+- [ ] **Cultura expressa:** Valores e sistema de crencas da marca estao explicitados e vivenciados
+- [ ] **Relacao caracterizada:** Tipo de relacao que a marca estabelece com seu publico esta definido
+- [ ] **Reflexo coerente:** Imagem do usuario tipico que a marca projeta esta alinhada com publico-alvo
+- [ ] **Mentalizacao definida:** Autoimagem que o consumidor busca ao usar a marca esta identificada
+- [ ] **Facetas inter-relacionadas:** As seis facetas do prisma se complementam sem contradicoes
+- [ ] **Coerencia emissor-receptor:** Facetas do emissor harmonizam com facetas do receptor
+- [ ] **Coerencia externalizacao-internalizacao:** Facetas externas harmonizam com facetas internas
+- [ ] **Prisma guia decisoes:** O prisma e efetivamente usado como ferramenta de decisao em projetos de marca
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Faixa | Resultado |
 |-------|-----------|
-| 90-100% | Excelente — identidade robusta e coerente |
-| 70-89% | Bom — pequenos ajustes necessarios |
-| 50-69% | Necessita melhorias significativas |
-| < 50% | Critico — revisao completa necessaria |
+| 90-100% | Excelente |
+| 70-89% | Bom |
+| 50-69% | Necessita melhorias |
+| < 50% | Critico |

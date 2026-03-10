@@ -1,5 +1,5 @@
-# Ladder de Posicionamento
-> O framework que escala a comunicacao de marca de atributos tangíveis ate crencas profundas — feature, beneficio, valor, crenca.
+# Escada de Posicionamento
+> O framework que escala a comunicacao de marca de atributos tangiveis ate crencas profundas — feature, beneficio, valor, crenca.
 
 ---
 
@@ -47,38 +47,19 @@ O framework baseia-se na teoria de Means-End Chain (Gutman, 1982) e foi populari
          └───────────┘
 ```
 
-### Exemplo Preenchido (Nike)
-
-```
-         ┌──────────────────────┐
-         │ CRENCA: Qualquer     │
-         │ pessoa pode ser      │
-         │ atleta. Grandeza nao │
-         │ e para poucos.       │
-         └──────────┬───────────┘
-         ┌──────────┴───────────┐
-         │ VALOR: Superacao     │
-         │ pessoal, coragem de  │
-         │ tentar               │
-         └──────────┬───────────┘
-         ┌──────────┴───────────┐
-         │ BENEFICIO: Me sinto  │
-         │ motivado e capaz     │
-         │ de performar melhor  │
-         └──────────┬───────────┘
-         ┌──────────┴───────────┐
-         │ FEATURE: Tecnologia  │
-         │ Air, Flyknit,        │
-         │ amortecimento        │
-         └──────────────────────┘
-```
+| Nivel | Pergunta-Chave | Exemplo (Nike) | Tipo de Conexao |
+|-------|---------------|----------------|-----------------|
+| Crenca | "Acreditamos que..." | Qualquer pessoa pode ser atleta | Emocional profunda |
+| Valor | "Importa porque..." | Superacao pessoal, coragem | Emocional |
+| Beneficio | "Me ajuda a..." | Me sinto motivado e capaz | Funcional/emocional |
+| Feature | "O produto tem..." | Tecnologia Air, Flyknit | Racional |
 
 ---
 
 ## Como Aplicar (Passo a Passo)
 
 ### Passo 1: Listar Features
-Enumere todos os atributos tangíveis e objetivos do produto/servico. Materiais, tecnologias, especificacoes, processos.
+Enumere todos os atributos tangiveis e objetivos do produto/servico. Materiais, tecnologias, especificacoes, processos.
 
 ### Passo 2: Traduzir em Beneficios
 Para cada feature, pergunte "e dai? O que isso FAZ pelo consumidor?". Separe beneficios funcionais (o que resolve) de emocionais (como faz sentir).
@@ -93,7 +74,7 @@ Identifique a crenca sobre o mundo que a marca representa. "Acreditamos que...".
 Determine em qual nivel a marca deve ANCORAR sua comunicacao primaria. Marcas de commodity ancoram embaixo; marcas aspiracionais, em cima. Mas toda comunicacao deve ter um "fio" conectando todos os niveis.
 
 ### Passo 6: Validar a Escada
-Teste se cada degrau se conecta logicamente ao seguinte. Se houver um salto logico ("de onde veio isso?"), a escada nao esta solida.
+Teste se cada degrau se conecta logicamente ao seguinte. Se houver um salto logico, a escada nao esta solida.
 
 ---
 
@@ -106,23 +87,17 @@ Teste se cada degrau se conecta logicamente ao seguinte. Se houver um salto logi
 - **Crenca:** Beleza real e diversa; toda mulher e bonita como e
 
 ### Exemplo 2: Volvo
-- **Feature:** Estrutura reforçada, airbags multiplos, sensores
+- **Feature:** Estrutura reforcada, airbags multiplos, sensores
 - **Beneficio:** Protecao maxima em caso de acidente
 - **Valor:** Seguranca da familia, tranquilidade
 - **Crenca:** A vida das pessoas e o valor mais importante de qualquer decisao
-
-### Exemplo 3: Spotify
-- **Feature:** Algoritmo de recomendacao, 100M+ de musicas
-- **Beneficio:** Descobre musica nova que combina com voce
-- **Valor:** Auto-expressao, identidade pessoal
-- **Crenca:** A musica certa no momento certo pode transformar qualquer experiencia
 
 ---
 
 ## Erros Comuns
 
 1. **Ficar preso no atributo:** Comunicacao que so fala de features e commodity messaging. Nao cria conexao emocional.
-2. **Pular direto para a crenca:** Falar de proposito sem lastro em beneficios reais gera desconfianca e cynismo ("purpose-washing").
+2. **Pular direto para a crenca:** Falar de proposito sem lastro em beneficios reais gera desconfianca e cinismo ("purpose-washing").
 3. **Escada desconectada:** Cada degrau precisa se conectar logicamente ao proximo. Se a crenca nao se sustenta nos atributos, e aspiracional demais.
 4. **Crencas genericas:** "Acreditamos em um mundo melhor" nao e crenca de marca, e cliche. A crenca deve ser especifica e contestavel.
 5. **Mesmo nivel para todos os touchpoints:** Anuncios podem operar em crenca; pagina de produto deve descer para features. O nivel varia por contexto.
@@ -137,7 +112,6 @@ Teste se cada degrau se conecta logicamente ao seguinte. Se houver um salto logi
 | StoryBrand SB7 | Complementar | Ladder informa a "transformation" do heroi no SB7 (de feature a crenca) |
 | Onlyness Statement | Complementar | Onlyness opera no nivel de crenca/valor; Ladder mostra o caminho ate la |
 | Brand Archetypes | Complementar | Arquetipo informa o TOM da subida; Ladder informa o CONTEUDO |
-| Teste Palavra Unica | Dependente | A palavra unica geralmente captura o Valor ou a Crenca do topo da ladder |
 
 ---
 

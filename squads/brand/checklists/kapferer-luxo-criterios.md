@@ -1,20 +1,20 @@
-# Kapferer Luxo Criterios
-> Checklist de validacao baseado nos principios de Jean-Noel Kapferer
+# Criterios de Marca de Luxo
+> Criterios de marca de luxo per Kapferer
 
 ---
 
 ## Criterios
 
-- [ ] **Prisma completo:** Todas as 6 facetas do Brand Identity Prism estao definidas e documentadas
-- [ ] **Coerencia interna:** As facetas do prisma nao se contradizem entre si
-- [ ] **Emissor-receptor:** Ha clareza sobre o que a marca projeta (physique, personality, culture) vs como o consumidor recebe (reflection, self-image, relationship)
-- [ ] **Diferenciacao:** A identidade definida e distinguivel dos concorrentes na categoria
-- [ ] **Consistencia temporal:** A identidade se mantem coerente ao longo do tempo sem estagnar
-- [ ] **Extensibilidade:** A identidade suporta extensoes futuras sem perder essencia
-- [ ] **Autenticidade:** Cada faceta reflete a verdade da marca, nao uma aspiracao desconectada
-- [ ] **Relevancia cultural:** A dimensao Culture do prisma conecta com valores reais da organizacao
-- [ ] **Clareza de relacionamento:** O tipo de relacao marca-consumidor esta explicitamente definido
-- [ ] **Provas tangiveis:** Cada elemento da identidade tem evidencias concretas que o sustentam
+- [ ] **Heranca e historia:** Marca possui narrativa de origem autentica e patrimonio historico valorizado
+- [ ] **Artesanalidade ou savoir-faire:** Produto ou servico demonstra maestria, qualidade excepcional ou exclusividade de producao
+- [ ] **Escassez estrategica:** Disponibilidade e controlada para preservar desejabilidade e exclusividade
+- [ ] **Preco como sinal de valor:** Preco premium e parte da identidade e comunica qualidade superior
+- [ ] **Experiencia sensorial elevada:** Todos os pontos de contato oferecem experiencia estetica superior
+- [ ] **Dream value cultivado:** Marca alimenta aspiracao e desejo mesmo entre nao-compradores
+- [ ] **Relacao com arte e cultura:** Marca se associa com expressoes culturais e artisticas elevadas
+- [ ] **Controle de distribuicao:** Canais de venda sao selecionados e controlados para preservar imagem
+- [ ] **Comunicacao nao-promocional:** Marca comunica universo e valores, nao descontos ou promocoes
+- [ ] **Temporalidade longa:** Marca valoriza permanencia e atemporalidade sobre tendencias efemeras
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Faixa | Resultado |
 |-------|-----------|
-| 90-100% | Excelente — identidade robusta e coerente |
-| 70-89% | Bom — pequenos ajustes necessarios |
-| 50-69% | Necessita melhorias significativas |
-| < 50% | Critico — revisao completa necessaria |
+| 90-100% | Excelente |
+| 70-89% | Bom |
+| 50-69% | Necessita melhorias |
+| < 50% | Critico |
