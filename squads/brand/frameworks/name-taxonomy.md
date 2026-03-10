@@ -1,71 +1,117 @@
 # Name Taxonomy
-> Framework estrategico para gestao e construcao de marca
+> Framework para classificar tipos de nomes de marca — do descritivo ao abstrato — e escolher a estrategia de naming adequada.
 
 ---
 
 ## Definicao
 
-Este framework oferece uma abordagem estruturada para um aspecto critico da gestao de marca. Ele integra principios de multiplos autores de referencia (Aaker, Keller, Kapferer, Sharp, Neumeier, Miller, Wheeler, Ries, Heyward, Yohn) para fornecer uma ferramenta pratica e acionavel.
+A Name Taxonomy e um framework de classificacao que organiza nomes de marca em categorias distintas segundo seu grau de descritibilidade, origem linguistica e relacao com o produto/servico. O framework identifica 7 tipos principais de nomes, cada um com vantagens e desvantagens distintas em termos de comunicacao, registrabilidade, flexibilidade e custo de construcao.
 
-O objetivo e transformar conceitos estrategicos em acoes concretas, mensuráveis e consistentes, garantindo que cada decisao de marca seja fundamentada e documentada.
+A taxonomia serve como ferramenta de decisao estrategica no inicio do processo de naming: antes de gerar candidatos, a equipe deve decidir QUAL TIPO de nome buscar, pois cada tipo implica uma estrategia de comunicacao e investimento diferente. Nomes descritivos comunicam imediatamente mas sao dificeis de registrar. Nomes abstratos sao facilmente registraveis mas exigem investimento massivo para criar significado.
 
 ---
 
 ## Quando Usar
 
-- Para estruturar decisoes estrategicas de marca com rigor metodologico
-- Para garantir consistencia entre diferentes elementos e touchpoints da marca
-- Para diagnosticar gaps e oportunidades na gestao de marca
-- Para alinhar equipes internas em torno de uma direcao clara
+- Inicio do processo de naming (decisao estrategica de tipo)
+- Briefing para equipe criativa de naming
+- Analise do portfolio de nomes da empresa
+- Educacao de stakeholders sobre opcoes de naming
+- Benchmark de naming na categoria
 
 ---
 
 ## Estrutura / Modelo
 
-| Dimensao | Input | Processo | Output |
-|----------|-------|----------|--------|
-| **Diagnostico** | Estado atual da marca | Analise e mapeamento | Gap analysis |
-| **Estrategia** | Objetivos e contexto | Definicao e priorizacao | Plano estrategico |
-| **Execucao** | Plano aprovado | Implementacao coordenada | Entregaveis |
-| **Mensuracão** | KPIs definidos | Monitoramento continuo | Ajustes |
+```
+ESPECTRO DE NAMING
+Descritivo ◄──────────────────────────────► Abstrato
+
+┌──────────┬────────────┬──────────┬──────────┬──────────┬──────────┬──────────┐
+│DESCRITIVO│SUGESTIVO   │ACRONIMO  │REAL WORD │NEOLOGISMO│FOUNDERS  │ABSTRATO  │
+│          │            │          │(Metafora)│          │          │(Inventado│
+│PayPal    │Pinterest   │IBM       │Apple     │Kodak     │Ford      │Xerox     │
+│YouTube   │Instagram   │BMW       │Amazon    │Spotify   │Chanel    │Haagen-D  │
+│General   │Slack       │H&M       │Shell     │Accenture │Tesla     │Exxon     │
+│Electric  │Duolingo    │UBS       │Jaguar    │Verizon   │Adidas    │Zynga     │
+└──────────┴────────────┴──────────┴──────────┴──────────┴──────────┴──────────┘
+
+FACILIDADE DE COMUNICACAO:  ALTA ◄───────────────────────────► BAIXA
+FACILIDADE DE REGISTRO:     BAIXA ◄──────────────────────────► ALTA
+FLEXIBILIDADE FUTURA:       BAIXA ◄──────────────────────────► ALTA
+INVESTIMENTO NECESSARIO:    BAIXO ◄──────────────────────────► ALTO
+```
+
+### Comparativo Detalhado
+
+```
+┌──────────────┬──────────┬──────────┬──────────┬──────────┐
+│ TIPO         │Comunica- │Registra- │Flexibi-  │Investim. │
+│              │cao       │bilidade  │lidade    │Necessario│
+├──────────────┼──────────┼──────────┼──────────┼──────────┤
+│ Descritivo   │ ★★★★★   │ ★        │ ★        │ ★        │
+│ Sugestivo    │ ★★★★    │ ★★★      │ ★★★      │ ★★       │
+│ Acronimo     │ ★★       │ ★★       │ ★★★★    │ ★★★      │
+│ Real Word    │ ★★★      │ ★★       │ ★★★★    │ ★★★      │
+│ Neologismo   │ ★★       │ ★★★★★   │ ★★★★★   │ ★★★★    │
+│ Founders     │ ★★       │ ★★★★    │ ★★★      │ ★★★      │
+│ Abstrato     │ ★        │ ★★★★★   │ ★★★★★   │ ★★★★★   │
+└──────────────┴──────────┴──────────┴──────────┴──────────┘
+```
 
 ---
 
 ## Como Aplicar (Passo a Passo)
 
-### Passo 1: Diagnostico
-Avalie o estado atual usando dados quantitativos e qualitativos. Mapeie pontos fortes, fracos e gaps.
+### Passo 1: Diagnosticar o Contexto
+Avalie: orcamento para construcao de marca, necessidade de comunicacao imediata, ambicao de extensoes futuras, complexidade do registro na categoria.
 
-### Passo 2: Definicao Estrategica
-Com base no diagnostico, defina objetivos claros, priorizados e mensuráveis.
+### Passo 2: Escolher o Tipo Estrategico
+Com base no diagnostico, selecione 1-2 tipos de nome prioritarios. Startups com budget limitado tendem a sugestivos. Marcas globais com budget alto podem ir ao abstrato.
 
-### Passo 3: Design da Solucao
-Projete a solucao integrando frameworks complementares conforme o contexto.
+### Passo 3: Briefar a Geracao
+Informe a equipe criativa sobre o tipo escolhido com exemplos claros e criterios de avaliacao especificos para aquele tipo.
 
-### Passo 4: Implementacao
-Execute o plano com checkpoints e gates de qualidade em cada etapa.
+### Passo 4: Gerar dentro do Tipo
+Use ferramentas especificas para cada tipo: Morpheme Builder para neologismos, metaforas visuais para real words, brainstorm de prefixos/sufixos para sugestivos.
 
-### Passo 5: Mensuracão e Ajuste
-Monitore KPIs definidos e ajuste a abordagem com base em resultados reais.
+### Passo 5: Avaliar com Criterios do Tipo
+Nomes descritivos devem ser avaliados em clareza; sugestivos em sugestao; abstratos em sound symbolism e memorabilidade. Criterios variam por tipo.
+
+### Passo 6: Validar Escolha Final
+Submeta o nome escolhido ao Name Scoring e Linguistic Stress Test para validacao completa.
 
 ---
 
 ## Exemplos de Aplicacao
 
-### Exemplo 1: Aplicacao em Startup
-Para uma marca nova, o framework ajuda a estruturar decisoes desde o naming ate o lancamento, garantindo coerencia desde o dia zero.
+### Exemplo 1: Startup de educacao infantil
+- **Contexto:** Budget baixo, precisa comunicar rapidamente, mercado local
+- **Tipo escolhido:** Sugestivo
+- **Raciocinio:** Sugere o beneficio sem descrever literalmente, registravel, memorable
+- **Exemplo:** "Brincamente" (sugere brincadeira + mente/aprendizado)
 
-### Exemplo 2: Aplicacao em Rebranding
-Para uma marca estabelecida em reposicionamento, o framework diagnostica gaps entre percepçao atual e desejada, e estrutura o plano de transicao.
+### Exemplo 2: Plataforma global de tecnologia
+- **Contexto:** Budget alto, ambicao global, categoria ampla
+- **Tipo escolhido:** Neologismo
+- **Raciocinio:** Maximo registro global, flexibilidade para extensoes, territorialidade
+- **Exemplo:** "Zenvox" (zen + vox, sugere clareza e voz sem descrever)
+
+### Exemplo 3: Marca de luxo de moda
+- **Contexto:** Heritage importa, aspiracional, mercado premium
+- **Tipo escolhido:** Founders
+- **Raciocinio:** Nome do fundador carrega autenticidade e historia
+- **Exemplo:** Nomes proprios como estrategia de marca de luxo
 
 ---
 
 ## Erros Comuns
 
-1. **Pular o diagnostico:** Ir direto para execucao sem entender o estado atual leva a solucoes desconectadas
-2. **Ausência de metricas:** Sem KPIs claros, e impossivel avaliar se o framework esta funcionando
-3. **Aplicacao isolada:** Cada framework funciona melhor quando integrado com outros complementares
-4. **Rigidez excessiva:** O framework e um guia, nao uma camisa de forca — adapte ao contexto
+1. **Misturar tipos no portfolio sem intencao:** Se a marca mae e neologismo e os produtos sao descritivos, pode haver incoerencia. Alinhe a taxonomia com a arquitetura.
+2. **Escolher descritivo por seguranca:** Nomes descritivos parecem seguros mas limitam extensao e sao quase impossiveis de registrar como marca.
+3. **Escolher abstrato sem budget:** Nomes abstratos so funcionam com investimento massivo e consistente para criar significado.
+4. **Ignorar o contexto cultural:** Acronimos funcionam melhor em culturas anglo-saxas; nomes de fundadores, em culturas latinas e de luxo.
+5. **Nao considerar SEO:** Nomes descritivos tem vantagem em busca organica; abstratos precisam dominar o nome no Google.
 
 ---
 
@@ -73,16 +119,15 @@ Para uma marca estabelecida em reposicionamento, o framework diagnostica gaps en
 
 | Framework | Relacao | Como Conectam |
 |-----------|---------|---------------|
-| Brand Identity System (Aaker) | Complementar | Fornece a base de identidade para aplicacao |
-| CBBE Pyramid (Keller) | Complementar | Mede o impacto no equity do consumidor |
-| Brand Identity Prism (Kapferer) | Complementar | Codifica a identidade em 6 facetas |
-| Mental Availability (Sharp) | Validacao | Valida se as acoes geram saliencia real |
+| Morpheme Builder | Dependente | Builder e a ferramenta de geracao para o tipo "neologismo" |
+| SMILE & SCRATCH | Complementar | SMILE/SCRATCH avalia independente do tipo; Taxonomy define qual tipo buscar |
+| Name Scoring | Sequencial | Scoring avalia candidatos; Taxonomy decide que tipo de candidato gerar |
+| Naming-Verbal Identity | Contextual | O tipo de nome escolhido impacta toda a identidade verbal |
+| Shortlist Methodology | Sequencial | Taxonomy informa os criterios de filtro da shortlist |
 
 ---
 
 ## Referencias
 
-- Aaker, D. (1996). *Building Strong Brands*. Free Press.
-- Keller, K.L. (2013). *Strategic Brand Management*. 4th ed. Pearson.
-- Kapferer, J.N. (2012). *The New Strategic Brand Management*. Kogan Page.
-- Sharp, B. (2010). *How Brands Grow*. Oxford University Press.
+- Rivkin, S. & Sutherland, F. (2004). *The Making of a Name*. Oxford University Press.
+- Watkins, A. (2019). *Hello, My Name Is Awesome*. Berrett-Koehler.
