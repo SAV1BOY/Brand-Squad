@@ -1,71 +1,143 @@
-# Cinco Disciplinas Audit
-> Framework estrategico para gestao e construcao de marca
+# Auditoria das Cinco Disciplinas de Branding (Neumeier)
+> Framework de auditoria baseado nas cinco disciplinas de Marty Neumeier para construcao de marca.
 
 ---
 
 ## Definicao
 
-Este framework oferece uma abordagem estruturada para um aspecto critico da gestao de marca. Ele integra principios de multiplos autores de referencia (Aaker, Keller, Kapferer, Sharp, Neumeier, Miller, Wheeler, Ries, Heyward, Yohn) para fornecer uma ferramenta pratica e acionavel.
+A Auditoria das Cinco Disciplinas avalia a competencia de uma organizacao nas cinco disciplinas essenciais de branding definidas por Marty Neumeier em *The Brand Gap*: Diferenciar, Colaborar, Inovar, Validar e Cultivar. Neumeier argumenta que marcas fortes sao construidas por organizacoes que dominam TODAS as cinco — fraqueza em qualquer disciplina compromete o todo.
 
-O objetivo e transformar conceitos estrategicos em acoes concretas, mensuráveis e consistentes, garantindo que cada decisao de marca seja fundamentada e documentada.
+Diferenciar: capacidade de se destacar em mercado lotado. Colaborar: capacidade de construir marca com equipes multidisciplinares (nao so marketing). Inovar: disposicao para tomar riscos criativos e desafiar convencoes. Validar: disciplina de testar ideias com publico real antes de escalar. Cultivar: consistencia e gestao da marca ao longo do tempo.
+
+O audit diagnostica onde a organizacao e forte e onde precisa de investimento.
 
 ---
 
 ## Quando Usar
 
-- Para estruturar decisoes estrategicas de marca com rigor metodologico
-- Para garantir consistencia entre diferentes elementos e touchpoints da marca
-- Para diagnosticar gaps e oportunidades na gestao de marca
-- Para alinhar equipes internas em torno de uma direcao clara
+- Diagnostico organizacional de capacidade de branding
+- Planejamento de investimento em equipe e processos de marca
+- Quando a marca nao evolui apesar de investimento em comunicacao
+- Onboarding de nova lideranca de marketing ou branding
+- Avaliacao comparativa entre unidades de negocio
 
 ---
 
 ## Estrutura / Modelo
 
-| Dimensao | Input | Processo | Output |
-|----------|-------|----------|--------|
-| **Diagnostico** | Estado atual da marca | Analise e mapeamento | Gap analysis |
-| **Estrategia** | Objetivos e contexto | Definicao e priorizacao | Plano estrategico |
-| **Execucao** | Plano aprovado | Implementacao coordenada | Entregaveis |
-| **Mensuracão** | KPIs definidos | Monitoramento continuo | Ajustes |
+```
+┌─────────────────────────────────────────────────┐
+│    AUDITORIA DAS 5 DISCIPLINAS (NEUMEIER)       │
+├─────────────────────────────────────────────────┤
+│                                                 │
+│     DIFERENCIAR ─────── Score: __/10            │
+│          │                                      │
+│          ▼                                      │
+│     COLABORAR ───────── Score: __/10            │
+│          │                                      │
+│          ▼                                      │
+│     INOVAR ─────────── Score: __/10             │
+│          │                                      │
+│          ▼                                      │
+│     VALIDAR ────────── Score: __/10             │
+│          │                                      │
+│          ▼                                      │
+│     CULTIVAR ───────── Score: __/10             │
+│                                                 │
+│  SCORE TOTAL: __/50                             │
+│                                                 │
+│  40-50: Organizacao brand-driven                │
+│  30-39: Boa base, gaps especificos              │
+│  20-29: Capacidade limitada de branding         │
+│  < 20: Branding nao e competencia organizacional│
+│                                                 │
+└─────────────────────────────────────────────────┘
+```
+
+### Checklist por Disciplina
+
+```
+  DIFERENCIAR                               │ S/N
+  ──────────────────────────────────────────┼────
+  A marca tem posicionamento claro e unico? │
+  Consumidores articulam o diferencial?     │
+  A marca ocupa uma "palavra" na mente?     │
+  Ha diferenciacao real (nao so percebida)?  │
+  A categoria e claramente definida?        │
+
+  COLABORAR                                 │ S/N
+  ──────────────────────────────────────────┼────
+  Equipes multidisciplinares constroem marca│
+  Design tem assento na mesa estrategica?   │
+  Ha processo de co-criacao estruturado?    │
+  Agencias sao parceiras, nao fornecedoras? │
+  Silos entre areas nao bloqueiam a marca?  │
+
+  INOVAR                                    │ S/N
+  ──────────────────────────────────────────┼────
+  A marca toma riscos criativos calculados? │
+  Ha espaco para experimentacao?            │
+  Ideias "loucas" sao ouvidas?              │
+  A marca surpreende o mercado?             │
+  Convencoes da categoria sao desafiadas?   │
+
+  VALIDAR                                   │ S/N
+  ──────────────────────────────────────────┼────
+  Ideias sao testadas antes de escalar?     │
+  Ha processo de prototipagem de marca?     │
+  Feedback do consumidor e coletado?        │
+  Metricas de marca sao acompanhadas?       │
+  Decisoes sao baseadas em dados + intuicao?│
+
+  CULTIVAR                                  │ S/N
+  ──────────────────────────────────────────┼────
+  Ha brand guidelines documentados?         │
+  A marca e consistente nos touchpoints?    │
+  Existe processo de governanca?            │
+  A marca evolui sem perder essencia?       │
+  Ha brand steward com autoridade?          │
+```
 
 ---
 
 ## Como Aplicar (Passo a Passo)
 
-### Passo 1: Diagnostico
-Avalie o estado atual usando dados quantitativos e qualitativos. Mapeie pontos fortes, fracos e gaps.
+### Passo 1: Selecionar Avaliadores
+Escolha 5-10 pessoas de diferentes areas (marketing, produto, design, vendas, lideranca) para avaliar. Diversidade de perspectiva e essencial.
 
-### Passo 2: Definicao Estrategica
-Com base no diagnostico, defina objetivos claros, priorizados e mensuráveis.
+### Passo 2: Aplicar Checklist
+Cada avaliador responde o checklist independentemente. Respostas "Sim" = 2 pontos, "Parcialmente" = 1 ponto, "Nao" = 0 pontos.
 
-### Passo 3: Design da Solucao
-Projete a solucao integrando frameworks complementares conforme o contexto.
+### Passo 3: Calcular Scores por Disciplina
+Faca a media dos avaliadores para cada disciplina. Cada disciplina tem maximo de 10 pontos (5 perguntas x 2 pontos).
 
-### Passo 4: Implementacao
-Execute o plano com checkpoints e gates de qualidade em cada etapa.
+### Passo 4: Visualizar o Perfil
+Plote os scores em grafico radar. O perfil ideal e equilibrado (todas as disciplinas acima de 7). Desequilibrios revelam onde investir.
 
-### Passo 5: Mensuracão e Ajuste
-Monitore KPIs definidos e ajuste a abordagem com base em resultados reais.
+### Passo 5: Diagnosticar Causas
+Para cada disciplina com score abaixo de 6, investigue: falta de competencia? Falta de processo? Falta de cultura? A causa raiz define a solucao.
+
+### Passo 6: Plano de Desenvolvimento
+Crie plano com acoes especificas para fortalecer disciplinas fracas. Exemplo: Inovar fraco → criar "brand lab" para experimentacao; Validar fraco → implementar processo de teste com consumidores.
 
 ---
 
 ## Exemplos de Aplicacao
 
-### Exemplo 1: Aplicacao em Startup
-Para uma marca nova, o framework ajuda a estruturar decisoes desde o naming ate o lancamento, garantindo coerencia desde o dia zero.
+### Exemplo 1: Scale-up de Tecnologia
+Diferenciar: 8/10 (produto unico). Colaborar: 4/10 (marketing trabalha isolado). Inovar: 7/10 (cultura de experimentacao). Validar: 3/10 (nunca testa antes de lancar). Cultivar: 5/10 (guidelines existem mas ninguem segue). Prioridade: implementar processo de validacao e melhorar colaboracao cross-funcional.
 
-### Exemplo 2: Aplicacao em Rebranding
-Para uma marca estabelecida em reposicionamento, o framework diagnostica gaps entre percepçao atual e desejada, e estrutura o plano de transicao.
+### Exemplo 2: Empresa Familiar Tradicional
+Diferenciar: 5/10 (diferencial existe mas nao e articulado). Colaborar: 3/10 (decisoes centralizadas no fundador). Inovar: 2/10 (aversao total a risco). Validar: 6/10 (conhece bem o cliente por proximidade). Cultivar: 7/10 (consistencia por tradicao). Prioridade: desenvolver cultura de inovacao e colaboracao.
 
 ---
 
 ## Erros Comuns
 
-1. **Pular o diagnostico:** Ir direto para execucao sem entender o estado atual leva a solucoes desconectadas
-2. **Ausência de metricas:** Sem KPIs claros, e impossivel avaliar se o framework esta funcionando
-3. **Aplicacao isolada:** Cada framework funciona melhor quando integrado com outros complementares
-4. **Rigidez excessiva:** O framework e um guia, nao uma camisa de forca — adapte ao contexto
+1. **Avaliar so marketing:** As 5 disciplinas sao organizacionais, nao departamentais. A avaliacao deve incluir toda a empresa.
+2. **Focar na disciplina mais forte:** Organizacoes tendem a investir mais onde ja sao boas. O ganho marginal esta nas disciplinas mais fracas.
+3. **Confundir Inovar com tecnologia:** Inovacao em branding e criativa e estrategica, nao tecnologica. E sobre desafiar convencoes, nao implementar ferramentas.
+4. **Ignorar Cultivar:** A disciplina menos "glamourosa" mas a que sustenta tudo. Sem cultivo, as outras quatro se perdem no tempo.
 
 ---
 
@@ -73,16 +145,15 @@ Para uma marca estabelecida em reposicionamento, o framework diagnostica gaps en
 
 | Framework | Relacao | Como Conectam |
 |-----------|---------|---------------|
-| Brand Identity System (Aaker) | Complementar | Fornece a base de identidade para aplicacao |
-| CBBE Pyramid (Keller) | Complementar | Mede o impacto no equity do consumidor |
-| Brand Identity Prism (Kapferer) | Complementar | Codifica a identidade em 6 facetas |
-| Mental Availability (Sharp) | Validacao | Valida se as acoes geram saliencia real |
+| Brand Gap Analysis | Complementar | Gap Analysis mede percepcao; 5 Disciplinas medem capacidade organizacional |
+| Brand Idea Canvas | Dependente | A ideia precisa de organizacao com as 5 disciplinas para ser executada |
+| Ciclo de Governanca | Cultivo | Governanca e a operacionalizacao da disciplina Cultivar |
+| Auditoria de Coerencia | Validacao | Coerencia e resultado de Cultivar bem |
 
 ---
 
 ## Referencias
 
-- Aaker, D. (1996). *Building Strong Brands*. Free Press.
-- Keller, K.L. (2013). *Strategic Brand Management*. 4th ed. Pearson.
-- Kapferer, J.N. (2012). *The New Strategic Brand Management*. Kogan Page.
-- Sharp, B. (2010). *How Brands Grow*. Oxford University Press.
+- Neumeier, M. (2005). *The Brand Gap*. New Riders.
+- Neumeier, M. (2009). *The Designful Company*. New Riders.
+- Neumeier, M. (2009). *Zag*. New Riders.
