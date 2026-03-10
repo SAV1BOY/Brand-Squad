@@ -1,71 +1,131 @@
 # Morpheme Builder
-> Framework estrategico para gestao e construcao de marca
+> Framework para construir nomes de marca a partir de morfemas — as menores unidades de significado linguistico.
 
 ---
 
 ## Definicao
 
-Este framework oferece uma abordagem estruturada para um aspecto critico da gestao de marca. Ele integra principios de multiplos autores de referencia (Aaker, Keller, Kapferer, Sharp, Neumeier, Miller, Wheeler, Ries, Heyward, Yohn) para fornecer uma ferramenta pratica e acionavel.
+O Morpheme Builder e um framework de naming que utiliza morfemas (as menores unidades de significado em uma lingua) como blocos de construcao para criar nomes de marca com significado embutido. Em vez de inventar nomes do zero ou usar palavras existentes, o framework combina raizes, prefixos e sufixos de diferentes origens linguisticas para gerar nomes que SUGEREM significado sem declara-lo explicitamente.
 
-O objetivo e transformar conceitos estrategicos em acoes concretas, mensuráveis e consistentes, garantindo que cada decisao de marca seja fundamentada e documentada.
+Morfemas podem vir do latim (vit- = vida, sol- = sol), grego (neo- = novo, tech- = arte/habilidade), anglo-saxao (bright, swift), ou de qualquer lingua relevante para o mercado-alvo. A combinacao estrategica de morfemas cria nomes que sao simultaneamente novos (registraveis), sugestivos (carregam conotacao) e foneticamete trabalhados (soam bem).
+
+O framework e especialmente util para naming de marcas que precisam ser unicas (para registro), internacionais (funcionar cross-culturally) e semanticamente ricas (transmitir atributos da marca).
 
 ---
 
 ## Quando Usar
 
-- Para estruturar decisoes estrategicas de marca com rigor metodologico
-- Para garantir consistencia entre diferentes elementos e touchpoints da marca
-- Para diagnosticar gaps e oportunidades na gestao de marca
-- Para alinhar equipes internas em torno de uma direcao clara
+- Geracao de candidatos a nome de marca (fase divergente do naming)
+- Criacao de neologismos com significado embutido
+- Naming para marcas com ambicao internacional
+- Desenvolvimento de nomenclatura de produtos dentro de arquitetura de marca
+- Quando nomes descritivos ja estao registrados e nomes inventados puros sao muito abstratos
 
 ---
 
 ## Estrutura / Modelo
 
-| Dimensao | Input | Processo | Output |
-|----------|-------|----------|--------|
-| **Diagnostico** | Estado atual da marca | Analise e mapeamento | Gap analysis |
-| **Estrategia** | Objetivos e contexto | Definicao e priorizacao | Plano estrategico |
-| **Execucao** | Plano aprovado | Implementacao coordenada | Entregaveis |
-| **Mensuracão** | KPIs definidos | Monitoramento continuo | Ajustes |
+```
+┌────────────────────────────────────────────────┐
+│           MORPHEME BUILDER                     │
+├────────────────────────────────────────────────┤
+│                                                │
+│  BANCO DE MORFEMAS                             │
+│  ┌──────────┬──────────┬──────────┐            │
+│  │ PREFIXOS │ RAIZES   │ SUFIXOS  │            │
+│  │ neo-     │ -lux-    │ -ia      │            │
+│  │ ultra-   │ -vita-   │ -ify     │            │
+│  │ ever-    │ -terra-  │ -on      │            │
+│  │ zen-     │ -flow-   │ -ent     │            │
+│  │ omni-    │ -clear-  │ -eo      │            │
+│  └──────────┴──────────┴──────────┘            │
+│                                                │
+│  COMBINACAO                                    │
+│  Prefixo + Raiz + Sufixo = NOME               │
+│  ex: Lux + ent = Luxent                        │
+│  ex: Neo + vita = Neovita                      │
+│  ex: Clear + ify = Clearify                    │
+│                                                │
+│  FILTROS                                       │
+│  ┌──────────────────────────────┐              │
+│  │ 1. Soletramento intuitivo?  │              │
+│  │ 2. Pronunciavel?            │              │
+│  │ 3. Conotacao adequada?      │              │
+│  │ 4. Registravel?             │              │
+│  │ 5. Disponibilidade dominio? │              │
+│  └──────────────────────────────┘              │
+└────────────────────────────────────────────────┘
+```
+
+### Tabela de Morfemas por Conceito
+
+```
+CONCEITO        │ MORFEMAS DISPONIVEIS
+────────────────┼──────────────────────────
+Velocidade      │ velox, swift, flash, turbo, rush
+Natureza        │ terra, flora, eco, bio, verde, sylva
+Tecnologia      │ tech, cyber, digi, neo, nano, quantum
+Confianca       │ fide, vera, trust, solid, certa
+Leveza          │ aero, lev, light, zen, air, breeze
+Conexao         │ nexus, link, sync, uni, bond
+Sabedoria       │ sophia, sage, gnos, mentor, lumen
+Forca           │ fort, vigor, titan, magna, potent
+```
 
 ---
 
 ## Como Aplicar (Passo a Passo)
 
-### Passo 1: Diagnostico
-Avalie o estado atual usando dados quantitativos e qualitativos. Mapeie pontos fortes, fracos e gaps.
+### Passo 1: Definir Atributos-Chave da Marca
+Identifique 3-5 atributos ou valores que o nome deve evocar. Ex: inovacao, confianca, velocidade.
 
-### Passo 2: Definicao Estrategica
-Com base no diagnostico, defina objetivos claros, priorizados e mensuráveis.
+### Passo 2: Construir Banco de Morfemas
+Para cada atributo, pesquise morfemas relevantes em latim, grego, ingles, portugues e outras linguas-alvo. Inclua raizes, prefixos e sufixos.
 
-### Passo 3: Design da Solucao
-Projete a solucao integrando frameworks complementares conforme o contexto.
+### Passo 3: Gerar Combinacoes
+Combine sistematicamente morfemas em duplas e trios. Use a formula: Prefixo+Raiz, Raiz+Sufixo, ou Raiz+Raiz. Gere pelo menos 50-100 combinacoes.
 
-### Passo 4: Implementacao
-Execute o plano com checkpoints e gates de qualidade em cada etapa.
+### Passo 4: Filtrar por Fonetica
+Elimine combinacoes que nao soam bem em voz alta. Aplique testes de euphonia, ritmo e sound symbolism.
 
-### Passo 5: Mensuracão e Ajuste
-Monitore KPIs definidos e ajuste a abordagem com base em resultados reais.
+### Passo 5: Filtrar por Registrabilidade
+Pesquise nos bancos de marcas (INPI, USPTO, EUIPO) e em dominios web. Elimine candidatos com conflitos.
+
+### Passo 6: Shortlist e Stress Test
+Selecione 5-10 finalistas e submeta ao Linguistic Stress Test e ao SMILE & SCRATCH para avaliacao completa.
 
 ---
 
 ## Exemplos de Aplicacao
 
-### Exemplo 1: Aplicacao em Startup
-Para uma marca nova, o framework ajuda a estruturar decisoes desde o naming ate o lancamento, garantindo coerencia desde o dia zero.
+### Exemplo 1: Naming de fintech
+- **Atributos:** Velocidade + confianca + digital
+- **Morfemas:** velox, swift, fide, trust, digi, neo
+- **Combinacoes geradas:** Swiftfide, Neotrust, Veloxia, Digitrust, Fideon
+- **Shortlist:** Veloxia (velocidade + sufixo elegante), Fideon (confianca + tech)
 
-### Exemplo 2: Aplicacao em Rebranding
-Para uma marca estabelecida em reposicionamento, o framework diagnostica gaps entre percepçao atual e desejada, e estrutura o plano de transicao.
+### Exemplo 2: Naming de marca de bem-estar
+- **Atributos:** Natureza + calma + renovacao
+- **Morfemas:** terra, flora, zen, serene, renova, vita
+- **Combinacoes:** Zenvita, Florenova, Seravita, Terezen, Renovida
+- **Shortlist:** Seravita (serenidade + vida), Florenova (florescimento + novo)
+
+### Exemplo 3: Nomenclatura de linha de produtos
+- **Marca mae:** "Nexus" (conexao)
+- **Linha basica:** NexusCore (nucleo)
+- **Linha premium:** NexusUltra (superior)
+- **Linha inovacao:** NexusNeo (novo)
+- **Consistencia morfemica:** Todas compartilham "Nexus" + sufixo diferenciador
 
 ---
 
 ## Erros Comuns
 
-1. **Pular o diagnostico:** Ir direto para execucao sem entender o estado atual leva a solucoes desconectadas
-2. **Ausência de metricas:** Sem KPIs claros, e impossivel avaliar se o framework esta funcionando
-3. **Aplicacao isolada:** Cada framework funciona melhor quando integrado com outros complementares
-4. **Rigidez excessiva:** O framework e um guia, nao uma camisa de forca — adapte ao contexto
+1. **Combinar morfemas demais:** Nomes com mais de 3 silabas perdem memorabilidade. Menos e mais.
+2. **Ignorar a fonetica na combinacao:** "Trustflow" funciona; "Trustsphere" tem encontro consonantal dificil.
+3. **Usar morfemas muito obscuros:** Se o target nao reconhece o morfema, perde-se a sugestao de significado.
+4. **Nao verificar em outros idiomas:** Um morfema inofensivo em portugues pode ser problematico em espanhol ou mandarim.
+5. **Apegar-se ao significado literal:** Morfemas devem SUGERIR, nao descrever. "Biovita" sugere vida natural sem dizer explicitamente.
 
 ---
 
@@ -73,16 +133,15 @@ Para uma marca estabelecida em reposicionamento, o framework diagnostica gaps en
 
 | Framework | Relacao | Como Conectam |
 |-----------|---------|---------------|
-| Brand Identity System (Aaker) | Complementar | Fornece a base de identidade para aplicacao |
-| CBBE Pyramid (Keller) | Complementar | Mede o impacto no equity do consumidor |
-| Brand Identity Prism (Kapferer) | Complementar | Codifica a identidade em 6 facetas |
-| Mental Availability (Sharp) | Validacao | Valida se as acoes geram saliencia real |
+| Name Taxonomy | Informativo | O Morpheme Builder gera nomes na categoria "neologismo sugestivo" da taxonomia |
+| Linguistic Stress Test | Sequencial | Combinacoes geradas pelo Builder passam pelo Stress Test antes de avançar |
+| SMILE & SCRATCH | Sequencial | Candidatos filtrados sao avaliados estrategicamente pelo SMILE/SCRATCH |
+| Shortlist Methodology | Sequencial | Builder alimenta a fase de geracao; Shortlist organiza a selecao |
+| Name Scoring | Sequencial | Scoring e a avaliacao final quantitativa dos candidatos do Builder |
 
 ---
 
 ## Referencias
 
-- Aaker, D. (1996). *Building Strong Brands*. Free Press.
-- Keller, K.L. (2013). *Strategic Brand Management*. 4th ed. Pearson.
-- Kapferer, J.N. (2012). *The New Strategic Brand Management*. Kogan Page.
-- Sharp, B. (2010). *How Brands Grow*. Oxford University Press.
+- Rivkin, S. & Sutherland, F. (2004). *The Making of a Name*. Oxford University Press.
+- Kohli, C. & LaBahn, D. (1997). "Creating Effective Brand Names." *Journal of Advertising Research*, 37(1).

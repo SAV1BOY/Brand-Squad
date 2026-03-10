@@ -50,29 +50,19 @@ A tendencia natural de qualquer empresa e EXPANDIR — adicionar produtos, merca
 │                                                 │
 │  5. FOCO DE PORTFOLIO                           │
 │     "QUANTOS SKUs/servicos oferecemos?"          │
-│     Ideal: minimo viavel, cada um reforça foco  │
+│     Ideal: minimo viavel, cada um reforca foco  │
 │                                                 │
 └─────────────────────────────────────────────────┘
 ```
 
-### Indice de Dispersao
-
-```
-  Dimensao          │ Foco (1) ←──────→ (5) Disperso │ Score
-  ──────────────────┼─────────────────────────────────┼──────
-  Categoria         │  ○ ○ ○ ○ ○                      │ __/5
-  Beneficio         │  ○ ○ ○ ○ ○                      │ __/5
-  Publico           │  ○ ○ ○ ○ ○                      │ __/5
-  Mensagem          │  ○ ○ ○ ○ ○                      │ __/5
-  Portfolio         │  ○ ○ ○ ○ ○                      │ __/5
-  ──────────────────┼─────────────────────────────────┼──────
-  INDICE MEDIO      │                                 │ __/5
-
-  1.0-2.0 = Marca focada (parabens)
-  2.1-3.0 = Foco razoavel (atencao)
-  3.1-4.0 = Dispersao preocupante (acao necessaria)
-  4.1-5.0 = Dispersao critica (reestruturar urgente)
-```
+| Dimensao | Foco (1) --- Disperso (5) | Score | Diagnostico |
+|----------|---------------------------|-------|-------------|
+| Categoria | ○ ○ ○ ○ ○ | __/5 | |
+| Beneficio | ○ ○ ○ ○ ○ | __/5 | |
+| Publico | ○ ○ ○ ○ ○ | __/5 | |
+| Mensagem | ○ ○ ○ ○ ○ | __/5 | |
+| Portfolio | ○ ○ ○ ○ ○ | __/5 | |
+| **INDICE MEDIO** | | **__/5** | |
 
 ---
 
@@ -91,7 +81,7 @@ Para cada dimensao, avalie de 1 (totalmente focada) a 5 (completamente dispersa)
 Compare com o inventario de 1, 3 e 5 anos atras. A tendencia e de aumento de foco ou de dispersao? A dispersao geralmente e gradual e imperceptivel.
 
 ### Passo 5: Identificar "Peso Morto"
-Produtos, servicos ou mensagens que nao reforçam o foco sao peso morto. Liste candidatos a eliminacao ou spin-off.
+Produtos, servicos ou mensagens que nao reforcam o foco sao peso morto. Liste candidatos a eliminacao ou spin-off.
 
 ### Passo 6: Plano de Re-foco
 Defina a "estrela polar" — a unica coisa que a marca representara. Crie roadmap de simplificacao com prazos. Resista a pressao interna por expansao.
@@ -105,9 +95,6 @@ Comecou focada em IPA (score 1.5). Em 5 anos, expandiu para lager, stout, sour, 
 
 ### Exemplo 2: Plataforma SaaS
 Comecou como "CRM para pequenas empresas" (score 1.0). Adicionou ERP, RH, financeiro, marketplace (score 4.0). Mensagem virou "plataforma completa para negocios" — que nao diz nada. Acao: reposicionar como lider de CRM, com modulos complementares posicionados como extensoes.
-
-### Exemplo 3: Marca Pessoal de Consultor
-Comecou como especialista em pricing (score 1.0). Expandiu para estrategia, lideranca, vendas, produtividade (score 4.5). Resultado: convites para palestras caíram porque ninguem associava ele a nada especifico. Acao: voltar para pricing e derivar tudo do tema central.
 
 ---
 
@@ -126,7 +113,7 @@ Comecou como especialista em pricing (score 1.0). Expandiu para estrategia, lide
 | Framework | Relacao | Como Conectam |
 |-----------|---------|---------------|
 | Analise de Divergencia (Ries) | Complementar | Divergencia identifica ONDE focar; Auditoria mede SE esta focado |
-| Ries Ladder | Sequencial | Ladder posiciona; Auditoria garante que o posicionamento nao se diluiu |
+| Ladder de Posicionamento | Sequencial | Ladder posiciona; Auditoria garante que o posicionamento nao se diluiu |
 | Kapferer Brand Stretching | Tensao | Kapferer permite esticar com criterios; Ries recomenda nao esticar |
 | Brand Portfolio Strategy | Dependente | Portfolio define quantas marcas; Auditoria garante que cada uma esta focada |
 

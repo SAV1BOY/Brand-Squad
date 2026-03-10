@@ -1,4 +1,4 @@
-# Archetype Expression Matrix
+# Matriz de Expressao de Arquetipos por Dimensao
 > Matriz para expressar arquetipos de marca nas dimensoes visual, verbal e comportamental.
 
 ---
@@ -55,36 +55,13 @@ O framework reconhece que diferentes contextos (B2B vs B2C, digital vs fisico, f
 └────────────────────────────────────────────────────────┘
 ```
 
-### Exemplo Preenchido: Arquetipo Explorador
-
-```
-         │ VISUAL             │ VERBAL              │ COMPORTAMENTAL
-  ───────┼────────────────────┼─────────────────────┼──────────────────
-  Cores  │ Terrosos, verdes,  │ --                  │ --
-         │ azuis profundos    │                     │
-  ───────┼────────────────────┼─────────────────────┼──────────────────
-  Tipo-  │ Sans-serif,        │ Frases curtas e     │ --
-  grafia │ robusta, legivel   │ diretas             │
-  ───────┼────────────────────┼─────────────────────┼──────────────────
-  Imagens│ Paisagens abertas, │ Metaforas de        │ Experiencias em
-         │ horizontes, trilhas│ jornada e caminho   │ lugares incomuns
-  ───────┼────────────────────┼─────────────────────┼──────────────────
-  Tom    │ Rustico, natural,  │ Encorajador, ousado │ Desbravador, nao
-         │ autentico          │ mas nao arrogante   │ segue multidao
-  ───────┼────────────────────┼─────────────────────┼──────────────────
-  Ritmo  │ Amplo, respirado,  │ Narrativo, epico,   │ Rapido para agir,
-         │ nao claustrofobico │ inspiracional       │ lento para rotina
-  ───────┼────────────────────┼─────────────────────┼──────────────────
-  Simbolos│ Bussola, mapa,    │ "Descubra", "Alem"  │ Lancamentos como
-         │ montanha, estrela  │ "Sem limites"       │ "expedicoes"
-  ───────┼────────────────────┼─────────────────────┼──────────────────
-  Espacos│ Abertos, muita luz │ Copy com espacamento│ Lojas/escritorios
-         │ natural, materiais │ generoso            │ com ar de base-camp
-         │ naturais           │                     │
-  ───────┼────────────────────┼─────────────────────┼──────────────────
-  Pessoas│ Diversas, ativas,  │ Historias de pessoas│ Equipe incentivada
-         │ em movimento       │ reais explorando    │ a experimentar
-```
+| Dimensao | Atributos do Heroi | Atributos do Mago | Atributos do Explorador |
+|----------|-------------------|-------------------|------------------------|
+| Tom Verbal | Confiante, direto, motivacional | Misterioso, visionario, inspirador | Aventureiro, livre, curioso |
+| Paleta Visual | Vermelhos, azuis fortes, contraste alto | Roxos, dourados, efeitos luminosos | Terrosos, verdes, texturas naturais |
+| Tipografia | Bold, sans-serif, angulosa | Elegante, serif com detalhes, unica | Handwritten, organica, informal |
+| Comportamento | Desafiador, proativo, corajoso | Transformador, surpreendente | Independente, nao-convencional |
+| Experiencia | Superacao, conquista, empoderamento | Encantamento, transformacao, wow | Descoberta, liberdade, exploracao |
 
 ---
 
@@ -117,9 +94,6 @@ Visual: gradientes, efeitos de luz, UI elegante e minimalista. Verbal: "transfor
 
 ### Exemplo 2: Marca de Alimentos (Arquetipo: Inocente)
 Visual: cores pastel, luz natural, fotografia honesta sem excesso de producao. Verbal: simplicidade, palavras cotidianas, otimismo genuino. Comportamental: transparencia em ingredientes, embalagem limpa, envolvimento com comunidade local.
-
-### Exemplo 3: Marca de Consultoria (Arquetipo: Sabio)
-Visual: tipografia serif classica, infograficos sofisticados, paleta neutra com acentos. Verbal: linguagem precisa, dados como narrativa, autoridade sem arrogancia. Comportamental: conteudo educativo generoso, eventos de thought leadership, respostas baseadas em evidencia.
 
 ---
 
