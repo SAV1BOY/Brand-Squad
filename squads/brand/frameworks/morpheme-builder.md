@@ -1,147 +1,127 @@
-# Morpheme Builder
-> Framework para construir nomes de marca a partir de morfemas — as menores unidades de significado linguistico.
+# Construtor de Nomes por Morfemas
+> Framework sistematico para criar nomes de marca combinando unidades minimas de significado (morfemas), gerando nomes com profundidade semantica e memorabilidade fonetica.
 
 ---
 
 ## Definicao
+O Construtor de Nomes por Morfemas e uma metodologia linguistica que decompoem significados desejados em suas menores unidades — morfemas — e os recombina para gerar candidatos a nome de marca. Morfemas sao as menores partes de uma palavra que carregam significado: "des-" (negacao), "-ify" (tornar), "micro-" (pequeno), etc.
 
-O Morpheme Builder e um framework de naming que utiliza morfemas (as menores unidades de significado em uma lingua) como blocos de construcao para criar nomes de marca com significado embutido. Em vez de inventar nomes do zero ou usar palavras existentes, o framework combina raizes, prefixos e sufixos de diferentes origens linguisticas para gerar nomes que SUGEREM significado sem declara-lo explicitamente.
+Diferente de brainstorming livre, essa abordagem e sistematica e generativa. Ao criar um banco de morfemas relevantes para o posicionamento da marca e combina-los de diferentes formas, e possivel gerar dezenas ou centenas de candidatos que possuem camadas de significado embutidas.
 
-Morfemas podem vir do latim (vit- = vida, sol- = sol), grego (neo- = novo, tech- = arte/habilidade), anglo-saxao (bright, swift), ou de qualquer lingua relevante para o mercado-alvo. A combinacao estrategica de morfemas cria nomes que sao simultaneamente novos (registraveis), sugestivos (carregam conotacao) e foneticamete trabalhados (soam bem).
-
-O framework e especialmente util para naming de marcas que precisam ser unicas (para registro), internacionais (funcionar cross-culturally) e semanticamente ricas (transmitir atributos da marca).
+O framework e particularmente poderoso para nomes inventados (neologismos) que precisam parecer naturais e carregar conotacoes especificas. Marcas como Spotify (spot + identify), Pinterest (pin + interest), Instagram (instant + telegram) foram construidas seguindo logica similar.
 
 ---
 
 ## Quando Usar
-
-- Geracao de candidatos a nome de marca (fase divergente do naming)
-- Criacao de neologismos com significado embutido
-- Naming para marcas com ambicao internacional
-- Desenvolvimento de nomenclatura de produtos dentro de arquitetura de marca
-- Quando nomes descritivos ja estao registrados e nomes inventados puros sao muito abstratos
+- Na fase de geracao de candidatos a nome para uma nova marca
+- Quando se busca nomes inventados com profundidade semantica
+- Para criar nomes que funcionem em multiplos idiomas usando raizes universais
+- Quando nomes descritivos ou existentes ja foram descartados
+- Como complemento a processos criativos de brainstorming livre
 
 ---
 
 ## Estrutura / Modelo
 
 ```
-┌────────────────────────────────────────────────┐
-│           MORPHEME BUILDER                     │
-├────────────────────────────────────────────────┤
-│                                                │
-│  BANCO DE MORFEMAS                             │
-│  ┌──────────┬──────────┬──────────┐            │
-│  │ PREFIXOS │ RAIZES   │ SUFIXOS  │            │
-│  │ neo-     │ -lux-    │ -ia      │            │
-│  │ ultra-   │ -vita-   │ -ify     │            │
-│  │ ever-    │ -terra-  │ -on      │            │
-│  │ zen-     │ -flow-   │ -ent     │            │
-│  │ omni-    │ -clear-  │ -eo      │            │
-│  └──────────┴──────────┴──────────┘            │
-│                                                │
-│  COMBINACAO                                    │
-│  Prefixo + Raiz + Sufixo = NOME               │
-│  ex: Lux + ent = Luxent                        │
-│  ex: Neo + vita = Neovita                      │
-│  ex: Clear + ify = Clearify                    │
-│                                                │
-│  FILTROS                                       │
-│  ┌──────────────────────────────┐              │
-│  │ 1. Soletramento intuitivo?  │              │
-│  │ 2. Pronunciavel?            │              │
-│  │ 3. Conotacao adequada?      │              │
-│  │ 4. Registravel?             │              │
-│  │ 5. Disponibilidade dominio? │              │
-│  └──────────────────────────────┘              │
-└────────────────────────────────────────────────┘
-```
-
-### Tabela de Morfemas por Conceito
-
-```
-CONCEITO        │ MORFEMAS DISPONIVEIS
-────────────────┼──────────────────────────
-Velocidade      │ velox, swift, flash, turbo, rush
-Natureza        │ terra, flora, eco, bio, verde, sylva
-Tecnologia      │ tech, cyber, digi, neo, nano, quantum
-Confianca       │ fide, vera, trust, solid, certa
-Leveza          │ aero, lev, light, zen, air, breeze
-Conexao         │ nexus, link, sync, uni, bond
-Sabedoria       │ sophia, sage, gnos, mentor, lumen
-Forca           │ fort, vigor, titan, magna, potent
+╔══════════════════════════════════════════════════════════════════╗
+║                 CONSTRUTOR DE NOMES POR MORFEMAS                ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  ETAPA 1: BANCO DE MORFEMAS                                    ║
+║  ┌────────────┬───────────────┬────────────────┐                ║
+║  │ TIPO       │ MORFEMA       │ SIGNIFICADO    │                ║
+║  ├────────────┼───────────────┼────────────────┤                ║
+║  │ Prefixo    │ neo-, pro-,   │ novo, a favor  │                ║
+║  │            │ uni-, omni-   │ unico, tudo    │                ║
+║  │ Raiz       │ -lux-, -vit-, │ luz, vida      │                ║
+║  │            │ -tech-, -gen- │ tecnologia,    │                ║
+║  │            │               │ origem         │                ║
+║  │ Sufixo     │ -fy, -ly,    │ tornar, modo   │                ║
+║  │            │ -io, -ia     │ lugar, dominio │                ║
+║  │ Fonetico   │ -oo-, -ix,   │ (sonoridade)   │                ║
+║  │            │ -zy, -va     │                │                ║
+║  └────────────┴───────────────┴────────────────┘                ║
+║                                                                  ║
+║  ETAPA 2: COMBINACAO                                            ║
+║  ┌─────────────────────────────────────────────┐                ║
+║  │ Prefixo + Raiz + Sufixo = Candidato        │                ║
+║  │ Neo + Lux + ia = Neoluxia                   │                ║
+║  │ Pro + Vit + fy = Provitfy                   │                ║
+║  │ Raiz + Raiz = Candidato                     │                ║
+║  │ Lux + Gen = Luxgen                          │                ║
+║  └─────────────────────────────────────────────┘                ║
+║                                                                  ║
+║  ETAPA 3: FILTRAGEM                                            ║
+║  ┌─────────────────────────────────────────────┐                ║
+║  │ □ Pronunciavel em 1a tentativa?             │                ║
+║  │ □ Menos de 4 silabas?                       │                ║
+║  │ □ Carrega o significado desejado?           │                ║
+║  │ □ Sem conotacoes negativas?                 │                ║
+║  │ □ Disponivel como dominio/marca?            │                ║
+║  └─────────────────────────────────────────────┘                ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
 ```
 
 ---
 
 ## Como Aplicar (Passo a Passo)
+### Passo 1: Definir Atributos Semanticos
+Liste os 3-5 significados-chave que o nome deve evocar (ex: velocidade, confianca, inovacao, calor, precisao).
 
-### Passo 1: Definir Atributos-Chave da Marca
-Identifique 3-5 atributos ou valores que o nome deve evocar. Ex: inovacao, confianca, velocidade.
-
-### Passo 2: Construir Banco de Morfemas
-Para cada atributo, pesquise morfemas relevantes em latim, grego, ingles, portugues e outras linguas-alvo. Inclua raizes, prefixos e sufixos.
+### Passo 2: Construir o Banco de Morfemas
+Para cada significado, pesquise raizes em latim, grego, ingles, portugues e outras linguas relevantes. Inclua tambem fragmentos foneticos que evoquem a sensacao desejada.
 
 ### Passo 3: Gerar Combinacoes
-Combine sistematicamente morfemas em duplas e trios. Use a formula: Prefixo+Raiz, Raiz+Sufixo, ou Raiz+Raiz. Gere pelo menos 50-100 combinacoes.
+Combine morfemas sistematicamente: prefixo + raiz, raiz + sufixo, raiz + raiz, prefixo + raiz + sufixo. Gere pelo menos 50-100 combinacoes.
 
-### Passo 4: Filtrar por Fonetica
-Elimine combinacoes que nao soam bem em voz alta. Aplique testes de euphonia, ritmo e sound symbolism.
+### Passo 4: Primeira Filtragem (Fonetica)
+Elimine combinacoes impronunciaveis, com mais de 4 silabas ou foneticamente desagradaveis. Leia em voz alta cada candidato.
 
-### Passo 5: Filtrar por Registrabilidade
-Pesquise nos bancos de marcas (INPI, USPTO, EUIPO) e em dominios web. Elimine candidatos com conflitos.
+### Passo 5: Segunda Filtragem (Semantica)
+Verifique se os candidatos restantes realmente evocam os significados desejados. Teste com 3-5 pessoas: "o que essa palavra te faz pensar?"
 
-### Passo 6: Shortlist e Stress Test
-Selecione 5-10 finalistas e submeta ao Linguistic Stress Test e ao SMILE & SCRATCH para avaliacao completa.
+### Passo 6: Terceira Filtragem (Viabilidade)
+Pesquise disponibilidade de dominio, registros de marca e possiveis conflitos. Essa etapa elimina muitos candidatos.
+
+### Passo 7: Shortlist Final
+Selecione 5-10 candidatos para avaliacao aprofundada com outros frameworks (SMILE & SCRATCH, Stress Test, Name Scoring).
 
 ---
 
 ## Exemplos de Aplicacao
+### Exemplo 1: Spotify
+"Spot" (encontrar, localizar) + "ify" (sufixo que sugere tecnologia e acao). O nome comunica "encontrar musica de forma tecnologica" em duas silabas memoraveis.
 
-### Exemplo 1: Naming de fintech
-- **Atributos:** Velocidade + confianca + digital
-- **Morfemas:** velox, swift, fide, trust, digi, neo
-- **Combinacoes geradas:** Swiftfide, Neotrust, Veloxia, Digitrust, Fideon
-- **Shortlist:** Veloxia (velocidade + sufixo elegante), Fideon (confianca + tech)
-
-### Exemplo 2: Naming de marca de bem-estar
-- **Atributos:** Natureza + calma + renovacao
-- **Morfemas:** terra, flora, zen, serene, renova, vita
-- **Combinacoes:** Zenvita, Florenova, Seravita, Terezen, Renovida
-- **Shortlist:** Seravita (serenidade + vida), Florenova (florescimento + novo)
-
-### Exemplo 3: Nomenclatura de linha de produtos
-- **Marca mae:** "Nexus" (conexao)
-- **Linha basica:** NexusCore (nucleo)
-- **Linha premium:** NexusUltra (superior)
-- **Linha inovacao:** NexusNeo (novo)
-- **Consistencia morfemica:** Todas compartilham "Nexus" + sufixo diferenciador
+### Exemplo 2: Natura
+"Natur-" (raiz latina para natureza) + "-a" (sufixo feminino e suave). O nome comunica naturalidade e feminilidade, perfeitamente alinhado com o posicionamento de cosmeticos naturais.
 
 ---
 
 ## Erros Comuns
-
-1. **Combinar morfemas demais:** Nomes com mais de 3 silabas perdem memorabilidade. Menos e mais.
-2. **Ignorar a fonetica na combinacao:** "Trustflow" funciona; "Trustsphere" tem encontro consonantal dificil.
-3. **Usar morfemas muito obscuros:** Se o target nao reconhece o morfema, perde-se a sugestao de significado.
-4. **Nao verificar em outros idiomas:** Um morfema inofensivo em portugues pode ser problematico em espanhol ou mandarim.
-5. **Apegar-se ao significado literal:** Morfemas devem SUGERIR, nao descrever. "Biovita" sugere vida natural sem dizer explicitamente.
+1. **Forcas combinacoes artificiais:** Se o nome parece construido demais, perde naturalidade. Os melhores nomes por morfemas soam como se sempre tivessem existido.
+2. **Ignorar a sonoridade:** Um nome pode ter significado perfeito mas ser foneticamente desagradavel.
+3. **Morfemas obscuros demais:** Se precisa explicar a etimologia, o nome nao funciona sozinho.
+4. **Nao testar cross-linguisticamente:** Morfemas que funcionam em portugues podem gerar problemas em outros idiomas.
+5. **Gerar poucas opcoes:** O processo e de volume — gere muitas opcoes para encontrar as excepcionais.
 
 ---
 
 ## Integracao com Outros Frameworks
-
 | Framework | Relacao | Como Conectam |
 |-----------|---------|---------------|
-| Name Taxonomy | Informativo | O Morpheme Builder gera nomes na categoria "neologismo sugestivo" da taxonomia |
-| Linguistic Stress Test | Sequencial | Combinacoes geradas pelo Builder passam pelo Stress Test antes de avançar |
-| SMILE & SCRATCH | Sequencial | Candidatos filtrados sao avaliados estrategicamente pelo SMILE/SCRATCH |
-| Shortlist Methodology | Sequencial | Builder alimenta a fase de geracao; Shortlist organiza a selecao |
-| Name Scoring | Sequencial | Scoring e a avaliacao final quantitativa dos candidatos do Builder |
+| Name Taxonomy | Classificacao | Morfemas geram principalmente nomes inventados (uma das categorias da taxonomia) |
+| SMILE & SCRATCH | Avaliacao | Candidatos gerados pelo builder sao avaliados pelo SMILE & SCRATCH |
+| Linguistic Stress Test | Validacao | Os candidatos passam pelo stress test para identificar vulnerabilidades |
+| Shortlist Methodology | Selecao final | Os melhores candidatos do builder alimentam a shortlist |
+| Naming Verbal Identity | Contexto | A identidade verbal define os atributos semanticos que guiam a selecao de morfemas |
 
 ---
 
 ## Referencias
-
-- Rivkin, S. & Sutherland, F. (2004). *The Making of a Name*. Oxford University Press.
-- Kohli, C. & LaBahn, D. (1997). "Creating Effective Brand Names." *Journal of Advertising Research*, 37(1).
+- Watkins, A. (2019). Hello, My Name Is Awesome. Berrett-Koehler.
+- Rivkin, S. & Sutherland, F. (2004). The Making of a Name. Oxford University Press.
+- Crystal, D. (2010). The Cambridge Encyclopedia of Language. Cambridge University Press.
+- Klink, R. (2000). Creating Brand Names with Meaning. Marketing Letters.
+- Neumeier, M. (2006). The Brand Gap. New Riders.

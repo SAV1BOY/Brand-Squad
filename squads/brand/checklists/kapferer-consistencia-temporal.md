@@ -1,40 +1,28 @@
-# Checklist de Consistencia Temporal por Kapferer
-> Valida a consistencia da marca ao longo do tempo segundo Jean-Noel Kapferer, garantindo que evolucao nao signifique ruptura de identidade.
+# Consistencia Temporal de Marca
+> Consistencia temporal per Kapferer
 
-## Quando Aplicar
-Em revisoes anuais de marca, ao planejar refresh visual ou verbal, ou ao detectar percepcao de que a marca perdeu sua essencia.
+---
 
-## Criterios de Avaliacao
+## Criterios
 
-### Nucleo Preservado
-- [ ] Identidade nuclear intacta — Elementos fundamentais da marca permanecem reconheciveis
-- [ ] Codigo genetico da marca respeitado — DNA de marca (cores, formas, tom) mantido nas evolucoes
-- [ ] Valores fundadores presentes — Valores originais ainda orientam decisoes atuais
-- [ ] Promessa essencial mantida — Beneficio central da marca nao foi abandonado
+- [ ] **Nucleo de identidade preservado:** Essencia da marca permanece reconhecivel ao longo dos anos
+- [ ] **Evolucao sem ruptura:** Mudancas na marca sao graduais e coerentes com historico
+- [ ] **Codigos visuais mantidos:** Elementos visuais centrais evoluem sem perder reconhecibilidade
+- [ ] **Tom de voz consistente:** Personalidade verbal da marca se mantem estavel ao longo do tempo
+- [ ] **Valores fundamentais intactos:** Valores centrais da marca nao mudam a cada ciclo estrategico
+- [ ] **Posicionamento estavel:** Posicao competitiva da marca e coerente com sua trajetoria historica
+- [ ] **Contrato de marca respeitado:** Promessas feitas ao longo do tempo sao cumpridas e nao contraditas
+- [ ] **Memoria coletiva alimentada:** Marca cultiva e referencia seu patrimonio historico positivo
+- [ ] **Inovacao dentro da continuidade:** Novidades sao introduzidas respeitando o DNA da marca
+- [ ] **Sem modismos efemeros:** Marca nao adota tendencias passageiras que contradizem sua essencia
 
-### Evolucao Controlada
-- [ ] Mudancas incrementais documentadas — Registro de cada evolucao visual e verbal com justificativa
-- [ ] Continuidade narrativa preservada — Historia da marca flui sem contradicoes entre fases
-- [ ] Modernizacao sem descaracterizacao — Atualizacoes mantem reconhecimento instantaneo
-- [ ] Publico acompanha a evolucao — Transicoes sao graduais o suficiente para nao alienar base
-
-### Gestao do Tempo
-- [ ] Heranca de marca valorizada — Elementos historicos sao ativos, nao passivos
-- [ ] Relevancia contemporanea mantida — Marca parece atual sem parecer que abandonou suas raizes
-- [ ] Ciclo de revisao definido — Periodicidade de avaliacao de atualidade da marca estabelecida
-- [ ] Benchmarking temporal realizado — Evolucao comparada com concorrentes no mesmo periodo
-
-### Documentacao Historica
-- [ ] Arquivo de marca organizado — Historico visual e verbal da marca acessivel e catalogado
-- [ ] Timeline de evolucao disponivel — Linha do tempo mostrando transformacoes da marca documentada
-- [ ] Licoes aprendidas registradas — Mudancas que funcionaram e que falharam catalogadas
+---
 
 ## Scoring
-| Nivel | Criterio | Acao |
-|-------|----------|------|
-| Verde (80%+) | 12+ criterios atendidos | Marca evolui com consistencia e integridade temporal |
-| Amarelo (60-79%) | 9-11 criterios atendidos | Restaurar elementos de continuidade antes de prosseguir |
-| Vermelho (<60%) | Menos de 9 criterios atendidos | Risco de perda de identidade — reconectar com essencia |
 
-## Responsavel
-Brand Strategist Agent (especialidade Kapferer) — com consultoria do Brand Identity Agent.
+| Faixa | Resultado |
+|-------|-----------|
+| 90-100% | Excelente |
+| 70-89% | Bom |
+| 50-69% | Necessita melhorias |
+| < 50% | Critico |
