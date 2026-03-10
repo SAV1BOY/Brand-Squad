@@ -48,17 +48,12 @@ Keller distingue ainda POPs categoricos (necessarios para pertencer a categoria)
 └────────────────────┴────────────────────────────┘
 ```
 
-### Mapa de Decisao
-
-```
-Associacao da marca
-       │
-       ├── Concorrentes tambem tem? ──► SIM ──► E obrigatoria? ──► SIM ──► POP Categorico
-       │                                │                          └─ NAO ──► POP Competitivo
-       │                                │
-       └── NAO ──► E desejavel? ──► SIM ──► Podemos entregar? ──► SIM ──► POD Potencial
-                                    └─ NAO ──► Descartar
-```
+| Tipo | Descricao | Exemplo |
+|------|-----------|---------|
+| POP Categorico | Minimo para pertencer a categoria | Banco: conta, cartao, seguranca |
+| POP Competitivo | Neutraliza POD de rival | Preco similar ao lider |
+| POP Correlacional | Quebra trade-off percebido | "Eletrico E potente" |
+| POD | Diferenciacao unica e desejada | Tesla: tecnologia de software |
 
 ---
 
@@ -68,16 +63,16 @@ Associacao da marca
 Determine a categoria (ou categorias) em que a marca compete. O frame de referencia determina quais sao os POPs categoricos.
 
 ### Passo 2: Mapear POPs Categoricos
-Liste os atributos e beneficios MINIMOS que qualquer marca precisa ter para ser considerada na categoria. Ex: para ser "banco", precisa oferecer conta, cartao, seguranca.
+Liste os atributos e beneficios MINIMOS que qualquer marca precisa ter para ser considerada na categoria.
 
 ### Passo 3: Identificar POPs Competitivos
-Analise os PODs dos principais concorrentes. Para cada POD rival, determine se voce precisa neutraliza-lo (igualar ou se aproximar) para nao ser desqualificado.
+Analise os PODs dos principais concorrentes. Para cada POD rival, determine se voce precisa neutraliza-lo para nao ser desqualificado.
 
 ### Passo 4: Identificar PODs Potenciais
 Liste associacoes que sao unicas (ou podem ser) da sua marca. Avalie cada uma nos 3 criterios: desejabilidade, entregabilidade e diferenciacao.
 
 ### Passo 5: Testar Correlacoes Negativas
-Verifique se algum POD gera percepcao negativa em outra dimensao (ex: "barato" pode enfraquecer "qualidade"). Se sim, crie POPs correlacionais para quebrar o trade-off.
+Verifique se algum POD gera percepcao negativa em outra dimensao. Se sim, crie POPs correlacionais para quebrar o trade-off.
 
 ### Passo 6: Priorizar e Comunicar
 Selecione 1-3 PODs centrais. Garanta todos os POPs criticos. Construa a plataforma de comunicacao enfatizando PODs e DEMONSTRANDO POPs.
@@ -88,28 +83,24 @@ Selecione 1-3 PODs centrais. Garanta todos os POPs criticos. Construa a platafor
 
 ### Exemplo 1: Tesla
 - **POPs Categoricos (automovel):** Seguranca, confiabilidade, rede de servicos
-- **POPs Competitivos:** Conforto interior (neutraliza BMW/Mercedes), autonomia de rodagem (neutraliza gasolina)
+- **POPs Competitivos:** Conforto interior (neutraliza BMW/Mercedes), autonomia de rodagem
 - **PODs:** Tecnologia/software, performance eletrica, marca aspiracional/sustentavel
 - **POP Correlacional:** "Eletrico pode ser rapido e potente" (quebra trade-off eletrico = lento)
 
-### Exemplo 2: iFood no delivery
+### Exemplo 2: iFood
 - **POPs Categoricos:** Variedade de restaurantes, velocidade de entrega, app funcional
 - **POPs Competitivos:** Preco/cupons (neutraliza Rappi), rastreamento (neutraliza Uber Eats)
 - **PODs:** Maior rede de restaurantes no Brasil, integracao com mercados, marca mais lembrada
-
-### Exemplo 3: Marca premium entrando em categoria popular
-- **Desafio:** PODs de qualidade/design sao claros, mas faltam POPs de acessibilidade e disponibilidade
-- **Acao:** Criar linha de entrada que estabeleca POPs de preco sem diluir PODs de qualidade
 
 ---
 
 ## Erros Comuns
 
 1. **Ignorar POPs e so focar em diferenciacao:** A marca mais diferenciada do mundo fracassa se nao atende os basicos da categoria.
-2. **Ter PODs que ninguem deseja:** Diferenciacao so gera equity se o atributo for DESEJADO pelo target. Ser diferente em algo irrelevante e desperdicio.
+2. **Ter PODs que ninguem deseja:** Diferenciacao so gera equity se o atributo for DESEJADO pelo target.
 3. **Nao neutralizar PODs rivais:** Se o concorrente tem um POD forte e voce nao cria ao menos paridade, perde o frame comparativo.
-4. **Comunicar POPs como se fossem PODs:** Dizer "somos confiaveis" quando todos da categoria sao confiaveis nao diferencia. E desperdicio de midia.
-5. **Ignorar trade-offs correlacionais:** Consumidores frequentemente assumem que nao da para ter dois atributos ao mesmo tempo. A marca precisa provar que da.
+4. **Comunicar POPs como se fossem PODs:** Dizer "somos confiaveis" quando todos da categoria sao confiaveis nao diferencia.
+5. **Ignorar trade-offs correlacionais:** Consumidores assumem que nao da para ter dois atributos ao mesmo tempo. A marca precisa provar que da.
 
 ---
 
@@ -121,7 +112,6 @@ Selecione 1-3 PODs centrais. Garanta todos os POPs criticos. Construa a platafor
 | Keller Brand Resonance | Sequencial | POPs sustentam Performance; PODs geram Judgments de superioridade |
 | Ladder de Posicionamento | Complementar | Ladder aprofunda COMO comunicar o POD (de atributo a crenca) |
 | Onlyness Statement | Complementar | Onlyness sintetiza o POD central em uma declaracao unica |
-| Matriz Oposicao Competitiva | Complementar | Oposicao identifica CONTRA QUEM; POPs/PODs define O QUE parear e diferenciar |
 
 ---
 
