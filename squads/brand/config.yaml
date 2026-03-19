@@ -7,11 +7,26 @@
 
 squad:
   name: brand
-  version: "1.2.0"
+  version: "1.3.0"
   description: "Brand Strategy + Identity Squad do MMOS"
   chief_agent: brand-chief
   methodology: "HRM (Hierarchical Role Modeling)"
   total_agents: 15
+
+# ============================================================
+# PRINCIPLES
+# ============================================================
+principles:
+  - "Marca e ativo estrategico — gerenciar com o mesmo rigor de qualquer ativo do balanco"
+  - "Identidade precede imagem — definir quem a marca e antes de comunicar"
+  - "Coerencia sistemica — cada decisao avaliada pelo impacto em todas as camadas"
+  - "Evidencia sobre intuicao — decisoes baseadas em dados empiricos, nao achismo"
+  - "Integracao sobre purismo — combinar frameworks complementares, nao aderir a escola unica"
+  - "Sequenciamento obrigatorio — Research → Strategy → Identity → Activation → Governance → Measurement"
+  - "Quality gates inegociaveis — nenhum output sai abaixo do padrao GREEN (80%)"
+  - "Arbitragem explicita — conflitos entre agentes documentados com trade-offs e racional"
+  - "Memoria operacional — toda decisao registrada para rastreabilidade e aprendizado"
+  - "Governanca continua — marca e sistema vivo que exige monitoramento e evolucao constante"
 
 # ============================================================
 # AGENTS REGISTRY
@@ -174,7 +189,8 @@ routing:
     frameworks:
       - discovery-and-research
       - jobs-to-be-done-branding
-    checklists: []
+    checklists:
+      - yohn/brand-as-business-audit
     templates:
       - briefs/brand-discovery-brief
     registry: data/research/interview-notes
@@ -184,7 +200,8 @@ routing:
     frameworks:
       - discovery-and-research
       - brand-personality-scale
-    checklists: []
+    checklists:
+      - miller/messaging-clarity-audit
     templates: []
     registry: data/research/voc-dumps
 
@@ -237,7 +254,8 @@ routing:
     frameworks:
       - brand-salience-heuristics
       - category-entry-points
-    checklists: []
+    checklists:
+      - sharp/mental-availability-audit
     templates: []
     registry: data/research/social-listening
 
@@ -276,7 +294,8 @@ routing:
     frameworks:
       - discovery-and-research
       - yohn-brand-as-business
-    checklists: []
+    checklists:
+      - yohn/fusion-audit
     templates: []
     registry: data/research/interview-notes
 
@@ -769,7 +788,9 @@ routing:
       - competitive-framing
       - ries-positioning
       - sharp-mental-availability
-    checklists: []
+    checklists:
+      - ries/positioning-statement-audit
+      - sharp/mental-availability-audit
     templates: []
     registry: data/registries/brand-decisions-log
 
@@ -817,7 +838,8 @@ routing:
     frameworks:
       - competitive-framing
       - ries-positioning
-    checklists: []
+    checklists:
+      - ries/positioning-statement-audit
     templates:
       - analysis/competitive-brand-analysis-template
     registry: data/research/competitor-research
@@ -849,7 +871,8 @@ routing:
     frameworks:
       - brand-salience-heuristics
       - brand-tracking-model
-    checklists: []
+    checklists:
+      - sharp/mental-availability-audit
     templates: []
     registry: data/research/social-listening
 
@@ -858,7 +881,8 @@ routing:
     frameworks:
       - brand-equity-valuation
       - measurement-layer
-    checklists: []
+    checklists:
+      - aaker/aaker-equity-audit
     templates: []
     registry: data/metrics/brand-equity-score-history
 
@@ -902,7 +926,8 @@ routing:
     agents: [brand-chief]
     frameworks:
       - brand-governance-model
-    checklists: []
+    checklists:
+      - brand-consistency-quality
     templates: []
     registry: data/registries/brand-decisions-log
 
@@ -918,15 +943,19 @@ routing:
 
   swipe-file-curation:
     agents: [brand-chief, emily-heyward]
-    frameworks: []
-    checklists: []
+    frameworks:
+      - brand-consistency-model
+    checklists:
+      - brand-guidelines-quality
     templates: []
     registry: data/registries/brand-decisions-log
 
   create-new-brand-agent:
     agents: [brand-chief]
-    frameworks: []
-    checklists: []
+    frameworks:
+      - brand-governance-model
+    checklists:
+      - completude-projeto
     templates: []
     registry: data/registries/brand-decisions-log
 
@@ -1066,6 +1095,54 @@ cross_squad:
     shared_assets:
       - briefs/brand-discovery-brief
       - measurement/cbbe-survey-template
+
+# ============================================================
+# KPIs
+# ============================================================
+kpis:
+  awareness:
+    - metric: "Brand Recall"
+      definition: "% que lembram da marca espontaneamente"
+      frequency: trimestral
+    - metric: "Top of Mind"
+      definition: "% que citam a marca primeiro na categoria"
+      frequency: trimestral
+    - metric: "Share of Voice"
+      definition: "% de mencoes da marca vs. concorrentes"
+      frequency: mensal
+  perception:
+    - metric: "Net Promoter Score"
+      definition: "Likelihood de recomendacao (0-10)"
+      frequency: mensal
+    - metric: "Brand Sentiment"
+      definition: "% positivo vs. negativo em mencoes"
+      frequency: semanal
+    - metric: "Perceived Quality"
+      definition: "Qualidade percebida vs. concorrentes"
+      frequency: trimestral
+  equity:
+    - metric: "Brand Equity Score"
+      definition: "Score composto (Aaker 4 dimensoes)"
+      frequency: trimestral
+    - metric: "Price Premium"
+      definition: "% acima do preco medio da categoria"
+      frequency: trimestral
+    - metric: "Customer Lifetime Value"
+      definition: "Valor medio do ciclo de vida do cliente"
+      frequency: trimestral
+  operational:
+    - metric: "First-Pass Rate"
+      definition: "% de tasks que passam no quality gate na primeira tentativa"
+      frequency: mensal
+    - metric: "Rework Loop Rate"
+      definition: "Media de rework loops por task"
+      frequency: mensal
+    - metric: "Handoff Acceptance Rate"
+      definition: "% de handoffs aceitos sem rejeicao pelo squad receptor"
+      frequency: mensal
+    - metric: "Cross-Squad Sync Compliance"
+      definition: "% de syncs mensais realizados conforme cadencia"
+      frequency: mensal
 
 # ============================================================
 # DEFAULTS

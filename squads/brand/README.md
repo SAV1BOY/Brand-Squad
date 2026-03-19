@@ -190,9 +190,9 @@ Docs: `docs/agent-roles-guide.md` | `ARCHITECTURE.md` (secao 11)
 ## Versao
 
 - **Squad:** Brand Strategy + Identity
-- **Versao:** 1.2.0
+- **Versao:** 1.3.0
 - **Agentes:** 15
 - **Teams/Swarms:** 3 teams + 1 swarm
 - **Arquivos:** ~730+
 - **Metodologia:** HRM (Hierarchical Role Modeling)
-- **Ultima auditoria:** 2026-03-19 (v3 — cross-squad expandido para 12 squads, 19 routing entries adicionadas)
+- **Ultima auditoria:** 2026-03-19 (v4 — zero checklists vazios, +principles, +kpis, 100% quality gate coverage)
