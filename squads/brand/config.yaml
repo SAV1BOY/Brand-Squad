@@ -7,7 +7,7 @@
 
 squad:
   name: brand
-  version: "1.0.0"
+  version: "1.2.0"
   description: "Brand Strategy + Identity Squad do MMOS"
   chief_agent: brand-chief
   methodology: "HRM (Hierarchical Role Modeling)"
@@ -251,6 +251,35 @@ routing:
     templates: []
     registry: data/research/competitor-research
 
+  employee-brand-perception:
+    agents: [denise-yohn, kevin-keller, brand-chief]
+    frameworks:
+      - yohn-brand-as-business
+      - yohn-fusion
+    checklists:
+      - yohn/brand-as-business-audit
+    templates: []
+    registry: data/research/survey-results
+
+  trend-and-cultural-context:
+    agents: [jean-noel-kapferer, denise-yohn, brand-chief]
+    frameworks:
+      - brand-semiotics
+      - kapferer-brand-identity-prism
+    checklists:
+      - kapferer/identity-prism-audit
+    templates: []
+    registry: data/research/competitor-research
+
+  stakeholder-interviews:
+    agents: [denise-yohn, brand-chief]
+    frameworks:
+      - discovery-and-research
+      - yohn-brand-as-business
+    checklists: []
+    templates: []
+    registry: data/research/interview-notes
+
   # ──────────────────────────────────────
   # STRATEGY TASKS
   # ──────────────────────────────────────
@@ -395,6 +424,18 @@ routing:
       - rollout/brand-governance-template
     registry: data/registries/brand-decisions-log
 
+  brand-extension-strategy:
+    agents: [david-aaker, kevin-keller, al-ries, brand-chief]
+    frameworks:
+      - aaker-brand-identity-system
+      - keller-cbbe-pyramid
+      - brand-portfolio-strategy
+    checklists:
+      - aaker/aaker-architecture-audit
+      - keller/cbbe-pyramid-audit
+    templates: []
+    registry: data/registries/brand-decisions-log
+
   # ──────────────────────────────────────
   # IDENTITY TASKS
   # ──────────────────────────────────────
@@ -536,6 +577,16 @@ routing:
       - identity/distinctive-assets-template
     registry: data/registries/distinctive-assets-registry
 
+  brand-lexicon-development:
+    agents: [naming-strategist, donald-miller, brand-chief]
+    frameworks:
+      - brand-lexicon-framework
+      - verbal-identity-system
+    checklists:
+      - brand-voice-quality
+    templates: []
+    registry: data/registries/brand-decisions-log
+
   # ──────────────────────────────────────
   # IMPLEMENTATION TASKS
   # ──────────────────────────────────────
@@ -585,6 +636,50 @@ routing:
     templates:
       - rollout/partner-brand-usage-guide
     registry: data/registries/brand-decisions-log
+
+  campaign-activation-brief:
+    agents: [emily-heyward, donald-miller, brand-chief]
+    frameworks:
+      - activation-layer
+      - miller-storybrand-sb7
+      - heyward-obviousness-method
+    checklists:
+      - brand-messaging-quality
+      - heyward/brand-launch-readiness-audit
+    templates: []
+    registry: data/registries/brand-decisions-log
+
+  brand-ambassador-program:
+    agents: [denise-yohn, emily-heyward, brand-chief]
+    frameworks:
+      - yohn-brand-as-business
+      - activation-layer
+    checklists:
+      - yohn/brand-as-business-audit
+      - internal-rollout-quality
+    templates: []
+    registry: data/registries/brand-touchpoints-registry
+
+  website-brand-implementation:
+    agents: [alina-wheeler, donald-miller, brand-chief]
+    frameworks:
+      - wheeler-brand-identity-process
+      - miller-storybrand-sb7
+    checklists:
+      - wheeler/identity-system-audit
+      - miller/messaging-clarity-audit
+    templates: []
+    registry: data/registries/brand-touchpoints-registry
+
+  social-media-brand-rollout:
+    agents: [emily-heyward, donald-miller, brand-chief]
+    frameworks:
+      - activation-layer
+      - verbal-identity-system
+    checklists:
+      - brand-guidelines-quality
+    templates: []
+    registry: data/registries/brand-touchpoints-registry
 
   # ──────────────────────────────────────
   # REVIEW TASKS
@@ -657,6 +752,27 @@ routing:
       - analysis/brand-audit-report-template
     registry: data/registries/brand-decisions-log
 
+  guidelines-review:
+    agents: [alina-wheeler, emily-heyward, brand-chief]
+    frameworks:
+      - wheeler-brand-identity-process
+      - brand-consistency-model
+    checklists:
+      - wheeler/brand-guidelines-audit
+      - brand-guidelines-quality
+    templates: []
+    registry: data/registries/brand-decisions-log
+
+  competitor-response-review:
+    agents: [al-ries, byron-sharp, brand-chief]
+    frameworks:
+      - competitive-framing
+      - ries-positioning
+      - sharp-mental-availability
+    checklists: []
+    templates: []
+    registry: data/registries/brand-decisions-log
+
   # ──────────────────────────────────────
   # ANALYSIS TASKS
   # ──────────────────────────────────────
@@ -705,6 +821,46 @@ routing:
     templates:
       - analysis/competitive-brand-analysis-template
     registry: data/research/competitor-research
+
+  message-clarity-analysis:
+    agents: [donald-miller, miller-sticky-brand, brand-chief]
+    frameworks:
+      - miller-storybrand-sb7
+      - messaging-house
+    checklists:
+      - miller/messaging-clarity-audit
+      - brand-messaging-quality
+    templates: []
+    registry: data/registries/brand-claims-registry
+
+  brand-health-scorecard-analysis:
+    agents: [brand-chief, byron-sharp, kevin-keller]
+    frameworks:
+      - brand-tracking-model
+      - measurement-layer
+    checklists:
+      - brand-tracking-quality
+    templates:
+      - measurement/brand-health-scorecard-template
+    registry: data/metrics/brand-equity-score-history
+
+  social-sentiment-analysis:
+    agents: [byron-sharp, donald-miller, brand-chief]
+    frameworks:
+      - brand-salience-heuristics
+      - brand-tracking-model
+    checklists: []
+    templates: []
+    registry: data/research/social-listening
+
+  brand-roi-analysis:
+    agents: [david-aaker, byron-sharp, brand-chief]
+    frameworks:
+      - brand-equity-valuation
+      - measurement-layer
+    checklists: []
+    templates: []
+    registry: data/metrics/brand-equity-score-history
 
   # ──────────────────────────────────────
   # OPERATIONS TASKS
@@ -760,6 +916,39 @@ routing:
     templates: []
     registry: data/registries/brand-decisions-log
 
+  swipe-file-curation:
+    agents: [brand-chief, emily-heyward]
+    frameworks: []
+    checklists: []
+    templates: []
+    registry: data/registries/brand-decisions-log
+
+  create-new-brand-agent:
+    agents: [brand-chief]
+    frameworks: []
+    checklists: []
+    templates: []
+    registry: data/registries/brand-decisions-log
+
+  brand-governance-enforcement:
+    agents: [brand-chief, alina-wheeler]
+    frameworks:
+      - brand-governance-model
+      - brand-consistency-model
+    checklists:
+      - brand-guidelines-quality
+    templates: []
+    registry: data/registries/brand-violations-log
+
+  maintain-naming-registry:
+    agents: [naming-strategist, brand-chief]
+    frameworks:
+      - naming-systems
+    checklists:
+      - naming/naming-legal-screening-checklist
+    templates: []
+    registry: data/registries/naming-registry
+
 # ============================================================
 # CROSS-SQUAD INTEGRATION
 # ============================================================
@@ -814,6 +1003,69 @@ cross_squad:
       - strategy/brand-purpose-template
       - rollout/brand-ambassador-guide
       - rollout/internal-rollout-playbook
+
+  storytelling:
+    handoff_from_brand:
+      - "brand-story-manifesto → storytelling/brand/"
+      - "brand-archetypes → storytelling/archetypes/"
+      - "brand-voice-guide → storytelling/voice/"
+    shared_assets:
+      - identity/brand-story-template
+      - strategy/brand-manifesto-template
+      - identity/brand-archetype-guide-template
+
+  c-level:
+    handoff_from_brand:
+      - "brand-strategy-doc → c-level/strategy/"
+      - "brand-equity-plan → c-level/equity/"
+      - "brand-health-scorecard → c-level/reporting/"
+    shared_assets:
+      - strategy/brand-strategy-doc-template
+      - strategy/brand-equity-plan-template
+      - measurement/brand-health-scorecard-template
+
+  data:
+    handoff_from_brand:
+      - "brand-tracking-kpis → data/brand/"
+      - "brand-equity-score-history → data/equity/"
+    shared_assets:
+      - measurement/brand-tracking-dashboard-template
+      - measurement/brand-health-scorecard-template
+
+  movement:
+    handoff_from_brand:
+      - "brand-purpose → movement/brand/"
+      - "brand-values → movement/values/"
+      - "manifesto → movement/manifesto/"
+    shared_assets:
+      - strategy/brand-purpose-template
+      - strategy/brand-manifesto-template
+
+  advisory-board:
+    handoff_from_brand:
+      - "brand-strategy-doc → advisory-board/strategy/"
+      - "quarterly-brand-review → advisory-board/reporting/"
+    shared_assets:
+      - strategy/brand-strategy-doc-template
+      - measurement/brand-health-scorecard-template
+
+  traffic-masters:
+    handoff_from_brand:
+      - "brand-guidelines → traffic-masters/brand/"
+      - "distinctive-assets → traffic-masters/assets/"
+      - "messaging-house → traffic-masters/messaging/"
+    shared_assets:
+      - brand-guidelines/brand-book-template
+      - identity/distinctive-assets-template
+      - strategy/messaging-house-template
+
+  deepresearch:
+    handoff_from_brand:
+      - "research-briefs → deepresearch/briefs/"
+      - "perception-study-requests → deepresearch/requests/"
+    shared_assets:
+      - briefs/brand-discovery-brief
+      - measurement/cbbe-survey-template
 
 # ============================================================
 # DEFAULTS
@@ -959,5 +1211,33 @@ handoff_contracts:
     assets: [employer-brand, evp, brand-values]
     quality_bar: "green em brand-purpose-quality"
     acceptance: "people squad valida alinhamento cultural"
+  brand_to_storytelling:
+    assets: [brand-story-manifesto, brand-archetypes, brand-voice-guide]
+    quality_bar: "green em brand-narrative-quality"
+    acceptance: "storytelling squad valida aderencia narrativa"
+  brand_to_c_level:
+    assets: [brand-strategy-doc, brand-equity-plan, brand-health-scorecard]
+    quality_bar: "green em brand-strategy-quality"
+    acceptance: "c-level valida alinhamento estrategico"
+  brand_to_data:
+    assets: [brand-tracking-kpis, brand-equity-score-history]
+    quality_bar: "green em brand-tracking-quality"
+    acceptance: "data squad valida integrabilidade dos dados"
+  brand_to_movement:
+    assets: [brand-purpose, brand-values, manifesto]
+    quality_bar: "green em brand-purpose-quality"
+    acceptance: "movement squad valida autenticidade e ressonancia cultural"
+  brand_to_advisory_board:
+    assets: [brand-strategy-doc, quarterly-brand-review]
+    quality_bar: "green em brand-strategy-quality"
+    acceptance: "advisory-board valida completude estrategica"
+  brand_to_traffic_masters:
+    assets: [brand-guidelines, distinctive-assets, messaging-house]
+    quality_bar: "green em brand-guidelines-quality"
+    acceptance: "traffic-masters valida aplicabilidade em canais"
+  brand_to_deepresearch:
+    assets: [research-briefs, perception-study-requests]
+    quality_bar: "green em research-brief-quality"
+    acceptance: "deepresearch squad valida clareza e escopo do brief"
   guide: docs/handoff-contracts-guide
   registry: data/registries/handoff-log

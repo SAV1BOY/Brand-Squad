@@ -92,6 +92,59 @@ Se o squad receptor rejeitar os assets:
 
 ---
 
+## Integracoes Adicionais (MMOS Ecosystem)
+
+### Brand → Storytelling Squad
+- **Assets entregues**: brand-story-manifesto, brand-archetypes, brand-voice-guide
+- **Quality bar**: GREEN em brand-narrative-quality
+- **Aceite**: Storytelling squad valida narrativa e tom para producao de conteudo
+- **Recebe do Storytelling**: Narrativas produzidas, roteiros, pitch decks
+- **Cadencia**: Handoff a cada nova task de narrativa; sync mensal
+
+### Brand → C-Level Squad
+- **Assets entregues**: brand-strategy-doc, brand-equity-plan, brand-health-scorecard
+- **Quality bar**: GREEN em brand-strategy-quality
+- **Aceite**: C-Level valida alinhamento com objetivos de negocio
+- **Recebe do C-Level**: Objetivos de negocio, metas de crescimento, direcao estrategica
+- **Cadencia**: Sync trimestral ou por demanda
+
+### Brand → Data Squad
+- **Assets entregues**: brand-tracking-kpis, brand-equity-score-history
+- **Quality bar**: GREEN em brand-tracking-quality
+- **Aceite**: Data squad valida mensurabilidade dos KPIs
+- **Recebe do Data**: Analytics, resultados de A/B tests, insights de comportamento
+- **Cadencia**: Sync mensal
+
+### Brand → Movement Squad
+- **Assets entregues**: brand-purpose, brand-values, manifesto
+- **Quality bar**: GREEN em brand-purpose-quality
+- **Aceite**: Movement squad valida autenticidade e potencial de mobilizacao
+- **Recebe do Movement**: Insights culturais, movimentos comunitarios, identidade coletiva
+- **Cadencia**: Sync mensal
+
+### Brand → Advisory Board Squad
+- **Assets entregues**: brand-strategy-doc, quarterly-brand-review
+- **Quality bar**: GREEN em brand-strategy-quality
+- **Aceite**: Advisory Board valida alinhamento com governanca corporativa
+- **Recebe do Advisory Board**: Guidance estrategico, prioridades de investimento
+- **Cadencia**: Sync trimestral
+
+### Brand → Traffic Masters Squad
+- **Assets entregues**: brand-guidelines, distinctive-assets, messaging-house
+- **Quality bar**: GREEN em brand-guidelines-quality
+- **Aceite**: Traffic Masters valida aplicabilidade para canais de trafego
+- **Recebe do Traffic Masters**: Performance de campanhas, insights de canais
+- **Cadencia**: Handoff a cada atualizacao de guidelines; sync mensal
+
+### Brand → Deep Research Squad
+- **Assets entregues**: research briefs, perception-study requests
+- **Quality bar**: GREEN nos checklists de pesquisa
+- **Aceite**: Deep Research valida viabilidade e escopo da pesquisa
+- **Recebe do Deep Research**: Relatorios de pesquisa profunda, inteligencia competitiva, analise de tendencias
+- **Cadencia**: Por demanda
+
+---
+
 ## Matriz de Integracao
 
 | Squad Receptor | Assets Primarios | Quality Bar | Checklist Principal | Contrato |
@@ -101,6 +154,13 @@ Se o squad receptor rejeitar os assets:
 | Product | naming, ux-writing, verbal-identity | GREEN naming + voice | naming-quality | brand_to_product |
 | Design | visual-guidelines, creative-direction, assets | GREEN visual | visual-identity-quality | brand_to_design |
 | People | employer-brand, EVP, values | GREEN purpose | brand-purpose-quality | brand_to_people |
+| Storytelling | brand-story, archetypes, voice-guide | GREEN narrative | brand-narrative-quality | brand_to_storytelling |
+| C-Level | strategy-doc, equity-plan, scorecard | GREEN strategy | brand-strategy-quality | brand_to_c_level |
+| Data | tracking-kpis, equity-score-history | GREEN tracking | brand-tracking-quality | brand_to_data |
+| Movement | purpose, values, manifesto | GREEN purpose | brand-purpose-quality | brand_to_movement |
+| Advisory Board | strategy-doc, quarterly-review | GREEN strategy | brand-strategy-quality | brand_to_advisory_board |
+| Traffic Masters | guidelines, assets, messaging | GREEN guidelines | brand-guidelines-quality | brand_to_traffic_masters |
+| Deep Research | research briefs, perception requests | GREEN pesquisa | layer-gate-research-to-strategy | brand_to_deepresearch |
 
 ---
 

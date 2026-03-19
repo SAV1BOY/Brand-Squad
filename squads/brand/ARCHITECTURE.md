@@ -210,6 +210,53 @@ brand/templates/strategy/brand-purpose   → people/reference/
 brand/voice/brand-voices/                → people/voice/
 ```
 
+### Brand → Storytelling Squad
+```
+brand/templates/identity/brand-story-template     → storytelling/reference/
+brand/templates/identity/brand-archetype-guide     → storytelling/voice/
+brand/voice/brand-voices/                          → storytelling/voice/
+```
+
+### Brand → C-Level Squad
+```
+brand/templates/strategy/brand-strategy-doc        → c-level/reference/
+brand/templates/strategy/brand-equity-plan         → c-level/reference/
+brand/data/metrics/brand-tracking-kpis             → c-level/dashboards/
+```
+
+### Brand → Data Squad
+```
+brand/data/metrics/brand-tracking-kpis             → data/reference/
+brand/data/metrics/brand-equity-score-history       → data/reference/
+brand/templates/measurement/brand-tracking-dashboard → data/templates/
+```
+
+### Brand → Movement Squad
+```
+brand/templates/strategy/brand-purpose             → movement/reference/
+brand/templates/strategy/brand-manifesto            → movement/reference/
+brand/frameworks/brand-community-framework          → movement/frameworks/
+```
+
+### Brand → Advisory Board Squad
+```
+brand/templates/strategy/brand-strategy-doc        → advisory-board/reference/
+brand/templates/measurement/brand-health-scorecard → advisory-board/dashboards/
+```
+
+### Brand → Traffic Masters Squad
+```
+brand/templates/brand-guidelines/brand-book        → traffic-masters/reference/
+brand/data/registries/distinctive-assets-registry  → traffic-masters/assets/
+brand/templates/strategy/messaging-house           → traffic-masters/reference/
+```
+
+### Brand → Deep Research Squad
+```
+brand/templates/briefs/brand-discovery-brief       → deepresearch/briefs/
+brand/frameworks/discovery-and-research            → deepresearch/frameworks/
+```
+
 ### Shared Assets
 ```
 brand/phrases/tone-words-allowed.md    ↔ copy/

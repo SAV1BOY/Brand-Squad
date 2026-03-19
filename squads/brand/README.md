@@ -144,7 +144,7 @@ Docs: `docs/learning-and-memory-guide.md`
 
 ## Cross-Squad Integration
 
-O Brand Squad alimenta 5 squads com contratos formais de handoff:
+O Brand Squad alimenta 12 squads com contratos formais de handoff:
 
 | Squad Receptor | Assets Transferidos | Quality Bar |
 |---------------|---------------------|-------------|
@@ -153,6 +153,13 @@ O Brand Squad alimenta 5 squads com contratos formais de handoff:
 | **Product** | naming, ux-writing-principles, verbal-identity | GREEN em naming + voice quality |
 | **Design** | visual-guidelines, creative-direction, brand-assets | GREEN em visual-identity-quality |
 | **People** | employer-brand, EVP, brand-values | GREEN em brand-purpose-quality |
+| **Storytelling** | brand-story-manifesto, archetypes, voice-guide | GREEN em brand-narrative-quality |
+| **C-Level** | brand-strategy-doc, equity-plan, health-scorecard | GREEN em brand-strategy-quality |
+| **Data** | brand-tracking-kpis, equity-score-history | GREEN em brand-tracking-quality |
+| **Movement** | brand-purpose, values, manifesto | GREEN em brand-purpose-quality |
+| **Advisory Board** | brand-strategy-doc, quarterly-review | GREEN em brand-strategy-quality |
+| **Traffic Masters** | brand-guidelines, distinctive-assets, messaging | GREEN em brand-guidelines-quality |
+| **Deep Research** | research briefs, perception-study requests | GREEN em checklists de pesquisa |
 
 Docs: `docs/handoff-contracts-guide.md` | `docs/cross-squad-integration-guide.md`
 
@@ -183,9 +190,9 @@ Docs: `docs/agent-roles-guide.md` | `ARCHITECTURE.md` (secao 11)
 ## Versao
 
 - **Squad:** Brand Strategy + Identity
-- **Versao:** 1.1.0
+- **Versao:** 1.2.0
 - **Agentes:** 15
 - **Teams/Swarms:** 3 teams + 1 swarm
 - **Arquivos:** ~730+
 - **Metodologia:** HRM (Hierarchical Role Modeling)
-- **Ultima auditoria:** 2026-03-19
+- **Ultima auditoria:** 2026-03-19 (v3 — cross-squad expandido para 12 squads, 19 routing entries adicionadas)
