@@ -13,7 +13,7 @@
 
 ## Equipe (Agentes)
 
-- **Brand Strategist**: Líder do projeto, posicionamento e plataforma
+- **brand-chief**: Líder do projeto, posicionamento e plataforma
 - **Naming Specialist**: Criação e validação de nome
 - **Voice Architect**: Tom de voz, messaging, manifesto
 - **Visual Director**: Briefing e direção de identidade visual

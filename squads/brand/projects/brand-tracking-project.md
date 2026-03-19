@@ -13,7 +13,7 @@
 ## Equipe (Agentes)
 
 - **Research Analyst**: Líder, metodologia e análise
-- **Brand Strategist**: Interpretação estratégica dos dados
+- **brand-chief**: Interpretação estratégica dos dados
 - **Data Analyst**: Setup de ferramentas e dashboards
 
 ## Fases

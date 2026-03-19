@@ -12,7 +12,7 @@
 
 ## Equipe (Agentes)
 
-- **Brand Strategist**: Líder, avaliação estratégica e arquitetura
+- **brand-chief**: Líder, avaliação estratégica e arquitetura
 - **Research Analyst**: Pesquisa de fit e aceitação
 - **Naming Specialist**: Nome do novo produto/linha (se necessário)
 - **Visual Director**: Identidade visual da extensão

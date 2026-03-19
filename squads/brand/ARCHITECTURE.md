@@ -191,6 +191,190 @@ brand/phrases/brand-descriptors-library.md ↔ copy/
 
 ---
 
+## 8. Quality Gate Cascade
+
+O Brand Squad opera com quality gates em 5 niveis, em cascata. Nenhum output avanca sem passar pelo gate correspondente.
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│                    QUALITY GATE CASCADE                       │
+├──────────────────────────────────────────────────────────────┤
+│                                                                │
+│  ┌─────────────┐                                              │
+│  │ 1. AGENT    │  Cada agente valida seu proprio output       │
+│  │    GATE     │  antes de entregar ao squad                  │
+│  └──────┬──────┘                                              │
+│         ▼                                                      │
+│  ┌─────────────┐                                              │
+│  │ 2. TASK     │  Checklists obrigatorios definidos no        │
+│  │    GATE     │  config.yaml routing (por task)              │
+│  └──────┬──────┘                                              │
+│         ▼                                                      │
+│  ┌─────────────┐                                              │
+│  │ 3. LAYER    │  Layer transition gates que validam          │
+│  │    GATE     │  completude antes de avancar de camada       │
+│  └──────┬──────┘  (checklists/layer-gate-*.md)                │
+│         ▼                                                      │
+│  ┌─────────────┐                                              │
+│  │ 4. CHIEF    │  brand-chief revisa output consolidado       │
+│  │    GATE     │  e valida coerencia entre camadas            │
+│  └──────┬──────┘                                              │
+│         ▼                                                      │
+│  ┌─────────────┐                                              │
+│  │ 5. FINAL    │  Validacao antes de handoff cross-squad      │
+│  │    GATE     │  ou entrega ao sistema maior                 │
+│  └─────────────┘                                              │
+│                                                                │
+├──────────────────────────────────────────────────────────────┤
+│  SCORING:  GREEN >=80%  │  YELLOW 60-79%  │  RED <60%        │
+│  RED = bloqueado        │  YELLOW = chief override            │
+├──────────────────────────────────────────────────────────────┤
+│  Detalhes: docs/quality-gates-guide.md                        │
+│  Config:   config.yaml → quality_gates                        │
+└──────────────────────────────────────────────────────────────┘
+```
+
+### Layer Transition Gates
+| Transicao | Checklist | Aprovadores |
+|-----------|-----------|-------------|
+| Research → Strategy | `checklists/layer-gate-research-to-strategy` | brand-chief, byron-sharp, kevin-keller |
+| Strategy → Identity | `checklists/layer-gate-strategy-to-identity` | brand-chief, al-ries, david-aaker |
+| Identity → Activation | `checklists/layer-gate-identity-to-activation` | brand-chief, alina-wheeler, emily-heyward |
+| Activation → Governance | `checklists/layer-gate-activation-to-governance` | brand-chief, denise-yohn |
+
+---
+
+## 9. Learning & Memory System
+
+O Brand Squad opera com um ciclo Kaizen continuo que transforma experiencia em melhoria.
+
+```
+┌──────────────────────────────────────────────────────┐
+│                   KAIZEN LOOP                         │
+│                                                        │
+│     ┌──────────┐                                      │
+│     │ EXECUTE  │  Executar task conforme routing       │
+│     └────┬─────┘                                      │
+│          ▼                                             │
+│     ┌──────────┐                                      │
+│     │ MEASURE  │  Avaliar via quality gates            │
+│     └────┬─────┘                                      │
+│          ▼                                             │
+│     ┌──────────┐                                      │
+│     │  LEARN   │  Registrar em learnings-log           │
+│     └────┬─────┘                                      │
+│          ▼                                             │
+│     ┌──────────┐                                      │
+│     │ IMPROVE  │  Alimentar improvement-backlog        │
+│     └────┬─────┘                                      │
+│          ▼                                             │
+│     ┌──────────┐                                      │
+│     │ EXECUTE  │  Proxima execucao incorpora melhoria  │
+│     └──────────┘                                      │
+└──────────────────────────────────────────────────────┘
+```
+
+### Registries de Memoria Operacional
+| Registry | Arquivo | Captura |
+|----------|---------|---------|
+| Decisoes | `data/registries/brand-decisions-log` | Todas as decisoes estrategicas com racional |
+| Premissas | `data/registries/assumptions-log` | Premissas feitas e seu status de validacao |
+| Riscos | `data/registries/risk-log` | Riscos identificados e mitigacao |
+| Aprendizados | `data/registries/learnings-log` | Licoes de sucesso e falha |
+| Melhorias | `data/registries/improvement-backlog` | Oportunidades priorizadas |
+| Handoffs | `data/registries/handoff-log` | Transferencias cross-squad |
+| Claims | `data/registries/brand-claims-registry` | Promessas e RTBs da marca |
+| Touchpoints | `data/registries/brand-touchpoints-registry` | Pontos de contato mapeados |
+| Violacoes | `data/registries/brand-violations-log` | Desvios de guidelines |
+| Assets | `data/registries/distinctive-assets-registry` | Ativos distintivos da marca |
+| Naming | `data/registries/naming-registry` | Historico de naming |
+
+Detalhes: `docs/learning-and-memory-guide.md`
+
+---
+
+## 10. Escalation & Rework
+
+### Cadeia de Escalacao
+```
+┌─────────────┐     ┌──────────────┐     ┌──────────────┐
+│  NIVEL 1    │────▶│   NIVEL 2    │────▶│   NIVEL 3    │
+│ Agente      │     │ Brand Chief  │     │  HRM Chief   │
+│ re-executa  │     │  arbitra     │     │ decisao final│
+└─────────────┘     └──────────────┘     └──────────────┘
+```
+
+**Triggers de Escalacao:**
+1. Quality gate RED apos 3 rework loops
+2. Conflito entre 2+ agentes sem resolucao
+3. Task fora do escopo do squad
+4. Stakeholder override request
+5. Deadline em risco
+
+### Rework Loop
+```
+Output → Quality Gate → FAIL → Rework Brief → Re-execucao → Gate Retry
+                                                     │
+                                              Max 3 loops
+                                                     │
+                                          Se falhar → Escalacao
+```
+
+Detalhes: `docs/escalation-protocol.md` | `docs/rework-loops-guide.md`
+
+---
+
+## 11. HRM Governance Model
+
+O Brand Squad opera dentro do modelo HRM (Hierarchical Role Modeling) com 4 niveis:
+
+```
+┌──────────────────────────────────────────────────────┐
+│                  HRM GOVERNANCE                       │
+├──────────────────────────────────────────────────────┤
+│                                                        │
+│  Nivel 4: HRM CHIEF (sistema)                         │
+│  ├── Decisoes que impactam multiplos squads            │
+│  ├── Arbitragem final de conflitos                     │
+│  └── Aprovacao de mudancas estruturais                 │
+│                                                        │
+│  Nivel 3: BRAND CHIEF (squad)                          │
+│  ├── Orquestra todos os agentes                        │
+│  ├── Arbitra conflitos entre agentes                   │
+│  ├── Override de quality gates YELLOW                   │
+│  ├── Aprovacao final de outputs do squad               │
+│  └── Coordena handoffs cross-squad                     │
+│                                                        │
+│  Nivel 2: TEAMS / SWARMS (funcional)                   │
+│  ├── Strategy Team: Aaker + Keller + Ries + Neumeier  │
+│  ├── Identity Team: Wheeler + Heyward + Miller         │
+│  ├── Research Team: Sharp + Keller + Yohn              │
+│  ├── Naming Swarm: Naming + Archetype + Domain         │
+│  └── Coordenacao horizontal entre agentes              │
+│                                                        │
+│  Nivel 1: AGENTS (individual)                          │
+│  ├── Executa tasks dentro do seu dominio               │
+│  ├── Aplica frameworks e checklists                    │
+│  ├── Valida output via agent gate                      │
+│  ├── Sabe quando escalar                               │
+│  └── Sabe quando delegar                               │
+│                                                        │
+├──────────────────────────────────────────────────────┤
+│  Principio: cada nivel so escala quando esgota         │
+│  suas opcoes de resolucao                              │
+└──────────────────────────────────────────────────────┘
+```
+
+### Quando Cada Nivel Intervem
+| Nivel | Intervem Quando |
+|-------|-----------------|
+| Agent | Task esta no seu dominio e ele tem frameworks/checklists adequados |
+| Team/Swarm | Task requer coordenacao entre multiplos agentes do mesmo dominio |
+| Brand Chief | Conflito entre agentes, quality gate YELLOW, output consolidado, handoff cross-squad |
+| HRM Chief | Impacto cross-squad, mudanca estrutural, gate RED apos 3 loops, decisao irreversivel |
+
+---
+
 ## 7. Glossario
 
 | Termo | Definicao |

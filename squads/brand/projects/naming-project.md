@@ -14,7 +14,7 @@
 ## Equipe (Agentes)
 
 - **Naming Specialist**: Líder, geração criativa e curadoria
-- **Brand Strategist**: Alinhamento com posicionamento
+- **brand-chief**: Alinhamento com posicionamento
 - **Legal Advisor**: Validação de registro de marca
 - **Research Analyst**: Teste com público-alvo
 

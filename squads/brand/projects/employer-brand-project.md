@@ -12,7 +12,7 @@
 
 ## Equipe (Agentes)
 
-- **Brand Strategist**: Líder, alinhamento employer brand x corporate brand
+- **brand-chief**: Líder, alinhamento employer brand x corporate brand
 - **Voice Architect**: EVP e messaging para talentos
 - **Research Analyst**: Pesquisa interna e benchmarks
 - **Culture Specialist**: Validação de autenticidade cultural

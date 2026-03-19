@@ -12,7 +12,7 @@
 
 ## Equipe (Agentes)
 
-- **Brand Strategist**: Líder, priorização e cronograma
+- **brand-chief**: Líder, priorização e cronograma
 - **Visual Director**: Produção e aprovação de materiais visuais
 - **Voice Architect**: Adaptação de conteúdo verbal
 - **Change Manager**: Comunicação interna e treinamento

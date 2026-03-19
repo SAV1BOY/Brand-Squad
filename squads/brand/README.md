@@ -1,7 +1,7 @@
 # Brand Squad — MMOS Brand Strategy + Identity OS
 
 > Sistema operacional completo de **Brand Strategy + Brand Identity** do MMOS.
-> 15 agentes especializados | ~675+ arquivos | Metodologia HRM | Gold-standard SOTA.
+> 15 agentes especializados | ~727 arquivos | Metodologia HRM | Gold-standard SOTA.
 
 ---
 
@@ -113,13 +113,47 @@ Layer 6: Measurement   → Tracking, KPIs, decisoes
 
 ---
 
+## Quality Gates & Governance
+
+O Brand Squad opera com quality gates em 5 niveis em cascata:
+1. **Agent Gate** — cada agente valida seu output
+2. **Task Gate** — checklists obrigatorios por task (config.yaml)
+3. **Layer Gate** — validacao entre camadas (checklists/layer-gate-*.md)
+4. **Chief Gate** — brand-chief revisa output consolidado
+5. **Final Gate** — validacao antes de handoff cross-squad
+
+Scoring: GREEN (>=80%) | YELLOW (60-79%, chief override) | RED (<60%, bloqueado)
+
+Docs: `docs/quality-gates-guide.md` | `docs/escalation-protocol.md` | `docs/rework-loops-guide.md`
+
+---
+
+## Operational Memory
+
+O squad registra tudo em memoria operacional via Kaizen loop:
+- `data/registries/brand-decisions-log` — decisoes estrategicas
+- `data/registries/assumptions-log` — premissas para validacao
+- `data/registries/risk-log` — riscos identificados
+- `data/registries/learnings-log` — licoes aprendidas
+- `data/registries/improvement-backlog` — melhorias priorizadas
+- `data/registries/handoff-log` — transferencias cross-squad
+
+Docs: `docs/learning-and-memory-guide.md`
+
+---
+
 ## Cross-Squad Integration
 
-O Brand Squad alimenta outros squads com:
+O Brand Squad alimenta outros squads com contratos formais de handoff:
 - **Brand Voice Guide** → Copy Squad (tom e personalidade)
 - **Positioning Statement** → Copy Squad (contexto)
 - **Messaging House** → Copy Squad (alinhamento)
 - **Brand Archetypes** → Copy Squad (arquetipo → linguagem)
+- **Brand Guidelines** → Design Squad (visual)
+- **Naming** → Product Squad (nomenclatura)
+- **Employer Brand** → People/Culture Squad (EVP)
+
+Docs: `docs/handoff-contracts-guide.md` | `docs/cross-squad-integration-guide.md`
 
 ---
 
@@ -137,5 +171,5 @@ O Brand Squad alimenta outros squads com:
 - **Squad:** Brand Strategy + Identity
 - **Versao:** 1.0.0
 - **Agentes:** 15
-- **Arquivos:** ~675+
+- **Arquivos:** ~727
 - **Metodologia:** HRM (Hierarchical Role Modeling)

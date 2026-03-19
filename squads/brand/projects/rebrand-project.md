@@ -12,7 +12,7 @@
 
 ## Equipe (Agentes)
 
-- **Brand Strategist**: Líder, nova estratégia e posicionamento
+- **brand-chief**: Líder, nova estratégia e posicionamento
 - **Research Analyst**: Auditoria e pesquisa de percepção atual
 - **Voice Architect**: Nova identidade verbal e messaging
 - **Visual Director**: Nova direção visual

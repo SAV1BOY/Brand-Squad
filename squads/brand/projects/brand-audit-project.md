@@ -13,7 +13,7 @@
 ## Equipe (Agentes)
 
 - **Research Analyst**: Líder, pesquisa e análise de dados
-- **Brand Strategist**: Interpretação estratégica e recomendações
+- **brand-chief**: Interpretação estratégica e recomendações
 - **Visual Director**: Auditoria de consistência visual
 - **Voice Architect**: Auditoria de consistência verbal
 

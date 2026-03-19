@@ -12,7 +12,7 @@
 
 ## Equipe (Agentes)
 
-- **Brand Strategist**: Líder, decisões estratégicas de marca
+- **brand-chief**: Líder, decisões estratégicas de marca
 - **PR Manager**: Comunicação com mídia e público
 - **Legal Advisor**: Validação jurídica de comunicados
 - **Social Media Manager**: Monitoramento e resposta em redes

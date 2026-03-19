@@ -12,7 +12,7 @@
 
 ## Equipe (Agentes)
 
-- **Brand Strategist**: Líder, definição do que muda e o que permanece
+- **brand-chief**: Líder, definição do que muda e o que permanece
 - **Visual Director**: Evolução visual respeitando herança
 - **Voice Architect**: Refinamento de tom e messaging
 - **Research Analyst**: Validação com público

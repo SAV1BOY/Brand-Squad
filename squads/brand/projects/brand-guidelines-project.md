@@ -11,7 +11,7 @@
 
 ## Equipe (Agentes)
 
-- **Brand Strategist**: Líder, estrutura e conteúdo estratégico
+- **brand-chief**: Líder, estrutura e conteúdo estratégico
 - **Visual Director**: Seções visuais e aplicações
 - **Voice Architect**: Seções de identidade verbal
 - **Template Designer**: Templates e exemplos
