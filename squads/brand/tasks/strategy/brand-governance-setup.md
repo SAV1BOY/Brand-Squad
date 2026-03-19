@@ -45,3 +45,33 @@ Estabelecer processos, papeis e ferramentas de governanca que protejam a integri
 
 ## Registro
 - `data/registries/brand-decisions-log`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand guidelines finalizadas, estrutura organizacional mapeada, lista de usuarios da marca identificada
+- Gate de saida: score GREEN (>=80%) no checklist brand-guidelines-quality
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre brand-chief e alina-wheeler sobre niveis de aprovacao → brand-chief decide (como orchestrator)
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (fluxo de aprovacao incompleto, politica de parceiros vaga, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: brand-guidelines-creation, touchpoint-inventory
+- Downstream: brand-governance-enforcement, partner-alignment, cross-squad-brand-sync
+- Cross-squad: todos os squads (modelo de governanca impacta uso da marca por todos)
+
+### Metricas
+- Numero de niveis de autoridade definidos com responsavel
+- Completude do fluxo de aprovacao (todas as etapas mapeadas)
+- Numero de usuarios da marca cobertos pelo modelo

@@ -46,3 +46,33 @@ Identificar, criar e priorizar os distinctive assets da marca — elementos visu
 
 ## Registro
 - `data/registries/distinctive-assets-registry`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand identity atual inventariada, dados de reconhecimento disponiveis, distinctive assets dos concorrentes mapeados
+- Gate de saida: score GREEN (>=80%) nos checklists sharp/distinctive-assets-audit e distinctive-assets-quality
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre byron-sharp e alina-wheeler sobre viabilidade de assets → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (assets sem metrica de reconhecimento, regras de uso vagas, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: brand-audit, category-entry-points-research, visual-identity-direction
+- Downstream: maintain-distinctive-assets-registry, brand-guidelines-creation, sonic-branding-development
+- Cross-squad: marketing squad (distinctive assets para campanhas), design squad (assets visuais para execucao)
+
+### Metricas
+- Numero de distinctive assets inventariados e classificados
+- % de assets com metrica de reconhecimento definida
+- Numero de gaps de assets identificados e priorizados

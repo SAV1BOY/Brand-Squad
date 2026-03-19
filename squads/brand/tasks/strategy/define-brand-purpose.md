@@ -44,3 +44,33 @@ Articular um proposito de marca claro, autentico e inspirador que conecte a miss
 
 ## Registro
 - `data/registries/brand-decisions-log`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: resultados de stakeholder interviews e customer interviews disponiveis, missao/visao/valores existentes revisados
+- Gate de saida: score GREEN (>=80%) nos checklists brand-purpose-quality e yohn/brand-as-business-audit
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre agentes sobre autenticidade do proposito → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (proposito generico, sem conexao com negocio, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: stakeholder-interviews, customer-interviews, brand-audit
+- Downstream: define-brand-promise, messaging-house-development, brand-story-manifesto
+- Cross-squad: people squad (brand values e cultura)
+
+### Metricas
+- Score de autenticidade do proposito (criterios de validacao)
+- Alinhamento entre proposito e estrategia de negocio (pass/fail)
+- Numero de versoes avaliadas antes da selecao final

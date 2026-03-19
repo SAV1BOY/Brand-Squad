@@ -46,3 +46,33 @@ Mapear o landscape competitivo completo — players, posicionamentos, claims, di
 
 ## Registro
 - `data/research/competitor-research/`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: briefing com categoria definida, lista preliminar de concorrentes disponivel
+- Gate de saida: score GREEN (>=80%) nos checklists ries/positioning-statement-audit e sharp/mental-availability-audit
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre al-ries e byron-sharp sobre categorizacao → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas nos criterios de mapeamento competitivo
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: briefing inicial do projeto
+- Downstream: positioning-development, competitive-repositioning, category-creation-strategy
+- Cross-squad: nenhum (task interna de pesquisa)
+
+### Metricas
+- Numero de concorrentes mapeados (diretos + indiretos)
+- Numero de category entry points identificados
+- Numero de white spaces documentados

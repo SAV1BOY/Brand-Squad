@@ -46,3 +46,33 @@ Avaliar o estado atual da marca em todas as dimensoes — equity, identidade, co
 
 ## Registro
 - `data/registries/brand-decisions-log`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: briefing do projeto aprovado, materiais da marca coletados, dados de tracking disponiveis
+- Gate de saida: score GREEN (>=80%) nos checklists aaker/aaker-equity-audit e sharp/distinctive-assets-audit
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre byron-sharp e kevin-keller sobre diagnostico → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas identificadas nos checklists
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: briefing inicial do projeto (entrada do squad)
+- Downstream: positioning-development, define-brand-purpose, brand-equity-plan
+- Cross-squad: nenhum (task interna de diagnostico)
+
+### Metricas
+- Numero de dimensoes de equity avaliadas (Aaker + Keller)
+- % de gaps identificados com recomendacao acionavel
+- Tempo entre coleta de materiais e entrega do relatorio

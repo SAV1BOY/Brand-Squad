@@ -49,3 +49,33 @@ Produzir o documento definitivo de brand guidelines — cobrindo identidade visu
 
 ## Registro
 - `data/registries/brand-touchpoints-registry`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: visual identity direction aprovada, brand voice guide concluido, messaging house e distinctive assets registry disponiveis
+- Gate de saida: score GREEN (>=80%) nos checklists wheeler/identity-system-audit, wheeler/brand-guidelines-audit e brand-guidelines-quality
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre alina-wheeler e emily-heyward sobre usabilidade do brand book → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (capitulos incompletos, exemplos insuficientes, do's & don'ts vagos, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: visual-identity-direction, brand-voice-development, messaging-house-development, define-distinctive-assets
+- Downstream: touchpoint-migration, internal-training, partner-alignment, guidelines-review
+- Cross-squad: marketing squad, design squad, copy squad, product squad (brand book como referencia para todos)
+
+### Metricas
+- Numero de capitulos completos com exemplos visuais
+- Score de usabilidade (teste com usuario novo)
+- Cobertura de touchpoints nas aplicacoes documentadas

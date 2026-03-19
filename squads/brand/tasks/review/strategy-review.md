@@ -48,3 +48,33 @@ Avaliar a robustez, coerencia e eficacia da estrategia de marca — posicionamen
 
 ## Registro
 - `data/registries/brand-decisions-log`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand strategy document completo, positioning statement, brand purpose e promise disponiveis
+- Gate de saida: score GREEN (>=80%) nos checklists brand-strategy-quality e positioning-quality
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief (como lider da revisao, escala para HRM Chief nivel 3)
+- Se conflito entre david-aaker e al-ries sobre avaliacao da estrategia → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief direcionado ao agente responsavel pelo componente falho (positioning → al-ries, identity system → david-aaker)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: positioning-development, define-brand-purpose, define-brand-promise, brand-architecture-design
+- Downstream: identity-review (layer gate strategy→identity), brand-guidelines-creation
+- Cross-squad: nenhum (task de revisao interna — gate obrigatorio antes de avancar para identity layer)
+
+### Metricas
+- % de componentes estrategicos aprovados na primeira revisao
+- Numero de gaps e inconsistencias identificados
+- Tempo entre submissao e aprovacao final

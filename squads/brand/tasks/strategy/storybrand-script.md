@@ -52,3 +52,33 @@ Criar o script StoryBrand seguindo o framework SB7 de Donald Miller — posicion
 
 ## Registro
 - `data/registries/brand-claims-registry`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: dados de customer interviews disponiveis, brand promise e posicionamento definidos
+- Gate de saida: score GREEN (>=80%) nos checklists miller/storybrand-sb7-audit e miller/one-liner-audit
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre donald-miller e miller-sticky-brand sobre narrativa → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (heroi mal definido, plano confuso, CTA fraco, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: messaging-house-development, customer-interviews, define-brand-promise
+- Downstream: brand-story-manifesto, campaign-activation-brief, website-brand-implementation
+- Cross-squad: copy squad (BrandScript como referencia para copy), marketing squad (narrativa para campanhas)
+
+### Metricas
+- Completude dos 7 elementos SB7 (todos preenchidos)
+- Score de clareza do one-liner (teste de compreensao)
+- Alinhamento do script com dados reais do cliente (pass/fail)

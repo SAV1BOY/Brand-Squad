@@ -53,3 +53,33 @@ Medir e demonstrar o retorno sobre investimento (ROI) das iniciativas de brandin
 
 ## Registro
 - `data/metrics/brand-equity-score-history`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: investimentos em marca inventariados, metricas de tracking pre e pos disponiveis, dados financeiros validados
+- Gate de saida: dados financeiros validados, correlacoes com controle de variaveis externas, ROI calculado com metodologia transparente
+- Score minimo: GREEN (>=80%) na validacao de completude e rigor metodologico
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre david-aaker e byron-sharp sobre atribuicao de resultados → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (correlacoes sem controle, dados financeiros incompletos, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: brand-tracking-analysis, brand-equity-valuation-analysis
+- Downstream: quarterly-brand-review, brand-equity-plan (informa proximo ciclo de investimento)
+- Cross-squad: nenhum (analise interna de ROI)
+
+### Metricas
+- ROI geral das iniciativas de marca (% ou multiplo)
+- Price premium atribuivel a marca (%)
+- Ranking de ROI por iniciativa individual

@@ -112,6 +112,30 @@ agents:
     domain: "domains, handles, availability, heuristics"
 
 # ============================================================
+# TEAMS & SWARMS
+# ============================================================
+teams:
+  strategy_team:
+    members: [david-aaker, kevin-keller, al-ries, marty-neumeier]
+    coordinator: david-aaker
+    scope: "positioning, equity, architecture, differentiation"
+  identity_team:
+    members: [alina-wheeler, emily-heyward, donald-miller, miller-sticky-brand]
+    coordinator: alina-wheeler
+    scope: "visual identity, messaging, guidelines, launch"
+  research_team:
+    members: [byron-sharp, kevin-keller, denise-yohn]
+    coordinator: byron-sharp
+    scope: "market research, perception, availability, internal alignment"
+
+swarms:
+  naming_swarm:
+    members: [naming-strategist, archetype-consultant, domain-scout]
+    coordinator: naming-strategist
+    scope: "naming, archetypes, domains, handles"
+    activation: "triggered by naming tasks"
+
+# ============================================================
 # ROUTING: TASK → AGENTS → FRAMEWORKS → CHECKLISTS → TEMPLATES
 # ============================================================
 routing:
@@ -501,6 +525,17 @@ routing:
       - briefs/domain-scout-brief
     registry: data/registries/naming-registry
 
+  sonic-branding-development:
+    agents: [emily-heyward, brand-chief]
+    frameworks:
+      - distinctive-assets-system
+      - brand-experience-map
+    checklists:
+      - distinctive-assets-quality
+    templates:
+      - identity/distinctive-assets-template
+    registry: data/registries/distinctive-assets-registry
+
   # ──────────────────────────────────────
   # IMPLEMENTATION TASKS
   # ──────────────────────────────────────
@@ -610,6 +645,18 @@ routing:
     templates: []
     registry: data/registries/brand-claims-registry
 
+  brand-refresh-review:
+    agents: [brand-chief, david-aaker, alina-wheeler]
+    frameworks:
+      - aaker-brand-identity-system
+      - wheeler-brand-identity-process
+    checklists:
+      - brand-strategy-quality
+      - visual-identity-quality
+    templates:
+      - analysis/brand-audit-report-template
+    registry: data/registries/brand-decisions-log
+
   # ──────────────────────────────────────
   # ANALYSIS TASKS
   # ──────────────────────────────────────
@@ -703,6 +750,16 @@ routing:
     templates: []
     registry: data/registries/brand-decisions-log
 
+  brand-crisis-response:
+    agents: [brand-chief, emily-heyward]
+    frameworks:
+      - brand-crisis-framework
+      - brand-governance-model
+    checklists:
+      - brand-consistency-quality
+    templates: []
+    registry: data/registries/brand-decisions-log
+
 # ============================================================
 # CROSS-SQUAD INTEGRATION
 # ============================================================
@@ -717,6 +774,46 @@ cross_squad:
       - phrases/tone-words-allowed
       - phrases/tone-words-forbidden
       - phrases/brand-descriptors-library
+
+  marketing:
+    handoff_from_brand:
+      - "brand-guidelines → marketing/brand/"
+      - "distinctive-assets → marketing/assets/"
+      - "campaign-frameworks → marketing/frameworks/"
+    shared_assets:
+      - brand-guidelines/brand-book-template
+      - identity/distinctive-assets-template
+      - strategy/brand-strategy-doc-template
+
+  product:
+    handoff_from_brand:
+      - "naming → product/naming/"
+      - "ux-writing-principles → product/voice/"
+      - "verbal-identity → product/reference/"
+    shared_assets:
+      - identity/verbal-identity-template
+      - identity/brand-voice-guide-template
+      - identity/naming-shortlist-template
+
+  design:
+    handoff_from_brand:
+      - "visual-guidelines → design/brand/"
+      - "creative-direction → design/direction/"
+      - "brand-assets → design/assets/"
+    shared_assets:
+      - brand-guidelines/brand-book-template
+      - identity/distinctive-assets-template
+      - briefs/identity-design-brief
+
+  people:
+    handoff_from_brand:
+      - "employer-brand → people/brand/"
+      - "evp → people/evp/"
+      - "brand-values → people/culture/"
+    shared_assets:
+      - strategy/brand-purpose-template
+      - rollout/brand-ambassador-guide
+      - rollout/internal-rollout-playbook
 
 # ============================================================
 # DEFAULTS

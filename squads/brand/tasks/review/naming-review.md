@@ -48,3 +48,33 @@ Validar o nome selecionado contra todos os criterios estrategicos, linguisticos,
 
 ## Registro
 - `data/registries/naming-registry`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: nome selecionado com scoring completo, dados de disponibilidade digital e screening legal concluidos
+- Gate de saida: score GREEN (>=80%) nos checklists naming-quality e naming/naming-legal-screening-checklist
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre naming-strategist e brand-chief sobre decisao final → brand-chief decide (como orchestrator)
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (problemas legais, conotacoes negativas, baixa memorabilidade, etc.)
+- Apos 3 loops → escalacao automatica nivel 2 (retorno ao naming-workshop para novas opcoes)
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: naming-shortlist-and-scoring
+- Downstream: verbal-identity-development, brand-guidelines-creation, maintain-naming-registry
+- Cross-squad: product squad (se naming de produto)
+
+### Metricas
+- Score final na naming decision matrix
+- Status de disponibilidade digital (dominios + handles)
+- Status legal (limpo/pendencia)

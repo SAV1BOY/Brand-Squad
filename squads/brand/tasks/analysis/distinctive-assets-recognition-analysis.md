@@ -46,3 +46,33 @@ Medir o nivel de reconhecimento e atribuicao correta de cada distinctive asset d
 
 ## Registro
 - `data/registries/distinctive-assets-registry`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: distinctive assets registry atualizado, dados de pesquisa de reconhecimento disponiveis
+- Gate de saida: score GREEN (>=80%) no checklist sharp/distinctive-assets-audit
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre agentes sobre classificacao de assets na grid → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (fame/uniqueness nao medidos, grid incompleta, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: define-distinctive-assets, maintain-distinctive-assets-registry
+- Downstream: brand-health-scorecard-analysis, quarterly-brand-review
+- Cross-squad: nenhum (analise interna de assets)
+
+### Metricas
+- Numero de assets avaliados com fame e uniqueness medidos
+- % de assets classificados como invest ou maintain na grid
+- Evolucao de reconhecimento vs. medicao anterior

@@ -49,3 +49,33 @@ Coletar, analisar e interpretar metricas de brand tracking — awareness, consid
 
 ## Registro
 - `data/metrics/brand-equity-score-history`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: dados de pesquisa de tracking do periodo coletados, baseline de metricas anteriores disponivel
+- Gate de saida: score GREEN (>=80%) nos checklists brand-tracking-quality e sharp/mental-availability-audit
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre byron-sharp e kevin-keller sobre interpretacao de metricas → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (dados incompletos, comparativo sem baseline, insights superficiais, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: perception-study, category-entry-points-research, social-listening-analysis
+- Downstream: brand-health-scorecard-analysis, quarterly-brand-review, brand-equity-valuation-analysis
+- Cross-squad: nenhum (analise interna de tracking)
+
+### Metricas
+- Numero de metricas de tracking coletadas vs. planejadas
+- Evolucao de awareness (aided e unaided) vs. periodo anterior
+- Numero de insights acionaveis gerados

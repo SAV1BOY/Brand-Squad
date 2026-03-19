@@ -51,3 +51,33 @@ Desenvolver um plano estruturado para construir, mensurar e proteger o brand equ
 
 ## Registro
 - `data/registries/brand-decisions-log`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand audit concluido, posicionamento e brand strategy definidos, metas de negocio claras
+- Gate de saida: score GREEN (>=80%) nos checklists aaker/aaker-equity-audit e keller/cbbe-pyramid-audit
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre david-aaker e kevin-keller sobre priorizacao de dimensoes → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (metas sem baseline, KPIs nao mensuraveis, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: brand-audit, positioning-development, perception-study
+- Downstream: brand-tracking-analysis, quarterly-brand-review, brand-equity-valuation-analysis
+- Cross-squad: nenhum (plano interno de equity)
+
+### Metricas
+- Numero de dimensoes de equity com meta definida
+- % de KPIs com baseline e meta quantificada
+- Completude do timeline com milestones trimestrais

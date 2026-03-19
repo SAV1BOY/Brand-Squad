@@ -45,3 +45,33 @@ Coletar insights qualitativos diretamente de clientes sobre percepcao da marca, 
 
 ## Registro
 - `data/research/interview-notes/`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: perfil de entrevistados definido, roteiro base aprovado por denise-yohn
+- Gate de saida: minimo 5 entrevistas por segmento realizadas, transcricoes completas, insights codificados
+- Score minimo: GREEN (>=80%) na validacao de completude e qualidade dos insights
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre agentes sobre interpretacao de insights → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (amostra insuficiente, codificacao incompleta, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: briefing do projeto com objetivos de pesquisa
+- Downstream: define-brand-purpose, define-brand-promise, voice-of-customer-mining, positioning-development
+- Cross-squad: nenhum (task interna de pesquisa)
+
+### Metricas
+- Numero de entrevistas realizadas por segmento
+- Numero de jobs-to-be-done identificados
+- Numero de expressoes de linguagem real coletadas

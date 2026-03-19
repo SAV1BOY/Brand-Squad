@@ -54,3 +54,33 @@ Consolidar todas as metricas de marca em um scorecard unico e visual — combina
 
 ## Registro
 - `data/metrics/brand-equity-score-history`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand tracking analysis, distinctive assets recognition analysis e brand equity valuation concluidos
+- Gate de saida: score GREEN (>=80%) no checklist brand-tracking-quality, todas as dimensoes com dados atualizados, comparativo temporal incluido
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre byron-sharp e kevin-keller sobre normalizacao de escalas → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (dimensoes sem dados, semaforos inconsistentes, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: brand-tracking-analysis, distinctive-assets-recognition-analysis, brand-equity-valuation-analysis, consistency-review
+- Downstream: quarterly-brand-review
+- Cross-squad: nenhum (scorecard para comunicacao executiva interna)
+
+### Metricas
+- Indice geral de saude da marca (score 0-100)
+- Numero de dimensoes em semaforo verde vs. amarelo vs. vermelho
+- Evolucao do indice geral vs. periodo anterior

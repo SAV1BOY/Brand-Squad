@@ -48,3 +48,33 @@ Atualizar o website com a nova identidade visual e verbal da marca — logo, cor
 
 ## Registro
 - `data/registries/brand-touchpoints-registry`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand guidelines atuais disponiveis, copy deck atualizado, assets visuais prontos, messaging house e StoryBrand script concluidos
+- Gate de saida: score GREEN (>=80%) nos checklists wheeler/identity-system-audit e miller/messaging-clarity-audit, consistencia mobile/desktop verificada
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre alina-wheeler e donald-miller sobre implementacao visual vs. copy → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (paginas inconsistentes, copy desalinhado, mobile quebrado, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: brand-guidelines-creation, storybrand-script, visual-identity-direction
+- Downstream: consistency-review, brand-tracking-analysis
+- Cross-squad: product squad (implementacao tecnica do site), design squad (execucao visual)
+
+### Metricas
+- % de paginas atualizadas com nova identidade
+- Score de consistencia visual e verbal entre paginas
+- Performance mobile/desktop pos-implementacao

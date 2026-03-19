@@ -46,3 +46,33 @@ Manter um acervo organizado e atualizado de referencias de branding — exemplos
 
 ## Registro
 - `swipe/` e `swipe.config`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: swipe file atual disponivel, novas referencias coletadas
+- Gate de saida: minimo 5 novas referencias por mes, cada referencia com anotacao de relevancia, classificacao por categoria consistente
+- Score minimo: GREEN (>=80%) na validacao de completude e qualidade da curadoria
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre brand-chief e emily-heyward sobre relevancia de referencias → brand-chief decide
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (referencias sem anotacao, classificacao inconsistente, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: trend-and-cultural-context, competitor-brand-shifts (fontes de novas referencias)
+- Downstream: nenhum (asset de referencia continuo para todo o squad)
+- Cross-squad: nenhum (swipe file interno do brand squad)
+
+### Metricas
+- Numero de novas referencias adicionadas por mes
+- Total de referencias no acervo por categoria
+- Numero de referencias removidas por obsolescencia

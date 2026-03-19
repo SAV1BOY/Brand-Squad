@@ -46,3 +46,33 @@ Planejar e coordenar o lancamento da marca — interno e externo — garantindo 
 
 ## Registro
 - `data/registries/brand-decisions-log`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand guidelines finalizadas, treinamento interno concluido, plano de migracao em andamento, materiais de lancamento prontos
+- Gate de saida: score GREEN (>=80%) nos checklists heyward/brand-launch-readiness-audit e internal-rollout-quality
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre brand-chief e emily-heyward sobre estrategia de lancamento → brand-chief decide
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (timeline desalinhado, canais nao sincronizados, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: internal-training, touchpoint-migration, campaign-activation-brief, brand-guidelines-creation
+- Downstream: consistency-review, brand-tracking-analysis
+- Cross-squad: marketing squad (coordenacao de lancamento externo), people squad (lancamento interno)
+
+### Metricas
+- % de canais atualizados no dia do lancamento
+- % de milestones cumpridos no prazo
+- Score de monitoramento em tempo real (incidentes vs. zero)

@@ -51,3 +51,33 @@ Quantificar e qualificar o valor do brand equity — combinando modelos Aaker (e
 
 ## Registro
 - `data/metrics/brand-equity-score-history`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: dados de brand tracking disponiveis, dados de percepcao coletados, metricas financeiras acessiveis
+- Gate de saida: score GREEN (>=80%) nos checklists aaker/aaker-equity-audit e keller/cbbe-pyramid-audit
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre david-aaker e kevin-keller sobre metodologia de valoracao → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (dimensoes sem dados, benchmark ausente, price premium nao calculado, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: brand-tracking-analysis, perception-study, brand-audit
+- Downstream: brand-health-scorecard-analysis, quarterly-brand-review, brand-equity-plan
+- Cross-squad: nenhum (analise interna de equity)
+
+### Metricas
+- Score geral de equity (indice composto)
+- Evolucao por dimensao Aaker vs. periodo anterior
+- Price premium calculado vs. generico

@@ -48,3 +48,33 @@ Executar o rollout da marca nas redes sociais — atualizando perfis, bios, temp
 
 ## Registro
 - `data/registries/brand-touchpoints-registry`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand guidelines e brand voice guide disponiveis, templates de social media criados, calendario de lancamento definido
+- Gate de saida: score GREEN (>=80%) no checklist brand-guidelines-quality, consistencia visual e messaging verificadas em todas as plataformas
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre emily-heyward e donald-miller sobre messaging em redes sociais → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (perfis inconsistentes, bios desalinhadas, templates fora do padrao, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: brand-guidelines-creation, brand-voice-development, campaign-activation-brief
+- Downstream: consistency-review, social-sentiment-analysis
+- Cross-squad: marketing squad (coordenacao de conteudo social)
+
+### Metricas
+- Numero de canais/perfis atualizados
+- Score de consistencia entre plataformas
+- Engajamento pos-rollout vs. baseline

@@ -48,3 +48,33 @@ Desenvolver a estrategia para criar e dominar uma nova categoria de mercado, pos
 
 ## Registro
 - `data/registries/brand-decisions-log`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: analise de mercado e concorrencia concluida, customer interviews com necessidades nao atendidas identificadas
+- Gate de saida: score GREEN (>=80%) nos checklists ries/focus-and-category-audit e neumeier/zag-audit
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre al-ries e marty-neumeier sobre definicao da categoria → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (categoria mal delimitada, naming confuso, plano de evangelizacao ausente, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: category-and-competitor-research, customer-interviews, positioning-development
+- Downstream: positioning-development, naming-workshop, campaign-activation-brief
+- Cross-squad: marketing squad (evangelizacao da nova categoria)
+
+### Metricas
+- Clareza da definicao da nova categoria (teste de compreensao)
+- Numero de criterios de dominio definidos
+- Completude do plano de evangelizacao

@@ -50,3 +50,33 @@ Estabelecer a direcao criativa da identidade visual — moodboard, paleta de cor
 
 ## Registro
 - `data/registries/distinctive-assets-registry`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand strategy document aprovado, brand archetype definido, analise semiotica concluida, distinctive assets definidos
+- Gate de saida: score GREEN (>=80%) nos checklists wheeler/identity-system-audit e visual-identity-quality
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre alina-wheeler e emily-heyward sobre direcao criativa → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (paleta nao diferenciada, tipografia generica, moodboard desalinhado, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: brand-archetype-selection, brand-semiotics-analysis, define-distinctive-assets
+- Downstream: brand-guidelines-creation, sonic-branding-development, website-brand-implementation
+- Cross-squad: design squad (visual direction como briefing para execucao)
+
+### Metricas
+- Numero de elementos visuais definidos (cores, tipo, foto, icones, layout)
+- Alinhamento do conceito criativo com estrategia (pass/fail)
+- Diferenciacao visual vs. codigos da categoria (avaliacao semiotica)

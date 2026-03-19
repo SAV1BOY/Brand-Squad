@@ -46,3 +46,33 @@ Coletar perspectivas de lideranca e stakeholders-chave sobre a marca — visao, 
 
 ## Registro
 - `data/research/interview-notes/`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: lista de stakeholders aprovada, roteiro base de entrevista validado por denise-yohn
+- Gate de saida: todos os stakeholders-chave entrevistados, divergencias documentadas e sinalizadas, citacoes literais registradas
+- Score minimo: GREEN (>=80%) na validacao de completude e qualidade das entrevistas
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre agentes sobre interpretacao de divergencias → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (stakeholders faltantes, divergencias nao documentadas, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: briefing inicial do projeto
+- Downstream: define-brand-purpose, define-brand-promise, brand-architecture-design
+- Cross-squad: nenhum (task interna de pesquisa)
+
+### Metricas
+- Numero de stakeholders entrevistados vs. planejado
+- Numero de temas convergentes vs. divergentes identificados
+- Numero de citacoes literais registradas

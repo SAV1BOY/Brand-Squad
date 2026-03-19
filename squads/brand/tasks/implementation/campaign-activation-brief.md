@@ -50,3 +50,33 @@ Desenvolver um briefing completo de campanha que traduza a estrategia de marca e
 
 ## Registro
 - `data/registries/brand-decisions-log`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand strategy document, messaging house e brand guidelines disponiveis, objetivos de campanha definidos
+- Gate de saida: score GREEN (>=80%) nos checklists brand-messaging-quality e heyward/brand-launch-readiness-audit
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre emily-heyward e donald-miller sobre abordagem criativa → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (brief incompleto, messaging desalinhada, distinctive assets ausentes, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: messaging-house-development, brand-guidelines-creation, storybrand-script
+- Downstream: launch-coordination, social-media-brand-rollout
+- Cross-squad: marketing squad (brief para execucao de campanha), copy squad (messaging para criacao)
+
+### Metricas
+- Completude do brief (todos os campos preenchidos)
+- Alinhamento com messaging house (pass/fail)
+- Numero de distinctive assets obrigatorios especificados

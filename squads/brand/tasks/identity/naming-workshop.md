@@ -50,3 +50,33 @@ Conduzir um workshop criativo e estrategico para gerar uma long list robusta de 
 
 ## Registro
 - `data/registries/naming-registry`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: naming brief preenchido e aprovado, posicionamento definido, criterios de avaliacao acordados
+- Gate de saida: score GREEN (>=80%) nos checklists naming/naming-brief-checklist, naming/naming-shortlist-checklist e naming-quality
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre naming-strategist e al-ries sobre potencial estrategico dos nomes → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (long list insuficiente, criterios nao aplicados, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: positioning-development, brand-archetype-selection, brand-architecture-design
+- Downstream: naming-shortlist-and-scoring, naming-review
+- Cross-squad: nenhum (task interna de identidade)
+
+### Metricas
+- Numero de nomes gerados na long list
+- Numero de familias/abordagens identificadas
+- % de nomes que passaram na filtragem por criterios eliminatorios

@@ -49,3 +49,25 @@
 **Acao Resultante**: [O que mudou a partir disso]
 **Aplicavel a**: [Onde mais esse aprendizado se aplica]
 ```
+
+---
+
+## Aprendizados Registrados
+
+### [SEED] Quality gates em cascata detectam problemas mais cedo — 2026-03-01
+
+**Contexto**: Definicao do sistema de quality gates durante setup do squad
+**Tipo**: insight
+**O que aconteceu**: Ao projetar o sistema, ficou claro que um unico gate final criaria bottleneck no brand-chief e permitiria que erros se acumulassem ate o fim
+**Por que aconteceu**: Tasks passam por multiplos agentes e camadas — sem validacao intermediaria, o custo de rework no final e exponencialmente maior
+**Acao Resultante**: Implementar cascade de 5 niveis (Agent → Task → Layer → Chief → Final) com scoring GREEN/YELLOW/RED
+**Aplicavel a**: Todos os squads do MMOS — o padrao de quality gate cascade deve ser replicado
+
+### [SEED] Config.yaml como cerebro evita ambiguidade de roteamento — 2026-03-01
+
+**Contexto**: Decisao de centralizar roteamento no config.yaml vs distribuir nos workflows
+**Tipo**: sucesso
+**O que aconteceu**: Centralizar o mapping task → agents → frameworks → checklists → templates → registry num unico arquivo elimina duplicacao e garante single source of truth
+**Por que aconteceu**: Quando o roteamento estava distribuido nos workflows, cada workflow definia agentes e frameworks de forma inconsistente
+**Acao Resultante**: Config.yaml se tornou o cerebro de roteamento; workflows referenciam tasks mas nao redefinem o roteamento
+**Aplicavel a**: Todos os squads — config.yaml como padrao de cerebro de roteamento

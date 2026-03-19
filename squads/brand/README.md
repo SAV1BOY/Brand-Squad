@@ -144,14 +144,15 @@ Docs: `docs/learning-and-memory-guide.md`
 
 ## Cross-Squad Integration
 
-O Brand Squad alimenta outros squads com contratos formais de handoff:
-- **Brand Voice Guide** → Copy Squad (tom e personalidade)
-- **Positioning Statement** → Copy Squad (contexto)
-- **Messaging House** → Copy Squad (alinhamento)
-- **Brand Archetypes** → Copy Squad (arquetipo → linguagem)
-- **Brand Guidelines** → Design Squad (visual)
-- **Naming** → Product Squad (nomenclatura)
-- **Employer Brand** → People/Culture Squad (EVP)
+O Brand Squad alimenta 5 squads com contratos formais de handoff:
+
+| Squad Receptor | Assets Transferidos | Quality Bar |
+|---------------|---------------------|-------------|
+| **Copy** | brand-voice-guide, positioning, messaging-house, archetypes | GREEN em checklists de identidade |
+| **Marketing** | brand-guidelines, distinctive-assets, campaign-frameworks | GREEN em brand-guidelines-quality |
+| **Product** | naming, ux-writing-principles, verbal-identity | GREEN em naming + voice quality |
+| **Design** | visual-guidelines, creative-direction, brand-assets | GREEN em visual-identity-quality |
+| **People** | employer-brand, EVP, brand-values | GREEN em brand-purpose-quality |
 
 Docs: `docs/handoff-contracts-guide.md` | `docs/cross-squad-integration-guide.md`
 
@@ -166,10 +167,25 @@ Docs: `docs/handoff-contracts-guide.md` | `docs/cross-squad-integration-guide.md
 
 ---
 
+## Teams & Swarms
+
+| Agrupamento | Membros | Coordenador |
+|-------------|---------|-------------|
+| Strategy Team | Aaker, Keller, Ries, Neumeier | Aaker |
+| Identity Team | Wheeler, Heyward, Miller, Miller Sticky | Wheeler |
+| Research Team | Sharp, Keller, Yohn | Sharp |
+| Naming Swarm | Naming Strategist, Archetype, Domain Scout | Naming Strategist |
+
+Docs: `docs/agent-roles-guide.md` | `ARCHITECTURE.md` (secao 11)
+
+---
+
 ## Versao
 
 - **Squad:** Brand Strategy + Identity
-- **Versao:** 1.0.0
+- **Versao:** 1.1.0
 - **Agentes:** 15
-- **Arquivos:** ~727
+- **Teams/Swarms:** 3 teams + 1 swarm
+- **Arquivos:** ~730+
 - **Metodologia:** HRM (Hierarchical Role Modeling)
+- **Ultima auditoria:** 2026-03-19

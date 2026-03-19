@@ -47,3 +47,33 @@ Extrair padroes de linguagem, sentimentos e percepcoes do cliente a partir de fo
 
 ## Registro
 - `data/research/voc-dumps/`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: acesso a pelo menos 3 fontes de dados (reviews, social, suporte) confirmado
+- Gate de saida: categorizacao por tema consistente, linguagem do cliente documentada literalmente, gaps de percepcao mapeados
+- Score minimo: GREEN (>=80%) na validacao de completude e qualidade do repositorio VoC
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre denise-yohn e donald-miller sobre interpretacao de linguagem → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (fontes insuficientes, categorizacao inconsistente, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: customer-interviews, acesso a fontes de dados
+- Downstream: messaging-house-development, storybrand-script, brand-voice-development
+- Cross-squad: nenhum (task interna de pesquisa)
+
+### Metricas
+- Numero de fontes de dados analisadas
+- Volume de mencoes classificadas por sentimento
+- Numero de expressoes reais extraidas para uso em messaging

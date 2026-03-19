@@ -46,3 +46,33 @@ Mapear a rede de associacoes que o consumidor faz com a marca — atributos, ben
 
 ## Registro
 - `data/research/survey-results/`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: dados de pesquisa de percepcao disponiveis, entrevistas com clientes concluidas
+- Gate de saida: score GREEN (>=80%) nos checklists keller/cbbe-pyramid-audit e aaker/aaker-equity-audit
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre kevin-keller e david-aaker sobre classificacao de associacoes → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (associacoes incompletas, unicidade nao avaliada, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: perception-study, customer-interviews, social-listening-analysis
+- Downstream: positioning-development, define-brand-promise, brand-equity-plan
+- Cross-squad: nenhum (task interna de pesquisa)
+
+### Metricas
+- Numero de associacoes mapeadas por tipo (atributo, beneficio, atitude)
+- % de associacoes avaliadas quanto a forca, favorabilidade e unicidade
+- Numero de gaps identificados entre associacoes desejadas e reais

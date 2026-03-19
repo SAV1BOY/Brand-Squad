@@ -47,3 +47,33 @@ Medir como a marca e percebida pelo publico-alvo em termos de awareness, associa
 
 ## Registro
 - `data/research/survey-results/`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: objetivos e hipoteses definidos, publico-alvo e amostra determinados
+- Gate de saida: score GREEN (>=80%) no checklist keller/cbbe-pyramid-audit
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre kevin-keller e byron-sharp sobre metodologia → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (amostra insuficiente, analise incompleta, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: briefing do projeto, customer-interviews
+- Downstream: brand-association-mapping, positioning-development, brand-equity-plan
+- Cross-squad: nenhum (task interna de pesquisa)
+
+### Metricas
+- Tamanho da amostra vs. minimo planejado
+- Nivel atingido na CBBE Pyramid
+- Score de mental availability calculado

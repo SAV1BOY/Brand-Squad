@@ -49,3 +49,33 @@ Avaliar e planejar a extensao da marca para novos territorios — analisando fit
 
 ## Registro
 - `data/registries/brand-decisions-log`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand architecture definida, dados de brand equity e percepcao disponiveis, business case documentado
+- Gate de saida: score GREEN (>=80%) nos checklists aaker/aaker-architecture-audit e keller/cbbe-pyramid-audit
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre david-aaker, kevin-keller e al-ries sobre risco de diluicao → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (fit perceptual nao comprovado, risco de diluicao subestimado, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: brand-architecture-design, brand-equity-plan, positioning-development
+- Downstream: naming-workshop, brand-guidelines-creation (atualizacao de arquitetura)
+- Cross-squad: product squad (extensao para novos produtos)
+
+### Metricas
+- Score de fit perceptual entre marca e nova categoria
+- Nivel de risco de diluicao avaliado (alto/medio/baixo)
+- Decisao go/no-go documentada com fundamentacao

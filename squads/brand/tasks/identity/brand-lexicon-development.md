@@ -48,3 +48,33 @@ Criar um vocabulario unico e proprietario da marca — termos, expressoes e nome
 
 ## Registro
 - `data/registries/brand-decisions-log`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: verbal identity system disponivel, brand voice guide concluido, dados de VoC coletados
+- Gate de saida: score GREEN (>=80%) no checklist brand-voice-quality, termos testados quanto a compreensao
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre naming-strategist e donald-miller sobre clareza dos termos → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (termos incompreensiveis, lista de proibidos incompleta, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: verbal-identity-development, brand-voice-development, voice-of-customer-mining
+- Downstream: brand-guidelines-creation, update-brand-guidelines
+- Cross-squad: copy squad (lexicon como referencia de vocabulario), product squad (nomenclatura para produtos e features)
+
+### Metricas
+- Numero de termos proprietarios criados e testados
+- % de termos que passaram no teste de compreensao
+- Completude do guia de uso com exemplos em contexto

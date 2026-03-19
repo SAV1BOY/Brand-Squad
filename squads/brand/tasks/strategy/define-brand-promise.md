@@ -46,3 +46,33 @@ Articular a promessa de valor unica da marca — o compromisso que faz com seu p
 
 ## Registro
 - `data/registries/brand-claims-registry`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand purpose e posicionamento definidos, dados de customer interviews e VoC disponiveis
+- Gate de saida: score GREEN (>=80%) nos checklists brand-messaging-quality e miller/messaging-clarity-audit
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre donald-miller e david-aaker sobre formulacao da promessa → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (promessa vaga, RTBs insuficientes, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: define-brand-purpose, positioning-development, customer-interviews
+- Downstream: messaging-house-development, tagline-development, brand-story-manifesto
+- Cross-squad: copy squad (brand promise para referencia de messaging)
+
+### Metricas
+- Score de clareza da promessa (teste de compreensao)
+- Numero de RTBs concretas documentadas
+- Pass/fail no teste de entregabilidade da promessa

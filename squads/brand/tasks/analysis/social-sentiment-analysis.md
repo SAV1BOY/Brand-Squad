@@ -49,3 +49,33 @@ Analisar o sentimento do publico em relacao a marca em redes sociais e plataform
 
 ## Registro
 - `data/research/social-listening/`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: dados de social listening coletados, historico de sentimento (baseline) disponivel, eventos e campanhas do periodo mapeados
+- Gate de saida: dados de multiplas plataformas incluidos, classificacao consistente de sentimento, correlacao com eventos documentada
+- Score minimo: GREEN (>=80%) na validacao de completude e consistencia da analise
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre byron-sharp e donald-miller sobre interpretacao de sentimento → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (plataformas insuficientes, correlacoes nao documentadas, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: social-listening-analysis, campaign-activation-brief
+- Downstream: brand-health-scorecard-analysis, quarterly-brand-review
+- Cross-squad: marketing squad (alertas de sentimento para ajuste de campanhas)
+
+### Metricas
+- Sentimento geral (% positivo/negativo/neutro)
+- Numero de drivers de sentimento positivo e negativo identificados
+- Numero de alertas reputacionais gerados

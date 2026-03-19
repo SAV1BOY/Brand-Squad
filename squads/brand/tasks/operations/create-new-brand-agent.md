@@ -46,3 +46,33 @@ Adicionar um novo agente especialista ao Brand Squad — definindo seu perfil, e
 
 ## Registro
 - `data/registries/brand-decisions-log`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: gap de expertise identificado e documentado, especialista/autor selecionado com obras de referencia
+- Gate de saida: agent file segue estrutura padrao, domain e expertise definidos, routing configurado no config.yaml, sem conflito com agentes existentes
+- Score minimo: GREEN (>=80%) na validacao de completude e integracao do agente
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief (como unico agente, escala para HRM Chief nivel 3)
+- Se conflito de dominio com agente existente → brand-chief redefine limites
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (agent file incompleto, routing inconsistente, conflito de dominio, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: identificacao de gap (qualquer task que revele necessidade de novo especialista)
+- Downstream: tasks no routing que incluem o novo agente
+- Cross-squad: nenhum (operacao interna do squad)
+
+### Metricas
+- Completude do agent file (todos os campos obrigatorios)
+- Numero de tasks assignadas no routing
+- Teste de integracao com workflows existentes (pass/fail)

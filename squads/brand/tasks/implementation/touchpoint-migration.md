@@ -45,3 +45,33 @@ Planejar e executar a migracao de todos os touchpoints — digitais, fisicos e h
 
 ## Registro
 - `data/registries/brand-touchpoints-registry`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: touchpoint inventory atualizado, brand guidelines novas finalizadas, prioridades e budget definidos
+- Gate de saida: score GREEN (>=80%) nos checklists wheeler/brand-touchpoints-audit e brand-guidelines-quality
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre agentes sobre priorizacao de touchpoints → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (touchpoints migrados com inconsistencia, cronograma nao cumprido, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: touchpoint-inventory, brand-guidelines-creation, visual-identity-direction
+- Downstream: consistency-review, launch-coordination
+- Cross-squad: design squad (execucao de migracoes visuais), marketing squad (atualizacao de materiais)
+
+### Metricas
+- % de touchpoints migrados por fase
+- % de touchpoints auditados apos migracao
+- Score de consistencia pos-migracao

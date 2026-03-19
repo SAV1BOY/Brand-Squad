@@ -46,3 +46,33 @@ Desenvolver a historia da marca e um manifesto que capture sua essencia emociona
 
 ## Registro
 - `data/registries/brand-decisions-log`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand purpose e posicionamento definidos, StoryBrand BrandScript concluido, brand archetype selecionado
+- Gate de saida: score GREEN (>=80%) no checklist brand-narrative-quality
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre donald-miller e emily-heyward sobre narrativa → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (narrativa desconectada do proposito, manifesto sem impacto emocional, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: define-brand-purpose, storybrand-script, brand-archetype-selection
+- Downstream: internal-training, campaign-activation-brief, website-brand-implementation
+- Cross-squad: people squad (manifesto para alinhamento cultural), marketing squad (brand story para campanhas)
+
+### Metricas
+- Score de impacto emocional (teste com equipe interna)
+- Numero de versoes adaptadas por formato (video, site, apresentacao)
+- Alinhamento com proposito e BrandScript (pass/fail)

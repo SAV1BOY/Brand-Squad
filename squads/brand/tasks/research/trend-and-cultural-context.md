@@ -47,3 +47,33 @@ Mapear tendencias culturais, comportamentais e sociais que impactam a categoria 
 
 ## Registro
 - `data/research/competitor-research/`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: categoria e publico-alvo definidos, dados de social listening disponiveis, relatorios de tendencias coletados
+- Gate de saida: score GREEN (>=80%) no checklist kapferer/identity-prism-audit, tendencias documentadas com evidencias e fit validado
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre jean-noel-kapferer e denise-yohn sobre relevancia de tendencias → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (tendencias sem evidencia, fit nao validado, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: category-and-competitor-research, social-listening-analysis
+- Downstream: positioning-development, brand-archetype-selection, visual-identity-direction
+- Cross-squad: nenhum (task interna de pesquisa)
+
+### Metricas
+- Numero de tendencias mapeadas com evidencias concretas
+- Numero de territorios culturais recomendados para a marca
+- % de tendencias com fit validado contra DNA da marca

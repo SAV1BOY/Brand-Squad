@@ -48,3 +48,33 @@ Monitorar e analisar mudancas significativas nas marcas dos concorrentes — rep
 
 ## Registro
 - `data/research/competitor-research/`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: mapa competitivo atual disponivel, monitoramento de canais dos concorrentes ativo, dados de social listening competitivo coletados
+- Gate de saida: mudancas documentadas com evidencias, impacto avaliado com dados
+- Score minimo: GREEN (>=80%) na validacao de completude e fundamentacao da analise
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre al-ries e byron-sharp sobre significancia de mudancas → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (mudancas sem evidencia, impacto nao quantificado, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: category-and-competitor-research, social-listening-analysis
+- Downstream: competitor-response-review, competitive-repositioning, quarterly-brand-review
+- Cross-squad: marketing squad (alertas sobre movimentos competitivos relevantes)
+
+### Metricas
+- Numero de mudancas competitivas identificadas no periodo
+- Nivel de ameaca ao posicionamento da marca (alto/medio/baixo)
+- Tempo entre deteccao e documentacao da mudanca

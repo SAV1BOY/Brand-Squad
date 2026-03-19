@@ -48,3 +48,33 @@ Identificar e selecionar o arquetipo primario (e secundario) da marca, traduzind
 
 ## Registro
 - `data/registries/brand-decisions-log`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand strategy document disponivel, dados de percepcao de marca coletados, valores e cultura organizacional documentados
+- Gate de saida: score GREEN (>=80%) nos checklists archetypes/archetype-selection-checklist e archetypes/archetype-consistency-checklist
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre archetype-consultant e jean-noel-kapferer sobre coerencia com identity prism → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (arquetipo nao coerente, blend confuso, implicacoes vagas, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: define-brand-purpose, perception-study, stakeholder-interviews
+- Downstream: brand-voice-development, visual-identity-direction, brand-story-manifesto
+- Cross-squad: copy squad (arquetipos para guiar tom de voz no copy)
+
+### Metricas
+- Clareza do blend primario/secundario (proporcao definida)
+- Numero de tracos de personalidade traduzidos em diretrizes concretas
+- Coerencia com Kapferer Identity Prism (pass/fail)

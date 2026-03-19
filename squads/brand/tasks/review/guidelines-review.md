@@ -47,3 +47,33 @@ Avaliar a completude, clareza e usabilidade das brand guidelines — garantindo 
 
 ## Registro
 - `data/registries/brand-decisions-log`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand guidelines/brand book finalizado, feedback de usuarios coletado
+- Gate de saida: score GREEN (>=80%) nos checklists wheeler/brand-guidelines-audit e brand-guidelines-quality
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre alina-wheeler e emily-heyward sobre usabilidade → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (capitulos incompletos, instrucoes confusas, exemplos insuficientes, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: brand-guidelines-creation
+- Downstream: update-brand-guidelines, touchpoint-migration, partner-alignment
+- Cross-squad: todos os squads (guidelines aprovadas sao distribuidas para uso)
+
+### Metricas
+- Score de completude (capitulos presentes vs. requeridos)
+- Score de usabilidade (teste com usuario novo)
+- Numero de gaps identificados e corrigidos

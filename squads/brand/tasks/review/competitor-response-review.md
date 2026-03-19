@@ -49,3 +49,33 @@ Avaliar movimentos recentes dos concorrentes — reposicionamentos, lancamentos,
 
 ## Registro
 - `data/registries/brand-decisions-log`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: mapa competitivo atualizado, movimentos recentes dos concorrentes documentados, posicionamento atual disponivel
+- Gate de saida: movimentos mapeados com evidencias, impacto quantificado, recomendacao fundamentada
+- Score minimo: GREEN (>=80%) na validacao de completude e fundamentacao da analise
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre al-ries e byron-sharp sobre necessidade de resposta → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (impacto nao quantificado, recomendacao sem fundamentacao, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: category-and-competitor-research, competitor-brand-shifts, brand-tracking-analysis
+- Downstream: competitive-repositioning (se resposta necessaria), positioning-development
+- Cross-squad: marketing squad (se resposta via campanha for recomendada)
+
+### Metricas
+- Numero de movimentos competitivos analisados com evidencia
+- Nivel de impacto no posicionamento avaliado (alto/medio/baixo)
+- Tempo entre deteccao do movimento e entrega da analise

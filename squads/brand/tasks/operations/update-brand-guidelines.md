@@ -45,3 +45,33 @@ Manter as brand guidelines atualizadas com as ultimas decisoes, novos assets, aj
 
 ## Registro
 - `data/registries/brand-touchpoints-registry`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand guidelines versao atual disponivel, registro de decisoes desde ultima atualizacao coletado
+- Gate de saida: score GREEN (>=80%) nos checklists wheeler/brand-guidelines-audit e brand-guidelines-quality
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre agentes sobre mudancas nas guidelines → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (secoes desatualizadas, changelog incompleto, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: consistency-review, guidelines-review, brand-governance-enforcement (violacoes que demandam atualizacao)
+- Downstream: partner-alignment, internal-training (comunicacao de mudancas)
+- Cross-squad: todos os squads (nova versao distribuida para todos os usuarios)
+
+### Metricas
+- Numero de secoes atualizadas por versao
+- Tempo entre decisao de marca e atualizacao no brand book
+- % de usuarios notificados sobre mudancas

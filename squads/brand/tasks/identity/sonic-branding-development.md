@@ -49,3 +49,33 @@ Criar os elementos sonoros da marca — audio logo, soundscape, voz instituciona
 
 ## Registro
 - `data/registries/distinctive-assets-registry`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand personality e archetype definidos, visual identity direction concluida, distinctive assets definidos
+- Gate de saida: score GREEN (>=80%) no checklist distinctive-assets-quality, teste de reconhecimento realizado
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre byron-sharp e alina-wheeler sobre coerencia sonora-visual → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (audio logo sem reconhecimento, soundscape desalinhado com personalidade, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: brand-archetype-selection, visual-identity-direction, define-distinctive-assets
+- Downstream: brand-guidelines-creation, maintain-distinctive-assets-registry
+- Cross-squad: marketing squad (elementos sonoros para campanhas)
+
+### Metricas
+- Numero de elementos sonoros criados (audio logo, soundscape, voz)
+- Score de reconhecimento no teste de associacao com a marca
+- Coerencia com personalidade da marca (pass/fail)

@@ -46,3 +46,33 @@ Manter o naming registry atualizado com todos os nomes registrados, dominios adq
 
 ## Registro
 - `data/registries/naming-registry`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: naming registry atual disponivel, status de renovacao de dominios verificado
+- Gate de saida: score GREEN (>=80%) no checklist naming/naming-legal-screening-checklist, dominios com data de renovacao verificada, handles ativos em todas as plataformas
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre agentes sobre renovacao vs. release de nomes → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (datas de renovacao nao verificadas, status legal desatualizado, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: naming-review, naming-shortlist-and-scoring
+- Downstream: update-brand-guidelines (se nomes mudam)
+- Cross-squad: product squad (status de naming de produtos)
+
+### Metricas
+- Numero de nomes com status legal atualizado
+- Numero de dominios com data de renovacao proxima (alerta)
+- % de handles ativos e verificados por plataforma

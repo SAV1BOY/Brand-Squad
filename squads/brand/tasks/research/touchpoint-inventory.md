@@ -43,3 +43,33 @@ Mapear, classificar e avaliar todos os touchpoints da marca — fisicos, digitai
 
 ## Registro
 - `data/registries/brand-touchpoints-registry`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand guidelines atuais disponiveis, lista de canais e plataformas mapeada
+- Gate de saida: score GREEN (>=80%) no checklist wheeler/brand-touchpoints-audit
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre agentes sobre classificacao de touchpoints → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (touchpoints faltantes, avaliacao incompleta, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: brand-audit, brand guidelines existentes
+- Downstream: touchpoint-migration, consistency-review, brand-guidelines-creation
+- Cross-squad: nenhum (task interna de pesquisa)
+
+### Metricas
+- Numero total de touchpoints inventariados
+- Score de consistencia geral (% consistente)
+- Numero de touchpoints priorizados para correcao

@@ -51,3 +51,33 @@ Conduzir uma revisao trimestral abrangente que consolide todas as metricas, anal
 
 ## Registro
 - `data/registries/brand-decisions-log`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand tracking analysis e brand health scorecard do trimestre concluidos, feedback dos squads parceiros coletado
+- Gate de saida: score GREEN (>=80%) nos checklists brand-tracking-quality e brand-strategy-quality
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para HRM Chief nivel 3 (revisao trimestral e estrategica)
+- Se conflito entre david-aaker, byron-sharp e kevin-keller sobre priorizacao → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (metricas incompletas, prioridades nao fundamentadas, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: brand-tracking-analysis, brand-health-scorecard-analysis, consistency-review, competitor-brand-shifts
+- Downstream: brand-equity-plan (atualiza metas), competitive-repositioning (se necessario)
+- Cross-squad: todos os squads (prioridades do proximo trimestre comunicadas)
+
+### Metricas
+- Indice geral de saude da marca vs. trimestre anterior
+- Numero de prioridades definidas para proximo trimestre
+- % de metas do trimestre atingidas

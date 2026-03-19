@@ -47,3 +47,33 @@ Auditar a consistencia de aplicacao da marca em todos os touchpoints — identif
 
 ## Registro
 - `data/registries/brand-violations-log`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand guidelines atuais disponiveis, touchpoint inventory concluido, amostras de materiais coletadas
+- Gate de saida: score GREEN (>=80%) nos checklists distinctive-assets-quality e brand-guidelines-quality
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre byron-sharp e alina-wheeler sobre classificacao de desvios → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (amostras insuficientes, classificacao inconsistente, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: touchpoint-migration, brand-guidelines-creation, launch-coordination
+- Downstream: brand-governance-enforcement, update-brand-guidelines
+- Cross-squad: todos os squads afetados por violacoes (notificacao de correcao)
+
+### Metricas
+- Score de consistencia geral (% de touchpoints consistentes)
+- Numero de desvios criticos vs. moderados vs. leves
+- % de violacoes corrigidas no prazo

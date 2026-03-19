@@ -38,6 +38,30 @@
 - Mudanca de nome existente
 - Decisao de arquitetura de marca
 
+---
+
+## Decisoes Registradas
+
+### [SEED] Estabelecimento do Brand Squad — 2026-03-01
+
+**Contexto**: Necessidade de criar um sistema operacional completo de marca com metodologia HRM
+**Opcoes**: (1) Sistema simplificado com 3-5 agentes; (2) Sistema completo com 15 agentes especializados; (3) Sistema modular incremental
+**Decisao**: Opcao 2 — Sistema completo com 15 agentes
+**Raciocinio**: O escopo de brand strategy + identity requer cobertura de todas as camadas (research → measurement). Cada agente representa uma escola de pensamento distinta e complementar. O overhead de coordenacao e mitigado pelo config.yaml como cerebro de roteamento.
+**Responsavel**: Brand Chief
+**Resultado**: Squad operacional com ~728 arquivos, 18 diretorios MMOS, 5 handoff contracts cross-squad
+
+### [SEED] Definicao de Quality Gate Cascade — 2026-03-01
+
+**Contexto**: Necessidade de garantir qualidade em multiplas camadas sem criar bottleneck
+**Opcoes**: (1) Gate unico final; (2) Gates por task; (3) Cascade de 5 niveis
+**Decisao**: Opcao 3 — Cascade de 5 niveis (Agent → Task → Layer → Chief → Final)
+**Raciocinio**: Gates em cascade detectam problemas mais cedo, reduzem rework no final, e permitem que cada camada valide dentro do seu dominio antes de passar adiante
+**Responsavel**: Brand Chief
+**Resultado**: Sistema de scoring GREEN/YELLOW/RED implementado com enforcement rules no config.yaml
+
+---
+
 ## Template de Registro
 
 ```

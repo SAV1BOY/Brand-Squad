@@ -53,3 +53,19 @@
 **Feedback do Receptor**: [O que disseram]
 **Follow-up Necessario**: [Proximos passos, se houver]
 ```
+
+---
+
+## Handoffs Registrados
+
+> Nenhum handoff cross-squad executado ainda. Os registros abaixo serao preenchidos quando o primeiro handoff formal ocorrer.
+
+### Contratos Ativos (referencia)
+
+| Contrato | Assets | Quality Bar | Guia |
+|----------|--------|-------------|------|
+| Brand → Copy | brand-voice-guide, positioning, messaging-house, archetypes | GREEN em checklists de identidade | `docs/handoff-contracts-guide.md` |
+| Brand → Marketing | brand-guidelines, distinctive-assets, campaign-frameworks | GREEN em brand-guidelines-quality | `docs/handoff-contracts-guide.md` |
+| Brand → Product | naming, ux-writing-principles, verbal-identity | GREEN em naming-quality + brand-voice-quality | `docs/handoff-contracts-guide.md` |
+| Brand → Design | visual-guidelines, creative-direction, brand-assets | GREEN em visual-identity-quality | `docs/handoff-contracts-guide.md` |
+| Brand → People | employer-brand, evp, brand-values | GREEN em brand-purpose-quality | `docs/handoff-contracts-guide.md` |

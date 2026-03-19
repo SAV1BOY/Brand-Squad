@@ -46,3 +46,33 @@ Desenhar a arquitetura de marca que organiza as relacoes entre marca-mae, sub-ma
 
 ## Registro
 - `data/registries/brand-decisions-log`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: portfolio atual inventariado, brand strategy document disponivel, estrategia de crescimento definida
+- Gate de saida: score GREEN (>=80%) nos checklists aaker/aaker-architecture-audit e brand-architecture-quality
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre agentes sobre modelo de arquitetura → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (canibalizacao nao avaliada, hierarquia ambigua, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: brand-audit, stakeholder-interviews, positioning-development
+- Downstream: brand-extension-strategy, brand-guidelines-creation, naming-workshop
+- Cross-squad: product squad (arquitetura de naming de produtos)
+
+### Metricas
+- Numero de marcas/produtos mapeados no portfolio
+- Risco de canibalizacao avaliado (alto/medio/baixo)
+- Clareza das regras de co-existencia (pass/fail)

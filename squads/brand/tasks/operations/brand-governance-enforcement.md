@@ -48,3 +48,33 @@ Garantir que as regras de governanca de marca estejam sendo cumpridas — monito
 
 ## Registro
 - `data/registries/brand-violations-log`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: modelo de governanca de marca definido, brand guidelines disponiveis, registro de violacoes anteriores acessivel
+- Gate de saida: score GREEN (>=80%) no checklist brand-guidelines-quality, violacoes documentadas com evidencia, correcoes acompanhadas
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre brand-chief e alina-wheeler sobre severidade de violacoes → brand-chief decide
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (violacoes nao documentadas, correcoes nao acompanhadas, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: consistency-review, partner-alignment, brand-governance-setup
+- Downstream: update-brand-guidelines (ajustes no modelo), quarterly-brand-review
+- Cross-squad: todos os squads e parceiros afetados (notificacao e correcao de violacoes)
+
+### Metricas
+- Numero de violacoes identificadas por severidade
+- % de violacoes resolvidas no prazo
+- Taxa de reincidencia por area

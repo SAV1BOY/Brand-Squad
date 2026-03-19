@@ -182,6 +182,34 @@ brand/templates/strategy/positioning-statement → copy/reference/
 brand/checklists/archetypes/      → copy/voice/ (tom e personalidade)
 ```
 
+### Brand → Marketing Squad
+```
+brand/templates/brand-guidelines/   → marketing/reference/
+brand/data/registries/distinctive-assets-registry → marketing/reference/
+brand/frameworks/brand-governance-model → marketing/frameworks/
+```
+
+### Brand → Product Squad
+```
+brand/templates/identity/naming-shortlist  → product/reference/
+brand/frameworks/verbal-identity-system    → product/frameworks/
+brand/voice/brand-voices/                  → product/voice/
+```
+
+### Brand → Design Squad
+```
+brand/templates/brand-guidelines/brand-book → design/reference/
+brand/data/registries/distinctive-assets-registry → design/reference/
+brand/frameworks/wheeler-brand-identity-process → design/frameworks/
+```
+
+### Brand → People Squad
+```
+brand/frameworks/yohn-brand-as-business  → people/frameworks/
+brand/templates/strategy/brand-purpose   → people/reference/
+brand/voice/brand-voices/                → people/voice/
+```
+
 ### Shared Assets
 ```
 brand/phrases/tone-words-allowed.md    ↔ copy/
@@ -191,7 +219,7 @@ brand/phrases/brand-descriptors-library.md ↔ copy/
 
 ---
 
-## 8. Quality Gate Cascade
+## 7. Quality Gate Cascade
 
 O Brand Squad opera com quality gates em 5 niveis, em cascata. Nenhum output avanca sem passar pelo gate correspondente.
 
@@ -244,7 +272,7 @@ O Brand Squad opera com quality gates em 5 niveis, em cascata. Nenhum output ava
 
 ---
 
-## 9. Learning & Memory System
+## 8. Learning & Memory System
 
 O Brand Squad opera com um ciclo Kaizen continuo que transforma experiencia em melhoria.
 
@@ -293,7 +321,7 @@ Detalhes: `docs/learning-and-memory-guide.md`
 
 ---
 
-## 10. Escalation & Rework
+## 9. Escalation & Rework
 
 ### Cadeia de Escalacao
 ```
@@ -324,7 +352,7 @@ Detalhes: `docs/escalation-protocol.md` | `docs/rework-loops-guide.md`
 
 ---
 
-## 11. HRM Governance Model
+## 10. HRM Governance Model
 
 O Brand Squad opera dentro do modelo HRM (Hierarchical Role Modeling) com 4 niveis:
 
@@ -375,7 +403,68 @@ O Brand Squad opera dentro do modelo HRM (Hierarchical Role Modeling) com 4 nive
 
 ---
 
-## 7. Glossario
+## 11. Teams & Swarms
+
+O Brand Squad organiza seus agentes em teams (permanentes) e swarms (temporarios, sob demanda).
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│                    TEAMS & SWARMS                              │
+├──────────────────────────────────────────────────────────────┤
+│                                                                │
+│  TEAMS (permanentes)                                           │
+│  ──────────────────                                            │
+│                                                                │
+│  ┌─────────────────────────────────────────────────────────┐  │
+│  │ STRATEGY TEAM                                            │  │
+│  │ Membros: Aaker + Keller + Ries + Neumeier               │  │
+│  │ Coordinator: Aaker                                       │  │
+│  │ Ativa quando: task de posicionamento, equity plan,       │  │
+│  │   arquitetura de marca ou diferenciacao                  │  │
+│  └─────────────────────────────────────────────────────────┘  │
+│                                                                │
+│  ┌─────────────────────────────────────────────────────────┐  │
+│  │ IDENTITY TEAM                                            │  │
+│  │ Membros: Wheeler + Heyward + Miller + Miller Sticky      │  │
+│  │ Coordinator: Wheeler                                     │  │
+│  │ Ativa quando: task de identidade visual, brand book,     │  │
+│  │   messaging house ou brand experience                    │  │
+│  └─────────────────────────────────────────────────────────┘  │
+│                                                                │
+│  ┌─────────────────────────────────────────────────────────┐  │
+│  │ RESEARCH TEAM                                            │  │
+│  │ Membros: Sharp + Keller + Yohn                           │  │
+│  │ Coordinator: Sharp                                       │  │
+│  │ Ativa quando: task de pesquisa de marca, mental          │  │
+│  │   availability, CBBE baseline ou brand audit             │  │
+│  └─────────────────────────────────────────────────────────┘  │
+│                                                                │
+│  SWARMS (sob demanda)                                          │
+│  ────────────────────                                          │
+│                                                                │
+│  ┌─────────────────────────────────────────────────────────┐  │
+│  │ NAMING SWARM                                             │  │
+│  │ Membros: Naming Strategist + Archetype Consultant        │  │
+│  │          + Domain Scout                                  │  │
+│  │ Coordinator: Naming Strategist                           │  │
+│  │ Ativa quando: task de naming, renaming ou criacao de     │  │
+│  │   sub-marca — dissolve apos entrega do naming-shortlist  │  │
+│  └─────────────────────────────────────────────────────────┘  │
+│                                                                │
+└──────────────────────────────────────────────────────────────┘
+```
+
+### Resumo de Ativacao
+| Grupo | Tipo | Coordinator | Ativa Quando |
+|-------|------|-------------|--------------|
+| Strategy Team | Team | Aaker | Posicionamento, equity plan, arquitetura de marca, diferenciacao |
+| Identity Team | Team | Wheeler | Identidade visual, brand book, messaging house, brand experience |
+| Research Team | Team | Sharp | Pesquisa de marca, mental availability, CBBE baseline, brand audit |
+| Naming Swarm | Swarm | Naming Strategist | Naming, renaming, criacao de sub-marca |
+
+---
+
+## 12. Glossario
 
 | Termo | Definicao |
 |-------|-----------|

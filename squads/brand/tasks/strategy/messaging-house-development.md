@@ -51,3 +51,33 @@ Construir a messaging house — estrutura hierarquica de mensagens da marca — 
 
 ## Registro
 - `data/registries/brand-claims-registry`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: posicionamento definido, brand promise e RTBs aprovados, perfis de audiencia disponveis
+- Gate de saida: score GREEN (>=80%) nos checklists miller/storybrand-sb7-audit, miller/messaging-clarity-audit e brand-messaging-quality
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre donald-miller e miller-sticky-brand sobre pilares de mensagem → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (pilares sobrepostos, proof points genericos, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: positioning-development, define-brand-promise, voice-of-customer-mining
+- Downstream: storybrand-script, tagline-development, brand-voice-development, campaign-activation-brief
+- Cross-squad: copy squad (messaging house como referencia central), marketing squad (messaging para campanhas)
+
+### Metricas
+- Numero de pilares de mensagem com proof points concretos
+- Score de stickiness (framework SUCCESs) das mensagens-chave
+- Numero de key messages adaptadas por audiencia

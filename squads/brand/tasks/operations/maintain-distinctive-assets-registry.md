@@ -43,3 +43,33 @@ Manter o distinctive assets registry atualizado com status, metricas de reconhec
 
 ## Registro
 - `data/registries/distinctive-assets-registry`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: distinctive assets registry atual disponivel, resultados de recognition analysis coletados
+- Gate de saida: score GREEN (>=80%) no checklist sharp/distinctive-assets-audit
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre agentes sobre status de assets → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (metricas desatualizadas, assets faltantes, status inconsistente, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: distinctive-assets-recognition-analysis, define-distinctive-assets, sonic-branding-development
+- Downstream: brand-guidelines-creation (atualizacao de assets), consistency-review
+- Cross-squad: design squad (assets visuais atualizados), marketing squad (assets para campanhas)
+
+### Metricas
+- Numero de assets com metricas de fame e uniqueness atualizadas
+- % de assets com status atualizado (invest/maintain/test/avoid)
+- Numero de alertas de assets que precisam de acao

@@ -56,3 +56,34 @@
 **Resultado Esperado**: [O que muda quando implementada]
 **Resultado Real** (preencher depois): [O que de fato mudou]
 ```
+
+---
+
+## Melhorias Registradas
+
+### Adicionar metricas quantitativas aos task files — 2026-03-19
+
+**Origem**: Auditoria interna MMOS (Fase 2)
+**Prioridade**: P2
+**Descricao**: Tasks atualmente definem quality gates mas nao especificam metricas quantitativas de sucesso (ex: NPS target, awareness %, adoption rate). Adicionar metricas especificas por task aumentaria a mensurabilidade.
+**Responsavel**: Brand Chief
+**Status**: backlog
+**Resultado Esperado**: Cada task com 1-3 metricas quantitativas no campo "Metricas"
+
+### Criar exemplos preenchidos para cada template — 2026-03-19
+
+**Origem**: Auditoria interna MMOS (Fase 9 — executabilidade)
+**Prioridade**: P2
+**Descricao**: Templates existem mas estao vazios. Um novo membro nao teria referencia de como preencher corretamente. Criar 1 exemplo preenchido por categoria de template aceleraria onboarding.
+**Responsavel**: Identity Team (Wheeler)
+**Status**: backlog
+**Resultado Esperado**: 7 exemplos preenchidos (1 por categoria: strategy, identity, briefs, rollout, measurement, analysis, brand-guidelines)
+
+### Automatizar verificacao de cross-references entre docs — 2026-03-19
+
+**Origem**: Auditoria interna MMOS (Fase 4 — interconexao documental)
+**Prioridade**: P3
+**Descricao**: Atualmente nao ha validacao automatica de que links entre docs sao validos. Um script que verifique se todos os paths referenciados existem evitaria links quebrados.
+**Responsavel**: Brand Chief
+**Status**: backlog
+**Resultado Esperado**: Script em scripts/ que valida cross-references e reporta links quebrados

@@ -43,3 +43,33 @@ Garantir que todos os parceiros, fornecedores e agencias que utilizam a marca es
 
 ## Registro
 - `data/registries/brand-decisions-log`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand guidelines atuais disponiveis, lista de parceiros e fornecedores mapeada
+- Gate de saida: score GREEN (>=80%) no checklist co-branding-quality
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre brand-chief e alina-wheeler sobre regras de uso para parceiros → brand-chief decide
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (pacote de guidelines incompleto, fluxo de aprovacao vago, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: brand-guidelines-creation, brand-governance-setup
+- Downstream: brand-governance-enforcement, consistency-review
+- Cross-squad: nenhum (task de alinhamento com parceiros externos)
+
+### Metricas
+- % de parceiros alinhados e com pacote de guidelines distribuido
+- Numero de sessoes de alinhamento realizadas
+- % de parceiros com fluxo de aprovacao definido

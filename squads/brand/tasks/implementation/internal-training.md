@@ -47,3 +47,33 @@ Capacitar colaboradores de todos os niveis a compreender, viver e representar a 
 
 ## Registro
 - `data/registries/brand-touchpoints-registry`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand guidelines completas, brand voice guide e brand story disponiveis, materiais de onboarding existentes revisados
+- Gate de saida: score GREEN (>=80%) nos checklists yohn/brand-as-business-audit e internal-rollout-quality
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre agentes sobre conteudo do treinamento → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (modulos incompletos, quiz inadequado, adocao baixa, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: brand-guidelines-creation, brand-voice-development, brand-story-manifesto
+- Downstream: launch-coordination, brand-ambassador-program
+- Cross-squad: people squad (integracao com programas de treinamento corporativo)
+
+### Metricas
+- % de colaboradores treinados por departamento
+- Score medio no quiz de validacao de conhecimento
+- % de adocao pos-treinamento (uso correto da marca)

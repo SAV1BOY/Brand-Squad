@@ -48,3 +48,33 @@ Avaliar a clareza, consistencia e eficacia de toda a comunicacao verbal da marca
 
 ## Registro
 - `data/registries/brand-claims-registry`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: messaging house concluida, StoryBrand BrandScript disponivel, copy de canais ativos coletado
+- Gate de saida: score GREEN (>=80%) nos checklists brand-messaging-quality e miller/messaging-clarity-audit
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre agentes sobre qualidade do messaging → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief direcionado ao agente responsavel pelo componente falho (messaging house → donald-miller, stickiness → miller-sticky-brand)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: messaging-house-development, storybrand-script, brand-voice-development
+- Downstream: campaign-activation-brief, website-brand-implementation
+- Cross-squad: copy squad (ajustes de messaging comunicados)
+
+### Metricas
+- Score de clareza no teste de 5 segundos
+- Score de stickiness (SUCCESs) por mensagem-chave
+- % de consistencia da messaging entre canais

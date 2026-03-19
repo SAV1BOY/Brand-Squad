@@ -47,3 +47,33 @@ Medir como os colaboradores percebem, vivenciam e representam a marca — identi
 
 ## Registro
 - `data/research/survey-results/`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand strategy document e brand promise disponiveis, acesso a colaboradores garantido
+- Gate de saida: score GREEN (>=80%) no checklist yohn/brand-as-business-audit, amostra representativa de departamentos confirmada
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre denise-yohn e kevin-keller sobre metricas de brand knowledge → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (amostra nao representativa, gaps nao mapeados, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: brand-audit, define-brand-purpose
+- Downstream: internal-training, brand-ambassador-program
+- Cross-squad: people squad (employer brand e alinhamento cultural)
+
+### Metricas
+- % de colaboradores que conhecem proposito e valores da marca
+- Score de alinhamento promessa-experiencia interna
+- Numero de embaixadores naturais identificados

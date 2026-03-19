@@ -47,3 +47,33 @@ Estabelecer um programa estruturado de brand ambassadors — colaboradores que r
 
 ## Registro
 - `data/registries/brand-touchpoints-registry`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: brand guidelines e brand voice guide disponiveis, resultados de employee brand perception concluidos, criterios de selecao definidos
+- Gate de saida: score GREEN (>=80%) nos checklists yohn/brand-as-business-audit e internal-rollout-quality
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre denise-yohn e emily-heyward sobre criterios do programa → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (criterios vagos, toolkit incompleto, metricas nao definidas, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: internal-training, employee-brand-perception, brand-guidelines-creation
+- Downstream: brand-governance-enforcement, consistency-review
+- Cross-squad: people squad (integracao com programas de engajamento)
+
+### Metricas
+- Numero de ambassadors recrutados e capacitados
+- Score de engajamento dos ambassadors no programa
+- Impacto mensuravel na adocao da marca internamente

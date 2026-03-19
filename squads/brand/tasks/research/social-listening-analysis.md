@@ -48,3 +48,33 @@ Monitorar e analisar o que esta sendo dito sobre a marca em canais digitais — 
 
 ## Registro
 - `data/research/social-listening/`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: palavras-chave definidas, acesso a ferramentas de social listening confirmado, periodo de analise definido
+- Gate de saida: minimo 3 plataformas monitoradas, classificacao de sentimento consistente, comparativo competitivo incluido
+- Score minimo: GREEN (>=80%) na validacao de completude e consistencia da analise
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre agentes sobre classificacao de sentimento → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (plataformas faltantes, classificacao inconsistente, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: briefing do projeto, category-and-competitor-research
+- Downstream: voice-of-customer-mining, social-sentiment-analysis, trend-and-cultural-context
+- Cross-squad: nenhum (task interna de pesquisa)
+
+### Metricas
+- Numero de plataformas monitoradas
+- Volume total de mencoes classificadas
+- Share of voice vs. concorrentes

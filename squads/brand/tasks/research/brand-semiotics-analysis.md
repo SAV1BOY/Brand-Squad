@@ -44,3 +44,33 @@ Decodificar os signos e simbolos utilizados pela marca e pela categoria — core
 
 ## Registro
 - `data/research/competitor-research/`
+
+---
+
+## Governanca da Task
+
+### Quality Gates
+- Gate de entrada: materiais visuais e verbais da marca e concorrentes coletados, contexto cultural do mercado-alvo documentado
+- Gate de saida: score GREEN (>=80%) no checklist kapferer/identity-prism-audit
+- Score minimo: GREEN (>=80%) no checklist principal
+
+### Escalacao
+- Se quality gate RED apos 2 tentativas → escalar para brand-chief
+- Se conflito entre agentes sobre interpretacao semiotica → brand-chief arbitra
+- Se task fora do escopo → registrar em data/registries/risk-log e redirecionar
+
+### Rework Loop
+- Max 3 loops de rework por task
+- Cada loop gera rework brief com falhas especificas (codigos nao fundamentados, coerencia nao avaliada, etc.)
+- Apos 3 loops → escalacao automatica nivel 2
+- Registro: data/registries/improvement-backlog
+
+### Handoff
+- Upstream: category-and-competitor-research, brand-audit
+- Downstream: visual-identity-direction, brand-archetype-selection, trend-and-cultural-context
+- Cross-squad: nenhum (task interna de pesquisa)
+
+### Metricas
+- Numero de codigos visuais e verbais identificados na categoria
+- Numero de oportunidades de diferenciacao semiotica documentadas
+- Score de coerencia semiotica da marca
